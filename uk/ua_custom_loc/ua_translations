@@ -1,335 +1,255 @@
 ﻿l_english:
- GBR_FLAVOR_TEXT: "Великобританія з ревом увійшла в 19 століття, швидко ставши першою індустріальною державою світу. Величезна імперія тримається на плаву завдяки праці колоній по всьому світу. Однак король Вільгельм IV близький до смерті, і хто знає, яку епоху відкриє наступний монарх."
- BEL_FLAVOR_TEXT: "У Бельгії промислова революція в самому розпалі. Ярмо голландського гніту було скинуто лише шість років тому, і країна випередила своїх колишніх господарів, побудувавши першу залізницю в континентальній Європі. Що чекає на них у майбутньому?"
- CHI_FLAVOR_TEXT: "Династія Цин править у Китаї вже майже двісті років і контролює третину населення планети після піку своєї могутності за часів імператора Цяньлуна. Однак поширення опіуму та втручання європейських держав загрожує періоду внутрішньої гармонії династії. Як виглядатиме майбутнє Китаю?"
- TIB_FLAVOR_TEXT: "Молодий Далай-лама — теократичний лідер Тибету. Чи залишиться буддизм у центрі політичної влади, чи буде витіснений?"
- FRA_FLAVOR_TEXT: "Минуло шість років відтоді, як Карл X був скинутий з трону на користь Луї Філіпа. Постійні загрози короні змушують Луї Філіпа правити все більш жорсткою рукою. Чи прийме Франція більш ліберальне майбутнє?"
- RUS_FLAVOR_TEXT: "Цар Ніколай І розпочав своє правління з придушення повстання і зараз тримає московію в лещатах. Він сповідує доктрини православ'я, самодержавства та народності. Чи процвітатиме ця авторитарна недо-країна у 19-му столітті, чи постане щось нове, щось інше?"
- PRU_FLAVOR_TEXT: "Пруссії вдалося завоювати значні території під час наполеонівських війн, і за останні кілька років вона провела вражаючі реформи по всій країні. Чи продовжить Пруссія цей шлях і, можливо, об'єднає Німеччину?"
- JAP_FLAVOR_TEXT: "Сила правлячого сьогунату Токугава слабшає, по всій країні поширюються голод і заворушення. Період Едо триває в Японії вже понад 200 років, чи зможе він протривати ще 200?"
- PER_FLAVOR_TEXT: "Персія все ще оговтується від втрати ряду територій на користь Московської імперії на початку століття. Чи вдасться їй повернутися і повернути собі місце серед великих держав?"
- AUS_FLAVOR_TEXT: "Залежно від того, кого ви запитаєте, Австрійська імперія перебуває в періоді або ідеальної рівноваги, або тривожної стагнації. Революційні рухи придушуються по всій країні, але чи буде цей статус-кво тривати вічно?"
- USA_FLAVOR_TEXT: "Сполучені Штати Америки відстоюють право Америки на незалежність від європейських держав. Однак країна також перебуває в процесі насильницького виселення тисяч корінних американців з їхніх рідних земель, між штатами точаться гострі дебати на тему рабства. Яким буде майбутнє Сполучених Штатів?"
- TUR_FLAVOR_TEXT: "Османська імперія була втягнута в різні війни до початку 19-го століття, і хоча були зроблені деякі спроби реформувати країну, для запобігання занепаду цієї імперії знадобиться набагато більше зусиль."
- SPA_FLAVOR_TEXT: "Молода королева Ізабелла править розділеною Іспанією, де ліберальні та консервативні фракції вчепилися одна одній у горлянку. Чи стане королева просто маріонеткою в цій боротьбі, чи візьме на себе більш важливу роль?"
- BRZ_FLAVOR_TEXT: "Бразилія переживає період потрясінь після зречення імператора Педру І, внаслідок чого країна опинилася під владою регентів. Чи вдасться Бразилії подолати ці перешкоди і стати великою державою?"
- MEX_FLAVOR_TEXT: "Напруженість між Мексикою та новопроголошеною республікою Техас переросла у справжню війну. Чи зможе Мексика відвоювати Техас і повернути статус-кво?"
- NET_FLAVOR_TEXT: "Нідерланди втратили Бельгію внаслідок революції шість років тому, і хоча вони все ще економічно стабільні, темпи їхньої індустріалізації є повільними порівняно з деякими сусідами. Чи зможуть Нідерланди перетворитися на потужну державу 19-го століття?"
- POR_FLAVOR_TEXT: "Минуло лише два роки після закінчення громадянської війни в Португалії, і на троні знову сидить королева Марія II. Португальські колонії розкинулися по всьому світу. Тепер, коли внутрішні чвари подолано, що принесе решта століття?"
- SAR_FLAVOR_TEXT: "У Сардинії-П'ємонті реакційні антифранцузькі монархи керували країною протягом останніх тридцяти років, заохочуючи повернення дворянства і церкви та скасовуючи наполеонівські реформи. Чи продовжиться ця тенденція? Чи з'явиться більш ліберальна нація?"
- PAN_FLAVOR_TEXT: "Сикхська імперія переживає період завоювань, виграючи битву за битвою. Але що чекає на цю імперію в майбутньому?"
- DEN_FLAVOR_TEXT: "По всій Данії нові ліберальні та національні поштовхи змінюють обличчя політики. Тим часом вони також переживають золотий вік мистецтва, літератури та філософії. Що принесе решта століття?"
- SWE_FLAVOR_TEXT: "Втративши Фінляндію і отримавши Норвегію в особистій унії, Швеція розпочала повільний процес індустріалізації, а також стала більш ліберальною в деяких аспектах. Яке майбутнє її чекає?"
- CRO_FLAVOR_TEXT: "Під реформаторським правлінням Бана та дружньою австрійською адміністрацією Хорватія-Славонія переживає період національного відродження та панславських настроїв. Іллірійський рух охоплює всю країну, а науковці закликають до опору мадяризації та мовних реформ. Чи знайде Хорватія своє місце в імперії, чи занепаде під угорським ярмом?"
- TRS_FLAVOR_TEXT: "Відокремлене від Угорщини після повстання Ракоці в 1711 році, князівство Трансільванія опинилося в центрі уваги Німеччини, Угорщини та Румунії. Чи зможе Трансільванія зберегти свою автономію, чи буде вона поглинена амбіційними сусідами?"
- HUN_FLAVOR_TEXT: "Довго перебуваючи у підпорядкуванні австрійських володарів, Королівство Угорщина опинилося на роздоріжжі, де нові угруповання виступають за більшу угорську незалежність. Чи переможуть радикальні голоси, чи Угорщина залишиться ще однією перлиною в австрійській короні?"
- # South-East Asia
- LAN_FLAVOR_TEXT: "Республіку Ланфан заснував демократичний синдикат китайських шахтарів, які сподівалися експлуатувати золоті запаси Борнео. Чи зможе Ланфан протистояти наступу голландців і досягти процвітання, якого прагне?"
- ACE_FLAVOR_TEXT: "Султанат Ачех переживає відродження влади завдяки зусиллям раджі Муди. Чи зможе Ачех відновити свою імперію та відстояти незалежність перед обличчям голландської експансії?"
- BRU_FLAVOR_TEXT: "Досі Бруней відбивав спроби колоніальних держав зазіхнути на його суверенітет. Чи впаде Бруней у занепад і забуття, чи зможе знову стати регіональною державою?"
- JOH_FLAVOR_TEXT: "Джохор займає хитке становище, оскільки і британці, і голландці жадібно придивляються до його території. Чи вдасться Джохору зберегти той невеликий суверенітет, який у нього залишився?"
- SIA_FLAVOR_TEXT: "За часів правління династії Раттанакосінів, Сіам зарекомендував себе як домінуюча регіональна держава Південно-Східної Азії. Але чи вдасться Сіаму реформувати свою економіку та суспільство відповідно до вимог сучасності?"
- DAI_FLAVOR_TEXT: "Нещодавно возз'єднаний В'єтнам виходить з багатовікового розколу та ворожнечі. Чи зможе Дайнам консолідуватися і побудувати велику націю, чи йому судиться бути знову розділеним?"
- BUR_FLAVOR_TEXT: "Для створення Третьої Бірманської імперії знадобилося багато кривавих конфліктів, і схоже, боротьба ще далека від завершення, оскільки Британська імперія заявляє про свої амбіції. Чи стане Бірма ще однією британською колонією, чи вистоїть проти іноземних загарбників?"
- CAM_FLAVOR_TEXT: "Камбоджа занепала з часів золотого віку Кхмерської імперії. Чи може Кхмерська держава знову піднятися, чи ця темна доба триватиме вічно?"
- LUA_FLAVOR_TEXT: "Колись столиця могутнього королівства Лансанг, сьогодні є тінню свого колишнього „я‟. Чи зможе лаоський народ, розділений між регіональними державами Дай Нам і Сіам, стати сильним і незалежним?"
- # Australia
- UNT_FLAVOR_TEXT: "Об'єднані племена проголосили свою суверенну незалежність, хоча насправді вони перебувають у владі Британської імперії. Чи можна довіряти британцям у дотриманні їхніх договорів з маорі?"
- NSW_FLAVOR_TEXT: "Під час переходу від виправної колонії до коронного штату, Новий Південний Уельс зазнав скорочення своєї території, оскільки інші провінції отримали власні адміністрації. Що чекає на Австралію в майбутньому?"
- SAS_FLAVOR_TEXT: "Південна Австралія отримала власну адміністрацію лише два роки тому, відокремившись від Нового Південного Уельсу. Що чекає на Австралію в майбутньому?"
- WAS_FLAVOR_TEXT: "Колоністи Суон-Рівер зазіхають на традиційні землі аборигенів, кульмінацією чого стала різанина в Пінджаррі лише два роки тому. Як колонія вирішить цей конфлікт?"
- TAS_FLAVOR_TEXT: "Земля Ван Дімена — головна виправна колонія Британської Австралії. Яке майбутнє чекає на цю колонію засуджених?"
- # Balkans
- SER_FLAVOR_TEXT: "Сербія важко боролася за свою незалежність, і їй безсумнівно, доведеться продовжувати боротьбу за її збереження. Чи стане Сербія, затиснута між великими державами, пороховою бочкою Європи?"
- GRE_FLAVOR_TEXT: "У кровопролитній боротьбі Греція виборола свою незалежність від Османської імперії. Чи може Греція розширити свої кордони?"
- WAL_FLAVOR_TEXT: "Заклики до румунського об'єднання і політичної незалежності ускладнюють регіональну політику, оскільки і московія, і Османська імперія зацікавлені у збереженні статус-кво. Чи може Румунія вибороти свою свободу?"
- MOL_FLAVOR_TEXT: "Заклики до румунського об'єднання і політичної незалежності ускладнюють регіональну політику, оскільки і московія, і Османська імперія зацікавлені у збереженні статус-кво. Чи може Румунія вибороти свою свободу?"
- ION_FLAVOR_TEXT: "За останні 30 років острови перейшли від османського до московського, французького і, нарешті, британського контролю. Чи зможуть мешканці островів досягти енозису з новою грецькою державою, чи вони шукатимуть нового шляху вперед під керівництвом Великої Британії?"
- # Italy
- PAP_FLAVOR_TEXT: "Хоча політична влада католицької церкви протягом століть зменшилася, папа римський все ще очолює Папську державу. Чи віра все ще керує серцями людей?"
- TUS_FLAVOR_TEXT: "Непопулярний герцог Леопольдо прагне лібералізувати велике герцогство, але стикається з великою опозицією своєму правлінню. Як складеться доля Тоскани, коли лібералізм і націоналізм змагатимуться за серця і уми італійців?"
- SIC_FLAVOR_TEXT: "Політичні репресії як проти лібералів, так і проти сицилійських сепаратистів виявляються неефективними, обидва рухи переходять у підпілля і здобувають нових прихильників. Як виглядатиме Королівство Двух Сіцилій після того, як ситуація неминуче дійде до апогею?"
- PAR_FLAVOR_TEXT: "Віденський конгрес підтвердив правління другої дружини Наполеона, Марії Луїзи над герцогством до її смерті. Чи вдасться їй утримати свої землі в часи націоналізму та потрясінь?"
- LUC_FLAVOR_TEXT: "Відірваний від своїх законних пармських земель, дім Бурбонів-Пармських отримав Лукку доти, доки вони не зможуть повернути собі законний трон у Пармі після смерті Марії Луїзи. Як довго ця помилка може проіснувати в умовах зростання італійського націоналізму?"
- MOD_FLAVOR_TEXT: "Герцогство Модена перебуває під владою Габсбургів та Австрійської імперії і політично підпорядковане їм. Чи зможе Модена позбутися цих ланцюгів родинної лояльності, чи зв'язки, які їх пов'язують, обмежують надто сильно?"
- # Germans
- BAV_FLAVOR_TEXT: "На хвилі нещодавніх революцій по всій Європі, Баварія стала на шлях реакції. Але вугілля бунту все ще горить; чи поглине Баварію полум'я?"
- SWI_FLAVOR_TEXT: "Віденський конгрес визнав Швейцарію нейтральною державою, що забезпечує певний ступінь безпеки на театрі європейської політики. Чи збереже Швейцарія свій нейтралітет, чи піде іншим шляхом?"
- HAN_FLAVOR_TEXT: "Хоча зараз Ганновер перебуває під владою британського монарха, відмінності в законах про спадкування означають, що кінець союзу швидше за все, наближається. Яким новим шляхом піде Ганновер?"
- GERMAN_FLAVOR_TEXT: "Віденський конгрес заснував Німецьку конфедерацію — вільне об'єднання німецьких держав, покликане підтримувати мир у Центральній Європі. На практиці в конфедерації домінує суперництво між Австрією та Пруссією. Чи зможуть менші країни вижити в майбутньому конфлікті?"
- # Members of the German Federation
- 0: LUB_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 1: HAM_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 2: BRE_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 3: OLD_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 4: MEC_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 5: ANH_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 6: SAX_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 7: BRA_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 8: HES_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 9: NAS_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 10: FRM_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 11: BAD_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 12: WUR_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
- 13: LIP_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 14: MST_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 15: SCM_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 16: SCW_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 17: HOH_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 18: WLD_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 19: MEI_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 20: WEI_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 21: HEK_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 22: COB_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 23: LUX_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- 24: HOL_FLAVOR_TEXT:0 "$GERMAN_FLAVOR_TEXT$"
- # Poland
- KRA_FLAVOR_TEXT: "Спадщина польського народу важким тягарем лежить на плечах вільної держави Краків, якій не довіряють її засновники і яку окупувала Австрія. Чи може нова польська держава знову повстати з попелу?"
- # North America
- QUE_FLAVOR_TEXT: "Колись колонія Нової Франції, Нижня Канада потрапила під владу Великої Британії. Напруженість між переважно французьким населенням і колоніальним урядом загрожує ескалацією в найближчому майбутньому, з невеликими шансами на мирне вирішення. Чи здобуде Квебек свою свободу?"
- ONT_FLAVOR_TEXT: "Натхнені зростанням напруженості в Нижній Канаді, жителі Верхньої Канади готуються чинити опір колоніальному уряду. Чи здобуде Онтаріо свою свободу?"
- HBC_FLAVOR_TEXT: "Компанія Гудзонової затоки готова захищати свою монополію на торгівлю хутром у будь-який спосіб. Угоди з першими націями укладаються і розриваються так, як компанія вважає за потрібне, не зважаючи на жодні мотиви, окрім прибутку. Чи буде достатньо безжалісності, щоб захистити компанію?"
- NBS_FLAVOR_TEXT: "Колонія Нью-Брансвік створює процвітаючу суднобудівну промисловість, а колоністи прибувають з Шотландії та Ірландії, щоб працювати з деревиною. Чи очолить Нью-Брансвік об'єднану Канаду?"
- ORG_FLAVOR_TEXT: "Наразі, перебуваючи під відносно автономним управлінням, як компанія Гудзонової затоки, так і уряд США поклали око на спірний округ Колумбія. Чи досягне успіху будь-яка з цих сил, або ж виникне незалежний Орегон?"
- TEX_FLAVOR_TEXT: "Новопроголошена Республіка Техас веде, здавалося б, неможливу війну проти своїх мексиканських поневолювачів. Чи врятує диво Штат Самотньої Зірки?"
- HAI_FLAVOR_TEXT: "За часів Жан-П'єра Бойє, Гаїті стала панувати над усією іспаньолою. Чи зможе ця нація колишніх рабів досягти свободи, чи Гаїті приречена на деспотію?"
- CUB_FLAVOR_TEXT: "Відносини кубинців з їхніми іспанськими поневолювачами стали напруженими. Заклики до представництва в іспанському парламенті та спротив скасуванню рабства наштовхнулися на ворожість з боку Мадрида. Чи неминуча кубинська революція?"
- #Central Asia
- KHI_FLAVOR_TEXT: "Всупереч Персії та московії, Хіва є незалежною державою, що розквітає під владою хана. Чи зможе Хіва захистити свою незалежність?"
- BUK_FLAVOR_TEXT: "На відміну від сусідніх ханств, еміри Бухари приймають ісламське правління, а не засновують свою легітимність на походженні від Чингісхана. Чи переможе віра?"
- KOK_FLAVOR_TEXT: "Коканд бореться з роз'єднаністю і розбратом всередині ханського двору. Чи може Коканд стати домінуючою силою в Центральній Азії?"
- KAB_FLAVOR_TEXT: "Падіння імперії Дуррані призвело до того, що її володіння опинилися у стані вічної громадянської війни між претендентами на трон. Чи зможе амбітний емір Дост Мохаммад об'єднати Афганістан і закріпити династію Баракзаїв як його правителів?"
- HER_FLAVOR_TEXT: "Громадянська війна в Афганістані залишила емірат Герат останнім бастіоном правління Дуррані. Чи зможуть спадкоємці династії протистояти перським зазіханням і возз'єднати Афганістан як відновлену імперію?"
- KAN_FLAVOR_TEXT: "Князівство Кандагар проголосило незалежність від Афганістану у 1818 році, але незабаром опинилося у стані міжусобиці між своїми конфедеративними правителями. Чи зможуть правлячі брати Діл вирішити свої суперечки і витіснити еміра Кабула?"
- AFGHAN_MINOR_FLAVOR_TEXT: "Падіння імперії Дуррані призвело до того, що її володіння опинилися у стані перманентної громадянської війни між претендентами на трон. Чи зможуть північні ханства відстояти свою незалежність серед ворогуючих афганських князів і створити власну імперію?"
- MAI_FLAVOR_TEXT: "$AFGHAN_MINOR_FLAVOR_TEXT$"
- KUN_FLAVOR_TEXT: "$AFGHAN_MINOR_FLAVOR_TEXT$"
- CHT_FLAVOR_TEXT: "Падіння імперії Дуррані залишило її королівство у стані вічної громадянської війни між претендентами на трон. Чи зможе держава Читралі захистити себе від імперії сикхів, афганських держав, що відроджуються, та британської експансії на Гіндукуш?"
- KAF_FLAVOR_TEXT: "Оточені все більш войовничими ісламськими державами, так звані „невірні‟ Гіндукушу стикаються з непевним майбутнім. Чи зможе королівство Кафірістан зберегти свій устрій, або ж він змириться з тим, що залишиться на узбіччі історії?"
- MAK_FLAVOR_TEXT: "Після розпаду імперії Дуррані, Калатське ханство виокремило власну сферу впливу. Чи вдасться племенам Макрану зберегти свою територію перед загрозою з боку Персії та афганських князів?"
- KAL_FLAVOR_TEXT: "Після розпаду імперії Дуррані, Калатське ханство виокремило власну сферу впливу. Чи зможе воно зберегти свій омріяний суверенітет і розбудувати імперію, щоб конкурувати з сусідами?"
- TRM_FLAVOR_TEXT: "$DECENTRALIZED_FLAVOR_TEXT$"
- ZHUZ_FLAVOR_TEXT: "московська експансія в казахські степи набула нового характеру: нещодавно московський цар видав указ, що скасовує посади і повноваження ханів. Чи вирвуться казахські жузи на свободу, чи вони ще більше скотяться під московське панування?"
- KZH_FLAVOR_TEXT: "$ZHUZ_FLAVOR_TEXT$"
- OZH_FLAVOR_TEXT: "$ZHUZ_FLAVOR_TEXT$"
- UZH_FLAVOR_TEXT: "$ZHUZ_FLAVOR_TEXT$"
- ARB_FLAVOR_TEXT: "Правління шейха Джабера аль-Каабі привело шейхство Мухаммара до періоду фактичного суверенітету. Чи збереже Мухаммара свій привілейований статус і чи отримає на власний центр влади?"
- # Maghreb
- TRI_FLAVOR_TEXT: "Після тривалого періоду фактичної незалежності, Триполітанія знову потрапила під владу Османської імперії. Чи припливуть варварські пірати знову?"
- TUN_FLAVOR_TEXT: "Після того, як Туніс був змушений припинити спонсорувати піратські набіги, економіка країни різко погіршилася. Чи зможе Бей відновити розквіт?"
- ALD_FLAVOR_TEXT: "Алжир втратив значну частину свого узбережжя через французів після варварських війн. Чи зможуть залишки цієї нації відбити подальше французьке вторгнення?"
- MOR_FLAVOR_TEXT: "Більше не перебуваючи під захистом Османської імперії, Марокко є вразливим для французького та іспанського експансіонізму. Чи зможе Марокко витримати імперіалістичний натиск?"
- # Africa
- SOK_FLAVOR_TEXT: "Під прапором джихаду фуланістів, халіфат Сокото стрімко розширюється. Чи зможе Сокото об'єднати Західну Африку і протистояти західним державам?"
- GREAT_LAKES_FLAVOR_TEXT: "Народи Великих озер створили молоді імперії, які панують як на воді, так і на суші. Чи постане з них велика нація?"
- BUG_FLAVOR_TEXT: "$GREAT_LAKES_FLAVOR_TEXT$"
- ACH_FLAVOR_TEXT: "$GREAT_LAKES_FLAVOR_TEXT$"
- BNY_FLAVOR_TEXT: "$GREAT_LAKES_FLAVOR_TEXT$"
- ANK_FLAVOR_TEXT: "$GREAT_LAKES_FLAVOR_TEXT$"
- TGR_FLAVOR_TEXT: "Ефіопія переживає Епоху князів. Імператор у Гондарі не має реальної влади, а місцеві правителі ділять країну між собою. Чи вдасться колись об'єднати імперію?"
- WLO_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- BGM_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- GJM_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- WLG_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- KFA_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- SHW_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- SDM_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- HAR_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- AWS_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- QWR_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- WLT_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- HDY_FLAVOR_TEXT: "$TGR_FLAVOR_TEXT$"
- SAF_FLAVOR_TEXT: "Спочатку голландський торговий пост, Капська колонія нещодавно стала колонією Британської корони з більшою частиною своєї колишньої автономії. Зараз зростає напруженість у відносинах між британською короною та бурськими державами на півночі, тоді як на сході зростає могутність Зулуської імперії. Як Капська колонія переживе майбутню боротьбу?"
- # India
- BIC_FLAVOR_TEXT: "Індія — коштовний камінь у короні Британської імперії. Чи зможе Ост-Індійська компанія утримати владу над цим величезним простором, задовольняючи при цьому своїх акціонерів?"
- JAS_FLAVOR_TEXT: "Майже вся Індія наразі перебуває під прямим чи опосередкованим контролем Британської Ост-Індійської компанії. Наваби Тубільних князівств все ще зберігають значну владу над своїми територіями, але в кінцевому підсумку підпорядковуються Компанії. Чи звільниться Індія коли-небудь від британського панування?"
- JOD_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BIK_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- JAI_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- MEW_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- GWA_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- IND_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BER_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- CUT_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- AWA_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BUN_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- ORI_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- NAG_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BAS_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- HYD_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- MYS_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- TRA_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- SIN_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- NEP_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- SIK_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- KUT_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BHW_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- GAR_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- PTA_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- ALW_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- COO_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- JHN_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- PUD_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- KOT_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- IDA_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- NAW_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- DHA_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- JUN_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BHV_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- PLP_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- SAT_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- KHP_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BAG_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- SUR_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- KNO_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- JEY_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- MYB_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- PTN_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- NAR_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- COC_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- MNP_FLAVOR_TEXT: "$JAS_FLAVOR_TEXT$"
- BCE_FLAVOR_TEXT: "Після завершення Кандійських війн на родючих височинах Цейлону з’явилися численні плантації, частково завдяки імпорту тамільських робітників з материка. Чи зможе Цейлон втримати цей імпульс, або ж він зануриться у внутрішні чвари?"
- MLD_FLAVOR_TEXT: "Існуючи у відносній ізоляції, Мальдіви розквітали під британським заступництвом, захищені від піратів, які колись загрожували їхнім берегам. Чи настануть коли-небудь зміни в цій маленькій острівній державі?"
- # Middle-East
- EGY_FLAVOR_TEXT: "За часів Мухаммеда Алі, Єгипет став незалежним від Османської імперії в усіх відношеннях, окрім технічного. Однак нещодавні успіхи в Сирії, безсумнівно, викличуть відповідну реакцію з боку Високої Порти. Чи зможе Єгипет пережити прийдешню бурю?"
- HDJ_FLAVOR_TEXT: "Із занепадом Османської імперії, майбутнє Аравії стає дедалі більш невизначеним. Чи постане в пустелі нова потуга?"
- NEJ_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- YEM_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- ABU_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- JAB_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- BHN_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- KAT_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- ZAI_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- LAH_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- MAH_FLAVOR_TEXT: "$HDJ_FLAVOR_TEXT$"
- OMA_FLAVOR_TEXT: "Володіючи Оманом і Занзібаром, султанат створює міжконтинентальну імперію. Чи вдасться Оману зберегти єдність?"
- KOR_FLAVOR_TEXT: "Корея під час правління династії Чосон дивиться всередину себе, поглинута своєю фракційною політикою. Чи змусять часи, що змінюються, звернути увагу на зовнішній світ?"
- NOR_FLAVOR_TEXT: "Норвегія століттями перебувала під владою Данії та Швеції, але зараз мріє про суверенітет. Що потрібно для того, щоб Норвегія здобула незалежність?"
- FIN_FLAVOR_TEXT: "Досі Фінляндія користувалася відносною автономією у складі московської імперії. Але примхи царів мінливі; як московське правління вплине на Фінляндію?"
- #South and Central America
- UCA_FLAVOR_TEXT: "Федеративна Республіка складається з провінцій, які здебільшого воліли б бути незалежними. Чи може Центральна Америка триматися разом?"
- CLM_FLAVOR_TEXT: "Після розпаду Великої Колумбії у 1830 році, Нова Гранада залишилася наодинці і розірвана між ліберальними та консервативними фракціями. Чи зможе Колумбія знову досягти величі?"
- VNZ_FLAVOR_TEXT: "Тепер Венесуела, незалежна як від Іспанії, так і від Великої Колумбії, повинна сама вирішувати свою долю. Чи може бути сформований стабільний уряд, чи Венесуела приречена на правління низки каудильйо?"
- ECU_FLAVOR_TEXT: "У Південній Америці назріває конфлікт, в який втягнутий Еквадор. Чи вдасться Еквадору уникнути асиміляції сильнішими сусідами?"
- NPU_FLAVOR_TEXT: "Громадянська війна в Перу призвела до розколу країни на дві держави — Перуанську та Болівійську конфедерацію. Чи продовжить Перу прагнути до об'єднання з Болівією, чи піде власним шляхом як незалежна держава?"
- SPU_FLAVOR_TEXT: "Громадянська війна в Перу призвела до розколу країни на дві держави — Перуанську та Болівійську конфедерацію. Чи продовжить Перу прагнути до об'єднання з Болівією, чи піде власним шляхом як незалежна держава?"
- IQU_FLAVOR_TEXT: "Автономний штат Ікічія опинився у вирі перуанської громадянської війни і виступив на боці Санта-Крус. Чи зможе він зберегти свою незалежність у новій конфедерації?"
- BOL_FLAVOR_TEXT: "Болівія забезпечила своє панування над Перу в умовах перуанської громадянської війни, а тепер прагне створити конфедерацію між країнами. Чи витримає такий союз майбутні випробування?"
- ARG_FLAVOR_TEXT: "Аргентина здобула незалежність від Іспанії, але зараз стикається з внутрішніми розбіжностями. Чи може Аргентина сформувати стабільний уряд?"
- CHL_FLAVOR_TEXT: "Чилі розпочинає процес політичної централізації, концентруючи владу в руках уряду і церкви. Що чекає на Чилі в майбутньому?"
- PNI_FLAVOR_TEXT: "Новостворений штат Піратіні, сміливо проголошує свою незалежність від Бразилії, але як довго протримається молода держава?"
- GENERIC_FLAVOR_TEXT: "Вікторіанська епоха — це епоха індустрії та експлуатації, революції та реакції. Які нові виклики принесуть ці часи?"
- REV_GENERIC_FLAVOR_TEXT: "Незадоволені курсом так званого офіційного уряду, ці революціонери вирішили взяти до рук зброю, щоб скинути його. Чи вдасться їм захопити владу, чи вони будуть придушені, як багато забутих революцій минулого?"
- DECENTRALIZED_FLAVOR_TEXT: "Ця країна, на яку зазіхають більш організовані держави, бореться за збереження своєї автономії. Чи побачать вони світанок нового століття, чи їхня назва залишиться лише в підручниках історії?"
- # Nonsense Countries
- GLI_FLAVOR_TEXT: "Галіція — маленька і непримітна країна, населена ентузіастами соборів. Чи поверне Галіція свою колишню славу?"
- #Decentralized
- 25: TUA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 26: AHG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 27: OUA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 28: ADG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 29: AIR_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 30: TBI_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 31: BOR_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 32: TRZ_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 33: FTR_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 34: CAY_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 35: SRR_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 36: KBU_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 37: BND_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 38: KRT_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 39: FTJ_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 40: SSU_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 41: MDK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 42: KBD_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 43: KRU_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 44: AYI_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 45: MSN_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 46: SGU_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 47: KNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 48: ASH_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 49: EWE_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 50: DAH_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 51: OYO_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 52: BEN_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 53: IBO_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 54: HAU_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 55: BGI_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 56: WAD_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 57: DFR_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 58: ISQ_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 59: WSG_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 60: WJT_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 61: HOB_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 62: GLD_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 63: KKY_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 64: TRK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 65: TPS_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 66: NUE_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 67: DNK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 68: DFT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 69: ZND_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 70: DAK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 71: DNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 72: DLA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 73: BOB_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 74: TKE_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 75: LNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 76: KON_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 77: YKA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 78: KBA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 79: LBA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 80: LGA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 81: HMB_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 82: KRG_FLAVOR_TEXT:1 "$GREAT_LAKES_FLAVOR_TEXT$"
- 83: RWD_FLAVOR_TEXT:1 "$GREAT_LAKES_FLAVOR_TEXT$"
- 84: BRD_FLAVOR_TEXT:1 "$GREAT_LAKES_FLAVOR_TEXT$"
- 85: NYM_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 86: MSI_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 87: GGO_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 88: HHE_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 89: SNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 90: BMB_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 91: MSK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 92: MNC_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 93: MSH_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 94: MTB_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 95: ZUL_FLAVOR_TEXT:1 "$GENERIC_FLAVOR_TEXT$"
- 96: TSW_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 97: NAM_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 98: HRO_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 99: LZO_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 100: CHK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 101: OVM_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 102: LND_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 103: KZM_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 104: KSN_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 105: NTU_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 106: PPU_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 107: NNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 108: SKH_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 109: KAZ_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 110: IRC_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 111: NZP_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 112: ABS_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 113: DKT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 114: LKT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 115: NVJ_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 116: COM_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 117: PAT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 118: BNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 119: BST_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 120: BLE_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 121: FNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 122: HLA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 123: JLF_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 124: KNK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 125: MJT_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 126: PLY_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 127: TNG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 128: THL_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 129: SLK_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 130: OGD_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 131: BRN_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 132: OMO_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
- 133: ANU_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
+ HEADER_Victoria_3: "#credits_title Victoria 3#!"
+ HEADER_V3_TITLE: "#credits_title Victoria 3: National Awakening#!"
+ HEADER_ALSO_INCLUDES: "#credits_header Also includes credits for:#!"
+ HEADER_MELODIES_FOR_THE_MASSES: "#credits_header Melodies for the Masses#!"
+ HEADER_VOICE_OF_THE_PEOPLE: "#credits_header Voice of the People#!"
+ HEADER_DAWN_OF_WONDER: "#credits_header Dawn of Wonder#!"
+ HEADER_COLOSSUS_OF_THE_SOUTH: "#credits_header Colossus of the South#!"
+ HEADER_SPHERE_OF_INFLUENCE: "#credits_header Sphere of Influence#!"
+ HEADER_PIVOT_OF_EMPIRE: "#credits_header Pivot of Empire#!"
+ HEADER_CHARTERS_OF_COMMERCE: "#credits_header Charters of Commerce#!"
+ HEADER_NATIONAL_AWAKENING: "#credits_header National Awakening#!"
+ HEADER_SONGS_OF_THE_HOMELAND: "#credits_header Songs of the Homeland#!"
+ HEADER_V3_HEADER_TEAM: "#credits_header Victoria 3 Team#!"
+ 0: 'HEADER_PROJECT_LEADS:0 "#credits_header PROJECT LEADS#!"'
+ 1: 'TITLE_PROJECT_LEAD_GAME_DIRECTOR:0 "#credits_subheader Game Director#!"'
+ 2: 'TITLE_PROJECT_LEAD_ART_DIRECTOR:0 "#credits_subheader Art Director#!"'
+ 3: 'TITLE_PROJECT_LEAD_LEAD_PRODUCER:0 "#credits_subheader Lead Producer#!"'
+ 4: 'TITLE_PROJECT_LEAD_DESIGN_LEAD:0 "#credits_subheader Design Lead#!"'
+ 5: 'TITLE_PROJECT_LEAD_GAME_DESIGN_LEAD:0 "#credits_subheader Game Design Lead#!"'
+ 6: 'TITLE_PROJECT_LEAD_CONTENT_DESIGN_LEAD:0 "#credits_subheader Content Design Lead#!"'
+ 7: 'TITLE_PROJECT_LEAD_TECH_LEAD:0 "#credits_subheader Tech Lead#!"'
+ 8: 'TITLE_PROJECT_LEAD_ART_LEAD:0 "#credits_subheader Art Lead#!"'
+ 9: 'TITLE_PROJECT_LEAD_QA_LEAD:0 "#credits_subheader QA Lead#!"'
+ 10: 'HEADER_PRODUCTION:0 "#credits_header PRODUCTION#!"'
+ 11: 'TITLE_LEAD_PRODUCER:0 "#credits_subheader Lead Producer#!"'
+ 12: 'TITLE_PRODUCER:0 "#credits_subheader Producer#!"'
+ 13: 'TITLE_ADDITIONAL_PRODUCER:0 "#credits_subheader Additional Producer#!"'
+ 14: 'HEADER_DESIGN:0 "#credits_header DESIGN#!"'
+ 15: 'TITLE_GAME_DESIGN:0 "#credits_subheader Game Design#!"'
+ 16: 'TITLE_UX_DESIGN:0 "#credits_subheader UX Design#!"'
+ 17: 'TITLE_ADDITIONAL_GAME_DIRECTION:0 "#credits_subheader Additional Game Direction#!"'
+ 18: 'TITLE_ADDITIONAL_UX_DESIGN:0 "#credits_subheader Additional UX Design#!"'
+ 19: 'TITLE_CONTENT_DESIGN:0 "#credits_subheader Content Design#!"'
+ 20: 'TITLE_ADDITIONAL_CONTENT_DESIGN:0 "#credits_subheader Additional Content Design#!"'
+ TITLE_DESIGN_CONSULTANTS: "#credits_subheader Design Consultants#!"
+ 21: 'TITLE_ADDITIONAL_GAME_DESIGN:0 "#credits_subheader Additional Game Design#!"'
+ 22: 'TITLE_GAME_WRITER_AND_REGIONAL_CONSULTANT:0 "#credits_subheader Game Writer and Regional Consultant#!"'
+ 23: 'HEADER_PROGRAMMING:0 "#credits_header PROGRAMMING#!"'
+ 24: 'TITLE_PROGRAMMERS:0 "#credits_subheader Programmers#!"'
+ 25: 'TITLE_ADDITIONAL_TECH_LEADS:0 "#credits_subheader Additional Tech Leads#!"'
+ 26: 'TITLE_ADDITIONAL_PROGRAMMERS:0 "#credits_subheader Additional Programmers#!"'
+ 27: 'TITLE_RELEASE_ENGINEER:0 "#credits_subheader Release Engineer#!"'
+ 28: 'HEADER_ART:0 "#credits_header ART#!"'
+ 29: 'TITLE_ADDITIONAL_ART_DIRECTION:0 "#credits_subheader Additional Art Direction#!"'
+ 30: 'TITLE_ADDITIONAL_ART_LEAD:0 "#credits_subheader Additional Art Lead#!"'
+ 31: 'TITLE_2D_ART:0 "#credits_subheader 2D Art#!"'
+ 32: 'TITLE_ADDITIONAL_2D_ART:0 "#credits_subheader Additional 2D Art#!"'
+ 33: 'TITLE_CONCEPT_ART:0 "#credits_subheader Concept Art#!"'
+ 34: 'TITLE_3D_CHARACTER_ART:0 "#credits_subheader 3D Character Art#!"'
+ 35: 'TITLE_3D_ENVIRONMENT_ART:0 "#credits_subheader 3D Environment Art#!"'
+ 36: 'TITLE_ANIMATION:0 "#credits_subheader Animation#!"'
+ 37: 'TITLE_TECH_ART:0 "#credits_subheader Tech Art#!"'
+ 38: 'TITLE_VFX:0 "#credits_subheader VFX#!"'
+ HEADER_EXTERNAL_ART_PARTNERS: "#credits_header EXTERNAL ART PARTNERS#!"
+ 39: 'HEADER_FREELANCE_ART:0 "#credits_header FREELANCE ART#!"'
+ 40: 'TITLE_LOADING_SCREEN_ILLUSTRATIONS:0 "#credits_subheader Loading Screen Illustrations#!"'
+ 41: 'TITLE_3D_ART:0 "#credits_subheader 3D Art#!"'
+ 42: 'TITLE_ILLUSTRATIONS:0 "#credits_subheader Illustrations#!"'
+ 43: 'TITLE_COAT_OF_ARMS:0 "#credits_subheader Coat Of Arms#!"'
+ TITLE_GOODNAME: "#credits_subheader Goodname Digital Art Studio#!"
+ TITLE_SENIOR_ARTISTS: "#credits_subheader Senior Artists#!"
+ TITLE_ROOM_8_GROUP: "#credits_subheader Room8 Digital Art Studio#!"
+ 44: 'HEADER_QA:0 "#credits_header QA#!"'
+ 45: 'TITLE_QA_LEAD:0 "#credits_subheader QA Lead#!"'
+ 46: 'TITLE_ADDITIONAL_QA_LEAD:0 "#credits_subheader Additional QA Lead#!"'
+ 47: 'TITLE_QA_TESTERS:0 "#credits_subheader QA Testers#!"'
+ TITLE_QA_ANALYSTS: "#credits_subheader QA Analysts#!"
+ 48: 'TITLE_ANTIGAQA:0 "#credits_subheader AntigaQA#!"'
+ 49: 'HEADER_AUDIO:0 "#credits_header AUDIO#!"'
+ 50: 'TITLE_HEAD_OF_AUDIO:0 "#credits_subheader Head of Audio#!"'
+ 51: 'TITLE_AUDIO_DIRECTOR:0 "#credits_subheader Audio Director#!"'
+ 52: 'TITLE_LEAD_AUDIO_DESIGN:0 "#credits_subheader Lead Audio Design#!"'
+ 53: 'TITLE_AUDIO_DESIGN:0 "#credits_subheader Audio Design#!"'
+ 54: 'TITLE_AUDIO_PRODUCER:0 "#credits_subheader Audio Producer#!"'
+ 55: 'HEADER_MUSIC:0 "#credits_header MUSIC#!"'
+ 56: 'TITLE_MUSIC_BUSINESS_DIRECTOR:0 "#credits_subheader Music Business Director#!"'
+ 57: 'TITLE_MUSIC_COMPOSER_AND_PRODUCER:0 "#credits_subheader Composer and Producer#!"'
+ 58: 'TITLE_MUSICIANS:0 "#credits_subheader Musicians#!"'
+ TITLE_ORCHESTRA: "#credits_subheader Orchestra#!"
+ TITLE_RECORDING_STUDIO: "#credits_subheader Recording Studio#!"
+ TITLE_CONDUCTOR: "#credits_subheader Conductor#!"
+ TITLE_ORCHESTRA_CONTRACTOR_RECORDING_MANAGER: "#credits_subheader Orchestra Contractor and Recording Manager#!"
+ TITLE_RECORDING_ENGINEER: "#credits_subheader Recording Engineer#!"
+ TITLE_ASSISTANT_ENGINEER: "#credits_subheader Assistant Engineer#!"
+ TITLE_PROTOOLS_OPERATOR: "#credits_subheader ProTools Operator#!"
+ TITLE_ORCHESTRA_LIBRARIAN: "#credits_subheader Orchestra Librarian#!"
+ TITLE_ORCHESTRATION: "#credits_subheader Orchestration#!"
+ 59: 'HEADER_STUDIO_LEADERSHIP:0 "#credits_header STUDIO LEADERSHIP#!"'
+ 60: 'TITLE_STUDIO_MANAGER:0 "#credits_subheader Studio Manager#!"'
+ 61: 'TITLE_CREATIVE_DIRECTOR:0 "#credits_subheader Creative Director#!"'
+ 62: 'TITLE_OPERATIONS_MANAGER:0 "#credits_subheader Operations Manager#!"'
+ 63: 'TITLE_STUDIO_ART_DIRECTOR:0 "#credits_subheader Studio Art Director#!"'
+ 64: 'TITLE_ART_MANAGER:0 "#credits_subheader Art Manager#!"'
+ 65: 'TITLE_PRODUCTION_DIRECTOR:0 "#credits_subheader Production Director#!"'
+ 66: 'TITLE_TECH_DIRECTOR:0 "#credits_subheader Tech Director#!"'
+ 67: 'TITLE_PROGRAMMER_MANAGER:0 "#credits_subheader Programmer Manager#!"'
+ 68: 'TITLE_QA_MANAGER:0 "#credits_subheader QA Manager#!"'
+ 69: 'TITLE_DESIGN_DIRECTOR:0 "#credits_subheader Design Director#!"'
+ 70: 'TITLE_DESIGN_MANAGER:0 "#credits_subheader Design Manager#!"'
+ 71: 'HEADER_PRODUCT_AND_MARKETING:0 "#credits_header PRODUCT AND MARKETING#!"'
+ 72: 'TITLE_BUSINESS_OWNER:0 "#credits_subheader Business Owner#!"'
+ 73: 'TITLE_PRODUCT_MARKETING_MANAGER:0 "#credits_subheader Product Marketing Manager#!"'
+ 74: 'TITLE_CREATIVE_PRODUCER:0 "#credits_subheader Creative Producer#!"'
+ 75: 'TITLE_COMMUNITY_MANAGER:0 "#credits_subheader Community Manager#!"'
+ 76: 'TITLE_COMMUNITY_DEVELOPER:0 "#credits_subheader Community Developer#!"'
+ 77: 'TITLE_PARTNER_ACCOUNT_MANAGER:0 "#credits_subheader Partner Account Manager#!"'
+ 78: 'TITLE_COMMERCIAL_MANAGER:0 "#credits_subheader Commercial Manager#!"'
+ 79: 'TITLE_PAID_MEDIA_STRATEGIST:0 "#credits_subheader Paid Media Strategist#!"'
+ 80: 'TITLE_MARKETING_AUTOMATION_SPECIALIST:0 "#credits_subheader Marketing Automation Specialist#!"'
+ 81: 'TITLE_CRM_CONTENT_PRODUCER:0 "#credits_subheader CRM Content Producer#!"'
+ 82: 'TITLE_PUBLIC_RELATIONS_LEAD:0 "#credits_subheader Public Relations Lead#!"'
+ 83: 'TITLE_TRIPLEPOINT_PUBLIC_RELATIONS:0 "#credits_subheader Triplepoint Public Relations#!"'
+ 84: 'TITLE_LIVE_CONTENT_PRODUCER:0 "#credits_subheader Live Content Producer#!"'
+ 85: 'TITLE_VIDEO_PRODUCER:0 "#credits_subheader Video Producer#!"'
+ 86: 'TITLE_LIVE_STREAM_TECH:0 "#credits_subheader Live Stream Tech#!"'
+ 87: 'TITLE_ANALYTICS:0 "#credits_subheader Analytics#!"'
+ 88: 'TITLE_USER_RESEARCH:0 "#credits_subheader User Research#!"'
+ 89: 'TITLE_USER_RESEARCH_ADMINISTRATOR:0 "#credits_subheader User Research Administrator#!"'
+ 90: 'TITLE_LOCALIZATION_MANAGER:0 "#credits_subheader Localization Manager#!"'
+ 91: 'TITLE_COMPATIBILITY_TESTING:0 "#credits_subheader Compatibility Testing#!"'
+ 92: 'TITLE_COMPLIANCE_DESIGNER:0 "#credits_subheader Compliance Designer#!"'
+ 93: 'TITLE_RELEASE_MANAGER:0 "#credits_subheader Release Manager#!"'
+ 94: 'TITLE_CONTENT_PRODUCER:0 "#credits_subheader Content Producer#!"'
+ 95: 'HEADER_PARADOX_INTERACTIVE:0 "#credits_header PARADOX INTERACTIVE#!"'
+ 96: 'HEADER_MANAGEMENT:0 "#credits_header MANAGEMENT#!"'
+ 97: 'TITLE_CHIEF_EXECUTIVE_OFFICER:0 "#credits_subheader Chief Executive Officer#!"'
+ 98: 'TITLE_CHIEF_FINANCE_OFFICER:0 "#credits_subheader Chief Finance Officer#!"'
+ 99: 'TITLE_CHIEF_OPERATIONS_OFFICER:0 "#credits_subheader Chief Operations Officer#!"'
+ 100: 'TITLE_CHIEF_BUSINESS_OFFICER:0 "#credits_subheader Chief Business Officer#!"'
+ 101: 'TITLE_CHIEF_CREATIVE_OFFICER:0 "#credits_subheader Chief Creative Officer#!"'
+ 102: 'TITLE_CHIEF_OF_STAFF:0 "#credits_subheader Chief of Staff#!"'
+ 103: 'TITLE_EXECUTIVE_ASSISTANT:0 "#credits_subheader Executive Assistant#!"'
+ 104: 'TITLE_CHIEF_GROWTH_OFFICER:0 "#credits_subheader Chief Growth Officer#!"'
+ 105: 'HEADER_PRODUCTION_TEAM:0 "#credits_header PRODUCTION TEAM#!"'
+ 106: 'TITLE_HEAD_OF_PRODUCT_LAUNCH_AND_PUBLISHING_PRODUCTION:0 "#credits_subheader Head of Product Launch and Publishing Production#!"'
+ 107: 'TITLE_PRODUCERS:0 "#credits_subheader Producers#!"'
+ 108: 'TITLE_RELEASE_COORDINATOR:0 "#credits_subheader Release Coordinator#!"'
+ 109: 'TITLE_GAME_PLATFORM_SPECIALIST:0 "#credits_subheader Game Platform Specialist#!"'
+ 110: 'TITLE_LOCALIZATION_PRODUCERS:0 "#credits_subheader Localization Producers#!"'
+ 111: 'TITLE_OEM_TECH_RELATIONS_MANAGER:0 "#credits_subheader OEM Tech Relations Manager#!"'
+ 112: 'TITLE_QA_MANAGER_FOR_PUBLISHING:0 "#credits_subheader QA Manager for Publishing#!"'
+ 113: 'HEADER_BUSINESS_AND_MARKETING:0 "#credits_header BUSINESS AND MARKETING#!"'
+ 114: 'TITLE_VICE_PRESIDENT_OF_BUSINESS:0 "#credits_subheader Vice President of Business#!"'
+ 115: 'TITLE_PRODUCT_MARKETING_MANAGEMENT:0 "#credits_subheader Product Marketing Management#!"'
+ 116: 'TITLE_HEAD_OF_MARKETING_CREATIVE:0 "#credits_subheader Head of Marketing Creative#!"'
+ 117: 'TITLE_MARKETING_CREATIVE_DIRECTORS:0 "#credits_subheader Marketing Creative Directors#!"'
+ 118: 'TITLE_MARKETING_CREATIVE_PRODUCERS:0 "#credits_subheader Creative Producers#!"'
+ 119: 'TITLE_HEAD_OF_DIGITAL_MARKETING:0 "#credits_subheader Head of Digital Marketing#!"'
+ 120: 'TITLE_PAID_MEDIA:0 "#credits_subheader Paid Media#!"'
+ 121: 'TITLE_INFLUENCER_RELATIONS:0 "#credits_subheader Influencer Relations#!"'
+ 122: 'TITLE_CRM:0 "#credits_subheader CRM#!"'
+ TITLE_WEB_PRODUCT_OWNER: "#credits_subheader Web Product Owner#!"
+ TITLE_WEB_CONTENT_MANAGER: "#credits_subheader Web Content Manager#!"
+ TITLE_INFLUENCER_RELATIONS_MANAGER: "#credits_subheader Influencer Relation Manager#!"
+ 123: 'TITLE_PDX_WEB:0 "#credits_subheader PDX WEB#!"'
+ 124: 'TITLE_CUSTOMER_SUPPORT:0 "#credits_subheader Customer Support#!"'
+ 125: 'TITLE_HEAD_OF_COMMUNICATIONS:0 "#credits_subheader Head of Communication#!"'
+ 126: 'TITLE_PUBLIC_RELATIONS:0 "#credits_subheader Public Relations#!"'
+ 127: 'TITLE_CORPORATE_COMMUNICATIONS:0 "#credits_subheader Corporate Communication#!"'
+ 128: 'TITLE_COMMUNICATION_PROJECT_MANAGER:0 "#credits_subheader Communications Project Manager#!"'
+ 129: 'TITLE_COMMUNITY_MANAGEMENT:0 "#credits_subheader Community Management#!"'
+ TITLE_COMMUNITY_PROJECT_LEAD: "#credits_subheader Community Project Lead#!"
+ 130: 'TITLE_MARKETING_GROWTH_MANAGER:0 "#credits_subheader Marketing Growth Manager#!"'
+ 131: 'TITLE_LIVE_CONTENT:0 "#credits_subheader Live Content#!"'
+ 132: 'TITLE_EVENTS_MANAGEMENT:0 "#credits_subheader Events Manager#!"'
+ 133: 'TITLE_USER_RESEARCH_MANAGER:0 "#credits_subheader User Research Manager#!"'
+ 134: 'TITLE_HEAD_OF_SALES:0 "#credits_subheader Head of Sales#!"'
+ 135: 'TITLE_PARTNER_MARKETING_MANAGER:0 "#credits_subheader Partner Marketing Manager#!"'
+ 136: 'TITLE_MANAGER_OF_PARTNER_RELATIONS_TEAM:0 "#credits_subheader Manager of Partner Relations#!"'
+ 137: 'TITLE_CREATIVE_PRODUCTION_MANAGER:0 "#credits_subheader Creative Production Manager#!"'
+ 138: 'HEADER_BUSINESS_DEVELOPMENT:0 "#credits_header BUSINESS DEVELOPMENT#!"'
+ 139: 'TITLE_VP_OF_BUSINESS_DEVELOPMENT:0 "#credits_subheader VP of Business Development#!"'
+ 140: 'TITLE_BUSINESS_DEVELOPERS:0 "#credits_subheader Business Developers#!"'
+ 141: 'TITLE_EXECUTIVE_PRODUCERS:0 "#credits_subheader Executive Producers#!"'
+ 142: 'HEADER_CENTRAL_TECH_AND_SERVICES:0 "#credits_header CENTRAL TECH AND SERVICES#!"'
+ 143: 'TITLE_CENTRAL_TECH_AND_SERVICES_DIRECTOR:0 "#credits_subheader Central Tech and Services Director#!"'
+ 144: 'TITLE_HEAD_OF_DATA_AND_ANALYTICS:0 "#credits_subheader Head of Data and Analytics#!"'
+ 145: 'TITLE_CLOUD_OPERATIONS_MANAGER:0 "#credits_subheader Cloud Operations Manager#!"'
+ 146: 'TITLE_DEVELOPMENT_MANAGER:0 "#credits_subheader Development Manager#!"'
+ 147: 'TITLE_CHIEF_ARCHITECT:0 "#credits_subheader Chief Architect#!"'
+ 148: 'TITLE_PRODUCER_OWNER:0 "#credits_subheader Producer Owner#!"'
+ 149: 'TITLE_ENGINE_AND_TOOLS_ENGINEER:0 "#credits_subheader Engine and Tools Engineer#!"'
+ 150: 'TITLE_BUILD_AND_TEST_AUTOMATION_ENGINEER:0 "#credits_subheader Build and Test Automation Engineer#!"'
+ 151: 'TITLE_INFRASTRUCTURE_AND_AUTOMATION_ENGINEER:0 "#credits_subheader Infrastructure and Automation Engineer#!"'
+ 152: 'TITLE_SOFTWARE_ENGINEER:0 "#credits_subheader Software Engineer#!"'
+ 153: 'TITLE_DATA_ENGINEER:0 "#credits_subheader Data Engineer#!"'
+ 154: 'TITLE_DATA_SCIENTISTS:0 "#credits_subheader Data Scientists#!"'
+ 155: 'TITLE_BI_SPECIALIST:0 "#credits_subheader BI Specialist#!"'
+ 156: 'TITLE_GAME_PROGRAMMING_SPECIALIST:0 "#credits_subheader Game Programming Specialist#!"'
+ 157: 'TITLE_TECHNICAL_WRITER:0 "#credits_subheader Technical Writer#!"'
+ 158: 'HEADER_IT:0 "#credits_header IT#!"'
+ 159: 'TITLE_HEAD_OF_IT:0 "#credits_subheader Head of IT#!"'
+ 160: 'TITLE_IT_SYSTEMS_ENGINEER:0 "#credits_subheader IT Systems Engineer#!"'
+ 161: 'TITLE_IT_SECURITY_ENGINEER:0 "#credits_subheader IT Security Engineer#!"'
+ 162: 'TITLE_IT_APPLICATION_MANAGER:0 "#credits_subheader IT Application Manager#!"'
+ 163: 'TITLE_IT_PROJECT_MANAGER:0 "#credits_subheader IT Project Manager#!"'
+ 164: 'TITLE_IT_SUPPORT_TEAM_LEAD:0 "#credits_subheader IT Support Team Lead#!"'
+ 165: 'TITLE_IT_SUPPORT_TECHNICIAN:0 "#credits_subheader IT Support Technician#!"'
+ 166: 'TITLE_IT_SERVICE_MANAGER:0 "#credits_subheader IT Service Manager#!"'
+ 167: 'HEADER_FACILITY_AND_OFFICE:0 "#credits_header FACILITY AND OFFICE#!"'
+ 168: 'TITLE_FACILITY_MANAGEMENT:0 "#credits_subheader Facility Management#!"'
+ 169: 'TITLE_OFFICE_SUPPORT_TEAM:0 "#credits_subheader Office Support Team#!"'
+ 170: 'HEADER_FINANCE_AND_LEGAL:0 "#credits_header FINANCE AND LEGAL#!"'
+ 171: 'TITLE_FINANCE:0 "#credits_subheader Finance#!"'
+ 172: 'TITLE_LEGAL:0 "#credits_subheader Legal#!"'
+ 173: 'HEADER_PEOPLE_AND_PERFORMANCE:0 "#credits_header PEOPLE AND PERFORMANCE#!"'
+ 174: 'TITLE_HR_BUSINESS_PARTNERS:0 "#credits_subheader HR Business Partners#!"'
+ 175: 'TITLE_HR_ADMIN:0 "#credits_subheader HR Admin#!"'
+ 176: 'TITLE_TA_PARTNERS:0 "#credits_subheader TA Partners#!"'
+ 177: 'HEADER_LOCALIZATION:0 "#credits_header LOCALIZATION#!"'
+ 178: 'TITLE_GENERAL_ADMINISTRATION_AND_PROJECT_MANAGEMENT:0 "#credits_subheader General Administration and Project Management#!"'
+ 179: 'TITLE_CEO:0 "#credits_subheader CEO#!"'
+ 180: 'TITLE_LEAD_PROJECT_MANAGER:0 "#credits_subheader Lead Project Manager#!"'
+ 181: 'TITLE_ASSISTANT_PROJECT_MANAGER:0 "#credits_subheader Assistant Project Manager#!"'
+ 182: 'TITLE_LOCALIZATION_AND_QA_TOOLS:0 "#credits_subheader Localization and QA Tools#!"'
+ 183: 'TITLE_BRAZILIAN_PORTUGUESE:0 "#credits_subheader Brazilian Portuguese#!"'
+ 184: 'TITLE_TRANSLATORS:0 "#credits_subheader Translators#!"'
+ 185: 'TITLE_PROOFREADER:0 "#credits_subheader Proofreader#!"'
+ 186: 'TITLE_EDITOR:0 "#credits_subheader Editor#!"'
+ 187: 'TITLE_PROJECT_MANAGER:0 "#credits_subheader Project Manager#!"'
+ 188: 'TITLE_FRENCH:0 "#credits_subheader French#!"'
+ 189: 'TITLE_GERMAN:0 "#credits_subheader German#!"'
+ 190: 'TITLE_LEAD_TRANSLATOR:0 "#credits_subheader Lead Translator#!"'
+ 191: 'TITLE_SENIOR_TRANSLATOR:0 "#credits_subheader Senior Translator#!"'
+ 192: 'TITLE_JAPANESE:0 "#credits_subheader Japanese#!"'
+ 193: 'TITLE_KOREAN:0 "#credits_subheader Korean#!"'
+ 194: 'TITLE_LOCALIZATION_SERVICE_PROVIDER:0 "#credits_subheader Localization Service Provider#!"'
+ 195: 'TITLE_POLISH:0 "#credits_subheader Polish#!"'
+ 196: 'TITLE_RUSSIAN:0 "#credits_subheader Russian#!"'
+ 197: 'TITLE_SIMPLIFIED_CHINESE:0 "#credits_subheader Simplified Chinese#!"'
+ 198: 'TITLE_SPANISH:0 "#credits_subheader Spanish#!"'
+ 199: 'TITLE_TURKISH:0 "#credits_subheader Turkish#!"'
+ 200: 'TITLE_COMMUNITY_REPRESENTEE:0 "#credits_subheader Community Representee#!"'
+ 201: 'TITLE_REVIEWER:0 "#credits_subheader Reviewer#!"'
+ 202: 'HEADER_EXTERNAL_QA_PARTNERS:0 "#credits_header EXTERNAL QA PARTNERS#!"'
+ 203: 'TITLE_QLOC:0 "#credits_subheader QLOC#!"'
+ 204: 'TITLE_QA_TESTERS_DEDICATED:0 "#credits_subheader QA Testers Dedicated#!"'
+ 205: 'TITLE_QA_TESTERS_ADDITIONAL:0 "#credits_subheader QA Testers Additional#!"'
+ 206: 'TITLE_KEYWORDS_STUDIOS:0 "#credits_subheader Keywords Studios#!"'
+ TITLE_LEAD_CM: "#credits_subheader CM Lead#!"
+ TITLE_CM: "#credits_subheader CM#!"
+ 207: 'TITLE_LQA_MANAGER:0 "#credits_subheader LQA Manager#!"'
+ 208: 'TITLE_LQA_PROJECT_MANAGER:0 "#credits_subheader LQA Project Manager#!"'
+ 209: 'TITLE_LQA_TEST_LEAD:0 "#credits_subheader LQA Test Lead#!"'
+ 210: 'TITLE_LQA_TEAM:0 "#credits_subheader LQA Team#!"'
+ 211: 'TITLE_QLOC_QA_PROJECT_MANAGER:0 "#credits_subheader QA Project Manager#!"'
+ 212: 'HEADER_COMMUNITY:0 "#credits_header COMMUNITY#!"'
+ 213: 'TITLE_COMMUNITY_AMBASSADOR:0 "#credits_subheader Community Ambassador#!"'
+ 214: 'TITLE_DISCORD_MODERATOR:0 "#credits_subheader Discord Moderator#!"'
+ TITLE_DISCORD_HELPERS: "#credits_subheader Discord Helpers#!"
+ 215: 'TITLE_COMMUNITY_BETA_TESTERS:0 "#credits_subheader Community Beta Testers#!"'
+ 216: 'TITLE_BETA_TESTERS:0 "#credits_subheader Beta Testers#!"'
+ 217: 'TITLE_SPECIAL_THANKS:0 "#credits_subheader Special Thanks#!"'
+ 218: 'HEADER_LICENSES:0 "#credits_header LICENSES#!"'

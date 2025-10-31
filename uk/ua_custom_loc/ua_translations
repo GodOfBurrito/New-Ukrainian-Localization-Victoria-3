@@ -1,27 +1,6 @@
 ﻿l_english:
- decree_road_maintenance: "Обслуговування доріг"
- decree_road_maintenance_desc: "Зайнятися розширенням і технічним обслуговуванням дорожніх мереж."
- decree_greener_grass_campaign: "Кампанія зеленішої трави"
- decree_greener_grass_campaign_desc: "Створити області імідж привабливого для міграції місця."
- decree_promote_social_mobility: "Сприяння соціальній мобільності"
- decree_promote_social_mobility_desc: "Заохочення населення до підвищення кваліфікації на робочому місці"
- decree_promote_national_values: "Пропагувати національні цінності"
- decree_promote_national_values_desc: "Підвищити рівень культурної асиміляції та релігійного навернення"
- decree_emergency_relief: "Допомога в надзвичайних ситуаціях"
- decree_emergency_relief_desc: "Сприяти благодійній підтримці та турботі про найнещасніших у державі"
- decree_encourage_manufacturing_industry: "Заохочення обробної промисловості"
- decree_encourage_manufacturing_industry_desc: "Підвищення продуктивності виробничого сектору та сектору послуг"
- decree_encourage_agricultural_industry: "Заохочення агропромислового комплексу"
- decree_encourage_agricultural_industry_desc: "Підвищення продуктивності сільськогосподарського та плантаційного секторів"
- decree_encourage_resource_industry: "Заохочення видобувної промисловості"
- decree_encourage_resource_industry_desc: "Збільшити пропускну спроможність ресурсного сектору"
- decree_enlistment_efforts: "Рекрутингові заходи"
- decree_enlistment_efforts_desc: "Стимулювання набору та підготовки місцевих військ через фінансові стимули та преференції"
- decree_violent_suppression: "Насильницьке придушення"
- decree_violent_suppression_desc: "Використання національної гвардії для контролю над розлюченим натовпом"
- move_capital_lens_option: "Перемістити столицю"
- move_capital_lens_option_tooltip: "#header $move_capital_lens_option$#!\n$TOOLTIP_DELIMITER$\n#concept Ви можете перемістити свою [Concept('concept_capital_state', 'столицю держави')], і вона отримає певні переваги.#!"
- move_market_capital_lens_option: "Перемістити ринкову столицю"
- move_market_capital_lens_option_tooltip: "#header $move_market_capital_lens_option$#!\n$TOOLTIP_DELIMITER$\n#concept Ви можете змінити [Concept('concept_market_capital', 'столицю')] державного [Concept('concept_market', 'риноку')].#!"
- reset_production_methods_lens_option: "Скинути виробничі методи"
- reset_production_methods_lens_option_tooltip: "#header $reset_production_methods_lens_option$#!\n$TOOLTIP_DELIMITER$\n#concept Скинути [Concept('concept_production_method','виробничі методи')] [Concept('concept_building','споруд')] в області [concept_state] до найпоширенішого національного стандарту.#!"
+ - 'MESSAGE_CLICK_TOOLTIP:1 "[SelectLocalization(FeedMessageItem.IsExpanded,''MESSAGE_CLICK_TO_HIDE'',''MESSAGE_CLICK_TO_SHOW'')]\n$MESSAGE_CLICK_TO_DISMISS$\n#I Натисніть Shift+ПКМ, щоб приховати все.#!"'
+ - 'MESSAGE_CLICK_TO_HIDE:0 "#I Натисніть, щоб приховати.#!"'
+ - 'MESSAGE_CLICK_TO_SHOW:0 "#I Натисніть, щоб показати.#!"'
+ - 'MESSAGE_CLICK_TO_DISMISS:0 "#I Клацніть ПКМ, щоб прибрати.#!"'
+ - 'MESSAGE_CLEAR_ALL_TOOLTIP:0 "#I Клацніть щоб прибрати. \nКлацніть ПКМ, щоб прибрати все.#!"'

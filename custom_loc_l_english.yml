@@ -1,0 +1,7 @@
+﻿l_english:
+ custom_loc_great_power: "Велика держава"
+ custom_loc_major_power: "Невелика держава"
+ custom_loc_minor_power: "Мала держава"
+ custom_loc_insignificant_power: "Нікчемна держава"
+ qualifications_officers_peasant_levies: "[GetPopType('officers').GetName] - це переважно колишні [GetPopType('aristocrats').GetName|l]"
+ custom_loc_five_year_plan_goal: "[SCOPE.sCountry('five_year_plan_country').GetNameNoFlag] збільшив [SCOPE.sCountry('five_year_plan_country').GetCustom('ua_verb_country_end_v_la_lo_li')] свій [Concept('concept_gdp', 'ВВП')] на 25%"

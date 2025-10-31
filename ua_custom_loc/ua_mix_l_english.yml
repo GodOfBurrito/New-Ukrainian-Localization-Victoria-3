@@ -1,0 +1,31 @@
+﻿#╒═══════════════════════════════════════════════════╕
+#│                                                   │
+#│       💋 Mᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ ʙʏ GᴏᴅOғBᴜʀʀɪᴛᴏ 💋         │
+#│                                                   │
+#╘═══════════════════════════════════════════════════╛
+
+l_english:
+
+#══════════════════════════  DLC НУЛ  ══════════════════════════
+
+ dlc_nul:0 "New Ukrainian Localization"
+ dlc_nul_desc:0 "Навіщо грати з московською, чи мучитись з англійською коли є рідна мова?"
+ NUL_MOD_DLC_BUTTON_TOOLTIP:0 "#T [Dlc.GetName]#!\n[Dlc.GetDesc]\n\n#low;emphasis @green_checkmark! Мод #green;bold включено#!#!"
+ 
+#══════════════════════════  Досягнення  ══════════════════════════
+
+ ACHIEVEMENT_GROUP_ua_group:0 "Нова Українська Локалізація: Досягнення"
+ 
+ ACHIEVEMENT_achievement_ua_free_ukr_state:0 "Ще не вмерла України і слава, і воля"
+ ACHIEVEMENT_DESC_achievement_ua_free_ukr_state:0 "Визволіть Україну з московського ярма"
+ 
+ ACHIEVEMENT_achievement_ua_smc:0 "Я оголошую спеціальну військову кампанію..."
+ ACHIEVEMENT_DESC_achievement_ua_smc:0 "Оголосіть війну московії"
+ 
+ ACHIEVEMENT_achievement_ua_empire:0 "Захист україномовних"
+ ACHIEVEMENT_DESC_achievement_ua_empire:0 "Поверніть українські національні землі у рідну гавань"
+ 
+ #══════════════════════════  Префікси для компаній  ══════════════════════════
+ 
+ ua_company_end_first: "[AddTextIf(EqualTo_string('картель', '$TYPE_NAME$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('синдикат', '$TYPE_NAME$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('конгломерат', '$TYPE_NAME$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('консорціум', '$TYPE_NAME$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('компанія', '$TYPE_NAME$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('корпорація', '$TYPE_NAME$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('гільдія', '$TYPE_NAME$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('суспільство', '$TYPE_NAME$'), Concatenate(Localize('е'), ''))][AddTextIf(EqualTo_string('товариство', '$TYPE_NAME$'), Concatenate(Localize('е'), ''))]"
+ ua_company_end_second: "[AddTextIf(EqualTo_string('озброєння', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('е'), ''))][AddTextIf(EqualTo_string('електротехніка', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('сталь', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('нафта', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('риба', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('гірничодобувна галузь', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('металургія', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('сільгосппродукція', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('зброя', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('бавовна', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('а'), ''))][AddTextIf(EqualTo_string('золотодобування', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('е'), ''))][AddTextIf(EqualTo_string('зерно', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('е'), ''))][AddTextIf(EqualTo_string('лісове господарство', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('е'), ''))][AddTextIf(EqualTo_string('паперу', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('текстиль', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('металопрокат', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('ий'), ''))][AddTextIf(EqualTo_string('сади', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('плантації', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('прядильні', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('корабельні', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('мотори', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('хімікати', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('побутові товари', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))][AddTextIf(EqualTo_string('продукти', '$DYNAMIC_NAME_TAG$'), Concatenate(Localize('і'), ''))]" 

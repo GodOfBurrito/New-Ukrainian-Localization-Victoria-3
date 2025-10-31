@@ -1,0 +1,395 @@
+﻿l_english:
+ GAME_RULES: "Правила гри"
+ GAME_RULES_HEADER: "Правила гри"
+ IRONMAN_LABEL: "Залізна воля"
+ ENABLE_IRONMAN: "Увімкнути"
+ DISABLE_IRONMAN: "Вимкнути"
+ IRONMAN_ENABLED: "Режим "Залізна воля" увімкнено"
+ IRONMAN_DISABLED: "Режим "Залізна воля" вимкнений"
+ IRONMAN_ENABLED_NO_HEADER: "#P Увімкнено#!"
+ IRONMAN_DISABLED_NO_HEADER: "Вимкнено"
+ BOOKMARK_IRONMAN_ENABLED: "Залізна воля"
+ BOOKMARK_IRONMAN_DISABLED: "Залізна воля"
+ ACHIEVEMENTS_LABEL: "Досягнення"
+ ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 Досягнення можна отримувати тільки при дотриманні наступних умов:\n$EFFECT_LIST_BULLET$Ви граєте в одиночну гру\n$EFFECT_LIST_BULLET$У вас не увімкнені правила гри, що забороняють отримання досягнень\n$EFFECT_LIST_BULLET$Ви не граєте в режимі спостерігача"
+ ACHIEVEMENTS_ENABLED: "#T Досягнення доступні\n#!Під час гри можна відкривати досягнення.\n\n$ACHIEVEMENTS_EXPLANATION$"
+ ACHIEVEMENTS_DISABLED: "#T Досягнення недоступні#!\nПід час гри досягнення відкривати не можна.\n\n$ACHIEVEMENTS_EXPLANATION$"
+ ACHIEVEMENTS_DISABLED_SAVEGAME: "@warning!#X Досягнення недоступні#!\nДосягнення відключені в цьому збереженні"
+ ACHIEVEMENTS_WILL_BE_DISABLED_SWITCH_COUNTRY: "@warning!#X При перемиканні на іншу державу або в режим спостерігача досягнення будуть вимкнені.#!"
+ ACHIEVEMENTS_WILL_BE_DISABLED_START_WITH_NEW_COUNTRY: "@warning!#X При перемиканні на іншу державу досягнення будуть відключені.#!"
+ ACHIEVEMENTS_WILL_BE_DISABLED_OBSERVER_MODE: "@warning!#X Під час гри в режимі спостерігача досягнення будуть відключені.#!"
+ ACHIEVEMENTS_WILL_BE_DISABLED_MULTIPLAYER: "@warning!#X При відкритті гри в мережевому режимі досягнення будуть відключені.#!"
+ GAME_RULES_BLOCKING_ACHIEVEMENTS_HEADER: "@warning!#X Досягнення відключені через правила гри:#!"
+ GAME_RULE_BLOCKS_ACHIEVEMENTS_ENTRY: "#indent_newline:2 $EFFECT_LIST_BULLET$[GAME_RULE.GetName]: [GAME_RULE_SETTING.GetName]#!"
+ ACHIEVEMENTS_ENABLED_NO_HEADER: "#P Доступні#!"
+ ACHIEVEMENTS_DISABLED_NO_HEADER: "#N Недоступні#!"
+ GAME_RULE_BLOCKS_ACHIEVEMENTS: "Це правило відключає можливість отримувати досягнення"
+ START_IRONMAN_SAVE: "Залізна воля"
+ IRONMAN_PAUSE_MENU_EXPLANATION: "Гра зберігається автоматично. Перемикання держав і режим спостерігача недоступні"
+ GAME_SETUP_IRONMAN_SINGLEPLAYER_ONLY: "Режим "Залізна воля" доступний тільки в одиночній грі"
+ IRONMAN_PAUSE_MENU_TOOLTIP: "#T $IRONMAN_LABEL$ #!\n$IRONMAN_PAUSE_MENU_EXPLANATION$"
+ ACHIEVEMENT_FILTER_ALL_TOOLTIP: "Повний список досягнень"
+ ACHIEVEMENT_FILTER_UNLOCKED_TOOLTIP: "Тільки розблоковані досягнення"
+ ACHIEVEMENT_FILTER_LOCKED_TOOLTIP: "Тільки заблоковані досягнення"
+ ACHIEVEMENT_FILTER_POSSIBLE_TOOLTIP: "Усі досягнення, доступні в поточній грі"
+ CYCLE_AI_BEHAVIOUR: "Змінити ставлення ШІ до гравців"
+ CYCLE_ACHIEVEMENTS: "Змінити можливість отримати досягнення в цій кампанії"
+ 
+ ACHIEVEMENT_FILTER_BUTTON_ALL: "Усі"
+ ACHIEVEMENT_FILTER_BUTTON_UNLOCKED: "Отримані"
+ ACHIEVEMENT_FILTER_BUTTON_LOCKED: "Неотримані"
+ ACHIEVEMENT_FILTER_BUTTON_POSSIBLE: "Можливі"
+ ACHIEVEMENT_FILTER_SHOW: "Показати досягнення:"
+ 
+ ## Rename difficulties?
+ ACHIEVEMENT_GROUP_easy_group: "Прості досягнення"
+ ACHIEVEMENT_GROUP_medium_group: "Середні досягнення"
+ ACHIEVEMENT_GROUP_hard_group: "Складні досягнення"
+ ACHIEVEMENT_GROUP_very_hard_group: "Дуже складні досягнення"
+ ## Test Achievement LOC (remove)
+ ##ACHIEVEMENT_NEW_ACHIEVEMENT_1_0: "Its over 9000!"
+ ##ACHIEVEMENT_NEW_ACHIEVEMENT_2_0: "Swedish Plutonium"
+ ## Test Achievement Desc (remove)
+ ##ACHIEVEMENT_DESC_NEW_ACHIEVEMENT_1_0: "Have at least 9000 cash reserves"
+ ##ACHIEVEMENT_DESC_NEW_ACHIEVEMENT_2_0: "As Sweden, own Sjaelland and Denmark must not exist"
+
+ ACHIEVEMENT_peccavi: "Пеккаві"
+ ACHIEVEMENT_perkeletankki: "Перкелетанккі"
+ ACHIEVEMENT_luxurious_luxembourg: "Люксембург класу „Люкс‟"
+ ACHIEVEMENT_anarchy_in_the_uk: "Анархія в Британії"
+ ACHIEVEMENT_muhammed_alis_ambition: "Амбіції Мухаммеда Алі"
+ ACHIEVEMENT_an_empire_under_the_pun: "Імперський каламбур"
+ ACHIEVEMENT_i_didnt_vote_for_pedro: "Педро, Педро, Педро, Педро, Пе..."
+ ACHIEVEMENT_go_west_young_man: "На Захід, молодий чоловіче"
+ ACHIEVEMENT_the_western_protectorate: "Історична іронія"
+ ACHIEVEMENT_the_paris_commune: "Паризька комуна"
+ ACHIEVEMENT_barbarys_back: "Берберійський тил"
+ ACHIEVEMENT_miners_and_minors: "Школяри, а не шахтарі"
+ ACHIEVEMENT_healthy_man_of_europe: "Здорова людина Європи"
+ ACHIEVEMENT_habsburg_resurgence: "Габсбурзька нова хвиля"
+ ACHIEVEMENT_great_game: "Велика гра"
+ ACHIEVEMENT_bourbon_for_everyone: "Усім бурбон за мій рахунок!"
+ ACHIEVEMENT_manifest_mexico: "Мексиканське явне призначення"
+ ACHIEVEMENT_american_territory: "Американська територія"
+ ACHIEVEMENT_broken_promises: "Порушені обіцянки"
+ ACHIEVEMENT_the_berlin_conference: "Берлінська конференція"
+ ACHIEVEMENT_belle_epoque: "Belle Époque"
+ ACHIEVEMENT_deeds_not_words: "Справи замість слів"
+ ACHIEVEMENT_first_flight: "Перший політ"
+ ACHIEVEMENT_victorian_century: "Вікторіанське століття"
+ ACHIEVEMENT_poor_huddled_masses: "Бідний натовп"
+ ACHIEVEMENT_billionare: "Мільярдер"
+ ACHIEVEMENT_serfs_up: "Повстання кріпаків"
+ ACHIEVEMENT_risorgimento: "Рісорджименто"
+ ACHIEVEMENT_three_hurrahs: "Триразове Ура"
+ ACHIEVEMENT_solomons_quest: "Вишукування Соломона"
+ ACHIEVEMENT_i_am_a_scandinavian: "Я зі Скандинавії"
+ ACHIEVEMENT_enlightened_despot: "Просвітлений деспот"
+ ACHIEVEMENT_mightier_than_the_sword: "Сильніший за меч"
+ ACHIEVEMENT_revolutionary: "Революціонери"
+ ACHIEVEMENT_reading_campaign: "Читацька кампанія"
+ ACHIEVEMENT_we_are_not_amused: "Нам не весело"
+ ACHIEVEMENT_institutional: "Казенність"
+ ACHIEVEMENT_poppydock: "Доктор Снуп Дог"
+ ACHIEVEMENT_grander_colombia: "Ще Більш Велика Колумбія"
+ ACHIEVEMENT_inventive: "Винахідливо"
+ ACHIEVEMENT_educated: "Освіченість"
+ ACHIEVEMENT_tycoon: "Магнат"
+ ACHIEVEMENT_hegemon: "Гегемон"
+ ACHIEVEMENT_caretaker: "Доглядач"
+ ACHIEVEMENT_star_swarmed_banner: "Не вистачає місця для зірок"
+ 
+ ACHIEVEMENT_DESC_peccavi: "Почніть гру за Британську Індійську компанію та досягніть повного контролю над Сіндом і Пенджабом"
+ ACHIEVEMENT_DESC_perkeletankki: "Почніть гру за Фінляндію і виробляйте не менше 100 підрозділів танків на тиждень"
+ ACHIEVEMENT_DESC_luxurious_luxembourg: "Почніть гру за Люксембург і станьте провідним виробником розкішного одягу, розкішних меблів і фарфору"
+ ACHIEVEMENT_DESC_anarchy_in_the_uk: "Під час гри за Великобританію встановіть форму правління „Анархізм‟"
+ ACHIEVEMENT_DESC_muhammed_alis_ambition: "Почніть гру за Єгипет, створіть Аравію і добийтеся влади над Східною Фракією"
+ ACHIEVEMENT_DESC_an_empire_under_the_pun: "Почніть гру за Сикхську імперію і скорите Великобританію"
+ ACHIEVEMENT_DESC_i_didnt_vote_for_pedro: "Під час гри за Бразилію встановіть форму правління „Республіка‟ і введіть загальне виборче право"
+ ACHIEVEMENT_DESC_go_west_young_man: "Під час гри за США встановіть владу над Каліфорнією, Орегоном і Вашингтоном і добийтеся, щоб населення кожного штату перевищило 250 тис."
+ ACHIEVEMENT_DESC_the_western_protectorate: "Почніть гру за Велику Цин, побудуйте договірні порти у Франції, Німеччині, на Британських островах, в Іберії та Італії"
+ ACHIEVEMENT_DESC_the_paris_commune: "Під час гри за Францію встановіть форму правління „Радянська республіка‟ і командну економіку"
+ ACHIEVEMENT_DESC_barbarys_back: "Почніть гру за Маскару, Костянтину, Айт-Аббас або Туггурт, створіть Алжир і станьте великою державою"
+ ACHIEVEMENT_DESC_miners_and_minors: "Почніть гру за Ланьфан, включіть усі області Борнео та ухваліть закон про обов'язкову початкову освіту"
+ ACHIEVEMENT_DESC_healthy_man_of_europe: "Під час гри за Османську імперію станьте найбільшою державою, зберігаючи максимальний рівень державного медичного страхування"
+ ACHIEVEMENT_DESC_habsburg_resurgence: "Граючи за Австрію, досягніть влади над Сілезією. Пруссія повинна стати малою державою або бути нижче за рейтингом"
+ ACHIEVEMENT_DESC_great_game: "Граючи за московію, досягніть влади над усією Центральною Азією"
+ ACHIEVEMENT_DESC_bourbon_for_everyone: "Граючи за Іспанію, досягніть середнього рівня життя не менше 20, зберігаючи монархічний лад"
+ ACHIEVEMENT_DESC_manifest_mexico: "Граючи за Мексику, встановіть владу над Тихоокеанським узбережжям, Великими рівнинами і Техасом і досягніть вищого рангу, ніж США"
+ ACHIEVEMENT_DESC_american_territory: "Почніть гру за Індіанську територію та зробіть США своїм суб’єктом, який має не більше трьох областей"
+ ACHIEVEMENT_DESC_broken_promises: "Граючи за Італію, вступіть у дипломатичну гру проти 2 або більше союзників"
+ ACHIEVEMENT_DESC_the_berlin_conference: "Почніть гру за Пруссію, створіть Німеччину. Не менше 10 областей Африки повинні бути під вашим повним контролем"
+ ACHIEVEMENT_DESC_belle_epoque: "Почніть гру за Францію і вийдіть на перше місце у світі з виробництва інновацій та ВВП"
+ ACHIEVEMENT_DESC_deeds_not_words: "Прийміть закон про жіноче виборче право"
+ ACHIEVEMENT_DESC_first_flight: "Станьте першим у світі народом, який запустив аероплан"
+ ACHIEVEMENT_DESC_victorian_century: "Пройдіть повну кампанію з 1836 р. по 1936 р."
+ ACHIEVEMENT_DESC_poor_huddled_masses: "Одна з ваших областей повинна стати метою культурної міграції"
+ ACHIEVEMENT_DESC_billionare: "Досягніть національного ВВП не менше ніж 1 мільярд фунтів стерлінгів"
+ ACHIEVEMENT_DESC_serfs_up: "Почніть гру за державу з кріпосним правом та ухваліть закон про захист трудових прав робітників"
+ ACHIEVEMENT_DESC_risorgimento: "Створіть державу Італія"
+ ACHIEVEMENT_DESC_three_hurrahs: "Створіть державу Німеччина"
+ ACHIEVEMENT_DESC_solomons_quest: "Створіть державу Ефіопія"
+ ACHIEVEMENT_DESC_i_am_a_scandinavian: "Створіть державу Скандинавія"
+ ACHIEVEMENT_DESC_enlightened_despot: "Граючи за автократичну державу, встановіть електричні вуличні ліхтарі у всіх областях"
+ ACHIEVEMENT_DESC_mightier_than_the_sword: "Примусьте опонента в дипломатичній грі відступити"
+ ACHIEVEMENT_DESC_revolutionary: "Перейдіть на бік повстанців у громадянській війні та переможете"
+ ACHIEVEMENT_DESC_reading_campaign: "Під час гри за державу з початковою грамотністю менше 20% підніміть її до 95%"
+ ACHIEVEMENT_DESC_we_are_not_amused: "Під час гри за Велику Британію надішліть французьких дипломатів у стосунках, не нижчих за привітні"
+ ACHIEVEMENT_DESC_institutional: "Будь-яка ваша установа повинна отримати максимальний рівень інвестицій"
+ ACHIEVEMENT_DESC_poppydock: "Ви повинні володіти портом не нижче 8-го рівня та експортувати не менше 2500 одиниць опіуму на іноземні ринки"
+ ACHIEVEMENT_DESC_grander_colombia: "Створіть Велику Колумбію і досягніть повної влади над стратегічними регіонами Велика Колумбія, Анди і Ла-Плата"
+ ACHIEVEMENT_DESC_inventive: "Вивчіть усі технології у всіх трьох категоріях"
+ ACHIEVEMENT_DESC_educated: "Виконайте завдання „Ігрове навчання‟"
+ ACHIEVEMENT_DESC_tycoon: "Виконайте завдання „Економічна перевага‟"
+ ACHIEVEMENT_DESC_hegemon: "Виконайте завдання „Гегемон‟"
+ ACHIEVEMENT_DESC_caretaker: "Виконайте завдання „Рівноправне суспільство‟"
+ ACHIEVEMENT_DESC_star_swarmed_banner: "Граючи за Сполучені Штати, має бути представлено 100 штатів (областей) на вашому прапорі"
+ 
+ own_all_gran_colombia_tt: "Заволодійте всіма областями в стратегічному регіоні Велика Колумбія"
+ own_all_andes_tt: "Заволодійте всіма областями в стратегічному регіоні Анди"
+ own_all_la_plata_tt: "Заволодійте всіма областями в стратегічному регіоні Ла-Плата"
+ 
+ #1.3 Achievements
+ 
+ ACHIEVEMENT_achievement_amish_paradise: "Амішський рай"
+ ACHIEVEMENT_DESC_achievement_amish_paradise: "Граючи за націю янкі, ухваліть закон про заборону промисловості до 1846 року і підніміть середній рівень життя хоча б до 20"
+ achievement_amish_paradise.tt: "Прийміть закон про заборону промисловості до 1846 року"
+ 
+ ACHIEVEMENT_achievement_euphoric: "Ейфорія"
+ ACHIEVEMENT_DESC_achievement_euphoric: "Ухваліть закон про державний атеїзм і зробіть інтелігентів могутньою групою"
+ 
+ ACHIEVEMENT_achievement_it_never_ends: "Без кінця"
+ ACHIEVEMENT_DESC_achievement_it_never_ends: "Закріпіть династію Бонапартів, станьте республікою і покладіть край монархізму"
+ bonaparte_cemented_tt: "Закріпіть династію Бонапартів"
+ stamped_out_monarchy_tt: "Завершіть запис у щоденнику „Скасування монархії‟"
+ 
+ ACHIEVEMENT_achievement_hexagon_no_more: "Розпад ГЕКСа"
+ ACHIEVEMENT_DESC_achievement_hexagon_no_more: "Завершіть запис у щоденнику „Природні кордони Франції‟"
+ achievement_hexagon_no_more_tt: "Завершіть запис у щоденнику „Природні кордони Франції‟"
+ 
+ ACHIEVEMENT_achievement_lallemagne_cest_rien: "L'Allemagne, c'est Rien"
+ ACHIEVEMENT_DESC_achievement_lallemagne_cest_rien: "Під час гри за Францію не дайте Німеччині об'єднатися до 1930 року"
+ germany_never_exists.tt: "Німеччина так й не об'єдналася"
+ 
+ ACHIEVEMENT_achievement_vox_populi: "Vox Populi"
+ ACHIEVEMENT_DESC_achievement_vox_populi: "Ухваліть закон із підтримкою агітатора"
+ achievement_vox_populi_var: "Прийміть закон за підтримки агітатора"
+ 
+ ACHIEVEMENT_achievement_emperor_norton: "Імператор Нортон"
+ ACHIEVEMENT_DESC_achievement_emperor_norton: "Під час гри за США станьте монархією на чолі з Джошуа Нортоном"
+ achievement_emperor_norton.tt: "Джошуа Нортон - монарх"
+ 
+ ACHIEVEMENT_achievement_agitate_elsewhere: "Агітуй в іншому місці"
+ ACHIEVEMENT_DESC_achievement_agitate_elsewhere: "Виженуть агітатора, який має популярності не нижче 100"
+ achievement_agitate_elsewhere.tt: "Виженіть агітатора, що має популярність не нижче 100"
+
+ ACHIEVEMENT_achievement_shut_the_door_behind_you: "І двері за собою зачини"
+ ACHIEVEMENT_DESC_achievement_shut_the_door_behind_you: "Зробіть запрошеного вигнанця правителем вашої країни та прийміть закон про закриті кордони"
+ exile_to_ruler.tt: "Зробіть запрошеного вигнанця правителем вашої країни"
+ 
+ ACHIEVEMENT_achievement_crush_the_commune: "Знищити Комуну"
+ ACHIEVEMENT_DESC_achievement_crush_the_commune: "Під час гри за Францію придушіть повстання Паризької комуни"
+ crush_the_commune_tt: "Придушіть повстання Паризької комуни"
+ 
+ ACHIEVEMENT_achievement_military_junta: "Військова хунта"
+ ACHIEVEMENT_DESC_achievement_military_junta: "Добийтеся, щоб збройні сили влаштували переворот"
+ achievement_military_junta.tt: "Добийтеся, щоб збройні сили влаштували переворот"
+ 
+ ACHIEVEMENT_achievement_huge_ego_sorry: "Гіперего, на жаль"
+ ACHIEVEMENT_DESC_achievement_huge_ego_sorry: "Об'єднайте Німеччину і приведіть до влади Макса Штірнера"
+ achievement_huge_ego_sorry.tt: "Макс Штірнер"
+ 
+ ACHIEVEMENT_achievement_authoritarian: "Авторитаризм"
+ ACHIEVEMENT_DESC_achievement_authoritarian: "Прийміть закони про однопартійну державу, воєнізовану поліцію та заборону на критику"
+ 
+ ACHIEVEMENT_achievement_breadbasket: "Житниця"
+ ACHIEVEMENT_DESC_achievement_breadbasket: "Ухваліть закон про земельні наділи і станьте провідним виробником зерна і продуктів"
+ 
+ ACHIEVEMENT_achievement_meiji_restoration: "Реставрація Мейдзі"
+ ACHIEVEMENT_DESC_achievement_meiji_restoration: "Під час гри за Японію завершіть записи в щоденнику, присвячені реставрації, до 1912 року"
+ achievement_meiji_restoration_tt: "Завершіть записи в щоденнику, присвячені реставрації"
+ 
+ #1.5 Achievements
+ ACHIEVEMENT_achievement_magnanimous: "Великодушність"
+ ACHIEVEMENT_DESC_achievement_magnanimous: "Під час гри за Бразилію завершіть запис у щоденнику „Великодушний монарх‟ і збережіть монархію"
+ achievement_magnanimous_tt: "Завершено запис у щоденнику „Великодушний монарх‟"
+ 
+ ACHIEVEMENT_achievement_federation_day: "День Федерації"
+ ACHIEVEMENT_DESC_achievement_federation_day: "Створіть Андську Федерацію"
+ achievement_federation_day_tt: "Створено Андську Федерацію"
+ 
+ ACHIEVEMENT_achievement_not_yet_lost: "Ще не загинула"
+ ACHIEVEMENT_DESC_achievement_not_yet_lost: "Під час гри за Краків створіть Річ Посполиту Обидвох Народів і завершіть запис у щоденнику „Розширення Речі Посполитої‟"
+ achievement_not_yet_lost_2_tt: "Завершено запис у щоденнику „Розширення Речі Посполитої‟"
+ achievement_not_yet_lost_tt: "Створено Річ Посполиту Обох Народів"
+ 
+ ACHIEVEMENT_achievement_estado_novo: "Нова держава"
+ ACHIEVEMENT_DESC_achievement_estado_novo: "Під час гри за Бразилію зробіть Жетуліу Варгаса правителем країни та завершіть запис у щоденнику „Нова республіка‟"
+ achievement_estado_novo_tt: "Завершено запис у щоденнику „Нова республіка‟"
+ 
+ ACHIEVEMENT_achievement_viva_la_confederacion: "Хай живе Конфедерація!"
+ ACHIEVEMENT_DESC_achievement_viva_la_confederacion: "При грі за Болівію створіть Конфедерацію Перу і Болівії"
+ achievement_viva_la_confederacion_tt: "Створено Конфедерацію Перу і Болівії"
+ 
+ ACHIEVEMENT_achievement_desteapta_te_romane: "Прокинься, румуне!"
+ ACHIEVEMENT_DESC_achievement_desteapta_te_romane: "Під час гри за румунську націю створіть Румунію і безпосередньо володійте всіма рідними румунськими областями"
+ achievement_desteapta_te_romane_tt: "Створено Румунію"
+ achievement_desteapta_te_romane_2_tt: "Безпосередньо володіє всіма рідними румунськими областями"
+ 
+ ACHIEVEMENT_achievement_piratini_not_piratiny: "Піратіні, а не пірат-тяні"
+ ACHIEVEMENT_DESC_achievement_piratini_not_piratiny: "Розпочніть гру за Піратіні або Гран-Пара та досягніть, щоб ваш ВВП був більшим за бразильський"
+ achievement_piratini_not_piratiny_tt: "Бразилія не існує, або ваш ВВП більший за бразильський"
+ 
+ ACHIEVEMENT_achievement_stonks: "Stonks"
+ ACHIEVEMENT_DESC_achievement_stonks: "У вас має одночасно бути три компанії з максимальною успішністю"
+ 
+ ACHIEVEMENT_achievement_banana_republic: "Бананова республіка"
+ ACHIEVEMENT_DESC_achievement_banana_republic: "Під час гри за націю янкі або діксі досягніть максимальної успішності „United Fruit Company‟ і майте не менше 75 бананових плантацій"
+ 
+ ACHIEVEMENT_achievement_republic_or_death: "Республіка або смерть!"
+ ACHIEVEMENT_DESC_achievement_republic_or_death: "Під час гри за Парагвай завершіть записи в щоденнику „Si Vis Pacem, Fac Bellum‟ і „Заселення Америк‟"
+ achievement_republic_or_death_tt: "Завершено запис у щоденнику „Si Vis Pacem, Fac Bellum‟"
+ 
+ ACHIEVEMENT_achievement_spqr: "Мамін Цезарь"
+ ACHIEVEMENT_DESC_achievement_spqr: "При грі за Папську Область станьте Римською Республікою, а потім створіть Італію"
+ achievement_spqr_tt: "Створено Італію"
+ 
+ ACHIEVEMENT_achievement_devils_railroad: "Залізниця диявола"
+ ACHIEVEMENT_DESC_achievement_devils_railroad: "Завершіть запис у щоденнику „Експлуатація Амазонії‟, володарюйте всіма амазонськими областями і побудуйте залізницю в них усіх"
+ achievement_devils_railroad_tt: "Завершено запис у щоденнику „Експлуатація Амазонії‟"
+ achievement_devils_railroad_2_tt: "Усі області з особливостями „Амазонські дощові ліси‟, „Розвинуті амазонські дощові ліси‟ або „Експлуатовані амазонські дощові ліси‟ належать цій країні, і в них усіх є залізниця"
+ 
+ ACHIEVEMENT_achievement_duran_duran: "Дурран Дурран"
+ ACHIEVEMENT_DESC_achievement_duran_duran: "Під час гри за Герат створіть Афганістан, володарюйте всіма історичними областями старої Дурранійської імперії та не входьте в блок держав, очолюваний іншою країною"
+ 
+ ACHIEVEMENT_achievement_hyperpeace: "Супермир"
+ ACHIEVEMENT_DESC_achievement_hyperpeace: "Під час гри за будь-яку країну, запросіть до свого блоку Фінляндію, і Корею"
+ 
+ ACHIEVEMENT_achievement_bootlicker: "Підлабузник" #I'm judging you     Це я тебе засуджую!
+ ACHIEVEMENT_DESC_achievement_bootlicker: "Під час гри суб’єктом у вас повинно бути лобі прихильників сюзерена з максимальним задоволенням"
+ 
+ ACHIEVEMENT_achievement_im_the_captain_now: "Тепер я капітан"
+ ACHIEVEMENT_DESC_achievement_im_the_captain_now: "Граючи за члена блоку держав, виграйте боротьбу за лідерство в блоці"
+ 
+ ACHIEVEMENT_achievement_new_order: "Новий порядок"
+ ACHIEVEMENT_DESC_achievement_new_order: "Повністю прокачайте блок держав"
+ 
+ ACHIEVEMENT_achievement_great_game_no_re: "Велика гра без реваншу"
+ ACHIEVEMENT_DESC_achievement_great_game_no_re: "Завершіть завдання Великої гри"
+ 
+ ACHIEVEMENT_achievement_honor_and_life: "Честь і життя"
+ ACHIEVEMENT_DESC_achievement_honor_and_life: "Під час гри за Черкесію завершіть запис у щоденнику „Честь дорожча за життя‟"
+ 
+ ACHIEVEMENT_achievement_iranzamin: "Іран-замін"
+ ACHIEVEMENT_DESC_achievement_iranzamin: "Під час гри за Персію завершіть запис у щоденнику „Східний кордон‟ і доведіть освіченість до 80%"
+ 
+ ACHIEVEMENT_achievement_for_twelve_years_you_have_been_asking: "Ось вже дванадцять років люди ставлять запитання"
+ ACHIEVEMENT_DESC_achievement_for_twelve_years_you_have_been_asking: "Приватизуйте всі споруди та не допустіть їхнього переходу у власність держави або робітників протягом 12 років"
+ 
+ ACHIEVEMENT_achievement_cant_touch_this: "Не чіпати"
+ ACHIEVEMENT_DESC_achievement_cant_touch_this: "Граючи за країну, щонайменше 10% ВВП якої належить іноземній державі, націоналізуйте всі споруди та не допускайте їхньої приватизації протягом 12 років"
+ cant_touch_this_possible_tt: "#v 10%#! вашого [Concept('concept_gdp','ВВП')] належало іноземній державі"
+ 
+ ACHIEVEMENT_achievement_standard_oil: "Standard Oil"
+ ACHIEVEMENT_DESC_achievement_standard_oil: "У власності як мінімум 30 рівнів бурових вишок на території інших країн"
+ 
+ ACHIEVEMENT_achievement_diplomatic_victory: "Дипломатична перемога"
+ ACHIEVEMENT_DESC_achievement_diplomatic_victory: "Граючи за велику державу, створіть лобі на підтримку вашої країни у всіх інших великих державах"
+ 
+ ACHIEVEMENT_achievement_hermit_kingdom: "Королівство-відлюдник"
+ ACHIEVEMENT_DESC_achievement_hermit_kingdom: "При грі за Корею задовольните прохання руху Тонхак"
+ 
+ ACHIEVEMENT_achievement_cult_of_reason: "Культ Розуму"
+ ACHIEVEMENT_DESC_achievement_cult_of_reason: "Ухваліть закон „Державний атеїзм‟ і очоліть ідеологічний блок держав, що включає в себе не менше 10 членів"
+ 
+ ACHIEVEMENT_achievement_declaration_of_independence: "Декларація незалежності"
+ ACHIEVEMENT_DESC_achievement_declaration_of_independence: "Почніть гру за суб’єкт і добийтеся незалежності від сюзерена"
+ 
+ # 1.8 Achievements
+
+ACHIEVEMENT_achievement_prolecorp: "ПролеКорп"
+ACHIEVEMENT_DESC_achievement_prolecorp: "Як радянська республіка з командно-адміністративною економікою, мати компанію з максимальним рівнем розвитку"
+
+ACHIEVEMENT_achievement_azadi: "Азаді"
+ACHIEVEMENT_DESC_achievement_azadi: "Як імперія Великих Моголів, завершіть запис у журналі „В’язень Червоного форту‟, проженіть британців і візьміть всю Індію під свій контроль"
+
+ACHIEVEMENT_achievement_be_prepared: "Напоготові!"
+ACHIEVEMENT_DESC_achievement_be_prepared: "Будьте готові та запобігайте голоду під час інтенсивного збору врожаю"
+
+ACHIEVEMENT_achievement_on_the_edge: "По лезу бритви"
+ACHIEVEMENT_DESC_achievement_on_the_edge: "Граючи за Пенджаб, чотири правителі повинні померти під час запису у щоденнику „Суверенітет Сикхів‟, до її успішного завершення"
+
+ACHIEVEMENT_achievement_caste_away: "Кастомізація"
+ACHIEVEMENT_DESC_achievement_caste_away: "Запровадити позитивну дискримінацію як країна з кастовою системою Британської Індії"
+
+ACHIEVEMENT_achievement_the_real_movement: "Справжній рух"
+ACHIEVEMENT_DESC_achievement_the_real_movement: "Майте комуністичний рух з підтримкою понад 50%"
+
+ACHIEVEMENT_achievement_folkhemmet: "Народний дім"
+ACHIEVEMENT_DESC_achievement_folkhemmet: "Граючи за Швецію, запровадьте корпоративну державу та майте установи „Добробут‟, „Система охорони здоров’я‟ та „Трудові права‟ 5-го рівня"
+
+ACHIEVEMENT_achievement_cosmopolitan: "Космополітизм"
+ACHIEVEMENT_DESC_achievement_cosmopolitan: "Починаючи з 5 або менше, майте 10 непервинних культур у вашій країні, і всі їхні складові народи повинні бути на рівні повного прийняття"
+
+ACHIEVEMENT_achievement_our_words_are_backed: "Наші слова підкріплені..."
+ACHIEVEMENT_DESC_achievement_our_words_are_backed: "Мати Ганді на чолі держави, але при цьому рівень безчестя повинен бути понад 100"
+
+ACHIEVEMENT_achievement_the_man_who_would_be_king: "Чоловік, який мав би стати королем"
+ACHIEVEMENT_DESC_achievement_the_man_who_would_be_king: "Об'єднати Афганістан граючи за Кафірістан під керівництвом Йосія Гарлан"
+
+
+# 1.9 Achievements
+
+ACHIEVEMENT_achievement_its_a_blockade: "Це блокада!"
+ACHIEVEMENT_DESC_achievement_its_a_blockade: "Повністю заблокувати світовий торговий центр, який пов’язаний щонайменше зі 100 рівнями торгового центру."
+
+ACHIEVEMENT_achievement_fordlandia: "Фордландія"
+ACHIEVEMENT_DESC_achievement_fordlandia: "Майте автомобільну компанію, яка створить країну, яка потім досягне ВВП серед 10 кращих на душу населення"
+
+ACHIEVEMENT_achievement_venice_vidi_vici: "Venice, Vidi, Vici"
+ACHIEVEMENT_DESC_achievement_venice_vidi_vici: "Граючи за Венеція, мати найбільшу кількість торгових центрів у світі"
+
+ACHIEVEMENT_achievement_yes_we_have_bananas: "Так, у нас є банани!"
+ACHIEVEMENT_DESC_achievement_yes_we_have_bananas: "Виробляйте престижний товар Gros Michel Banana від United Fruit Company і отримайте 25% частки від загального обсягу товарів на світовому ринку."
+
+ACHIEVEMENT_achievement_wall_of_text: "Стіна тексту"
+ACHIEVEMENT_DESC_achievement_wall_of_text: "Майте 10 або більше статей в одній угоді"
+
+ACHIEVEMENT_achievement_swiss_bank_account: "Швейцарський банківський рахунок"
+ACHIEVEMENT_DESC_achievement_swiss_bank_account: "Граючи за Швейцарія, отримуйте більше 10% ВВП від грошових переказів завдяки міжнародним угодам."
+
+ACHIEVEMENT_achievement_franchising: "Франчайзинг"
+ACHIEVEMENT_DESC_achievement_franchising: "Створіть регіональний штаб і забезпечте його щонайменше 20 рівнями"
+
+ACHIEVEMENT_achievement_champagne_socialist: "Шампанський соціаліст"
+ACHIEVEMENT_DESC_achievement_champagne_socialist: "Граючи за Франція, запровадьте  радянську ре пібліку та експортуйте більше 100 одиниць шампанського на світовий ринок"
+has_company_cgv_tt: "Заснував „Confédération générale des vignerons‟ як компанію"
+
+ACHIEVEMENT_achievement_systembolaget: "Системболагет"
+ACHIEVEMENT_DESC_achievement_systembolaget: "Граючи за Швецію, встановіть державну монополію на алкоголь"
+
+ACHIEVEMENT_achievement_all_quiet_on_the_western_front: "На Західному фронті без змін"
+ACHIEVEMENT_DESC_achievement_all_quiet_on_the_western_front: "Майте понад мільйон бойових втрат на одному фронті"
+
+# National Awakening/1.10 Achievements
+ACHIEVEMENT_achievement_usga: "Вірібус Унітіс"
+ACHIEVEMENT_DESC_achievement_usga: "За Австрію, виконайте запис у щоденнику „Федеральне рішення‟ і утворіть Сполучені Штати Великої Австрії"
+ACHIEVEMENT_achievement_neo_absolutist: "Перо і багнет"
+ACHIEVEMENT_DESC_achievement_neo_absolutist: "За Австрію, виконайте автократію в запису в щоденнику „Епоха свободи‟"
+ACHIEVEMENT_achievement_im_feeling_hungary: "Я відчуваю себе угорлодним"
+ACHIEVEMENT_DESC_achievement_im_feeling_hungary: "За Угорщину, виконайте запис у щоденнику „Угорська революція‟ і здобуйте незалежність"
+ACHIEVEMENT_achievement_brotherhood_and_unity: "Братство та єдність"
+ACHIEVEMENT_DESC_achievement_brotherhood_and_unity: "Сформуйте державу Югославія"
+ACHIEVEMENT_achievement_teamkiller: "Тімкіллер"
+ACHIEVEMENT_DESC_achievement_teamkiller: "Як член Балканської ліги, виконайте запис в щоденнику „Військові трофеї‟"
+ACHIEVEMENT_achievement_david_slays_goliath: "Давид вбиває Голіафа"
+ACHIEVEMENT_DESC_achievement_david_slays_goliath: "Починаючи за Чорногорію, ви повинні існувати, навідмінно від Османської Імперії"
+ACHIEVEMENT_achievement_prussia_of_the_balkans: "Пруссія Балкан"
+ACHIEVEMENT_DESC_achievement_prussia_of_the_balkans: "За Болгарію, виконайте запис у щоденнику „Пруссія Балкан‟ і майте вищий престиж, ніж Пруссія."
+ACHIEVEMENT_achievement_sorbia_is_serbia: "Сорбія — це Сербія"
+ACHIEVEMENT_DESC_achievement_sorbia_is_serbia: "За Сербію, ви повинні володіти Саксонією"
+ACHIEVEMENT_achievement_biedermeier: "Бідермаєр"
+ACHIEVEMENT_DESC_achievement_biedermeier: "За Австрію, станьте виробником мистецтва та меблів номер 1"
+ACHIEVEMENT_achievement_exactly_100: "РІВНО 100!!!"
+ACHIEVEMENT_DESC_achievement_exactly_100: "За будь-яку незалежну країну, майте пристрасть будь-якої первинної культури, що досягає 100"
+

@@ -1,0 +1,78 @@
+﻿l_english:
+# Fallback treaty name is found in interfaces_l_english
+
+### Historical Treaties
+treaty_name_hunkar_iskelesi: "Юнкяр-Іскелесійська угода"
+treaty_name_holy_alliance: "Угода Священного союзу"
+treaty_name_quadruple_alliance: "Угода Четверного союзу"
+treaty_name_twenty_four_articles: "Угода про Двадцять чотири статті"
+treaty_name_french_military_mission_to_egypt: "Французька місія в Єгипті"
+treaty_name_us_military_mission_to_texas: "Американо-Техаська військова допомога"
+treaty_name_dejima_trade: "Дедзімська торгівля"
+treaty_name_nagasaki_trade: "Торгівля між Наґасакі та Китаєм"
+treaty_name_firman_of_1793: "Фірман 1793 року"
+treaty_name_singapore_treaty: "Сінґапурська угода"
+treaty_name_luso_chinese_agreement: "Льюзо-китайська угода"
+treaty_name_swi_transit_rights: "Швейцарсько-французька угода про транзитні права"
+treaty_name_lux_transit_rights: "Люксембурзько-Прусська угода про транзитні права"
+treaty_name_ham_pru_trade: "Гамбурзько-прусська торгівельна угода"
+treaty_name_swe_pru_trade: "Шведсько-прусська торгівельна угода"
+treaty_name_prussian_military_mission_to_turkey: "Прусська місія в Османській імперії"
+treaty_name_treaty_of_adrianople: "Адріанопольська угода"
+
+### Dynamic Treaties
+# Generic
+treaty_name_treaty_of_city: "Угода в місті $SIGNING_LOCATION$"
+treaty_name_city_protocol: "Протокол в місті $SIGNING_LOCATION$"
+treaty_name_city_convention: "Конвенція міста $SIGNING_LOCATION$"
+treaty_name_convention_of_city: "Конвенція в місті $SIGNING_LOCATION$"
+treaty_name_september_convention: "Конвенція місяця $SIGNING_MONTH$"
+treaty_name_city_declaration: "Декларація міста $SIGNING_LOCATION$"
+treaty_name_declaration_of_captial: "Декларація в місті $SIGNING_LOCATION$"
+treaty_name_country_adj_country_adj_treaty: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода"
+treaty_name_treaty_between_country_and_country: "Угода між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] та [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_city_agreement: "Домовленість міста $SIGNING_LOCATION$"
+treaty_name_agreement_between_country_and_country: "Домовленість між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] та [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+
+# Commercial Treaties
+treaty_name_country_country_treaty_of_peace_and_amity: "[FIRST_COUNTRY.GetNameNoFormatting]о-[SECOND_COUNTRY.GetNameNoFormatting]а угода про мир і дружбу"
+treaty_name_country_adj_country_adj_treaty_of_amity_and_commerce: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода про мир і торгівлю"
+treaty_name_country_adj_country_adj_friendship_and_peace_treaty: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода про дружбу і торгівлю"
+treaty_name_country_country_treaty_of_peace_amity_and_commerce_between_king_and_country: "Угода що мають між собою [FIRST_COUNTRY.GetRuler.GetPrimaryRoleTitle|l] [FIRST_COUNTRY.GetAltNameNoFormatting('ua_rodoviy_country')] і [SECOND_COUNTRY.GetNameNoFormatting], про мир, дружбу і торгівлю"
+treaty_name_treaty_of_peace_and_friendship_between_country_and_country: "Договір про мир і дружбу між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] и [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_country_adj_country_adj_treaty_of_commerce_and_navigation: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода про торгівлю та судноплавство"
+treaty_name_treaty_of_amity_and_commerce_between_country_and_country: "Угода про дружбу і торгівлю між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_country_country_treaty_of_peace_friendship_commerce_and_navigation: "[FIRST_COUNTRY.GetNameNoFormatting]о-[SECOND_COUNTRY.GetNameNoFormatting]а угода про мир, дружбу, торгівлю та судноплавство"
+
+# Military Access
+treaty_name_country_adj_country_adj_treaty_of_transit_and_commerce: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода про транзит і торгівлю"
+treaty_name_country_adj_country_adj_treaty_of_transit_and_friendship: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода про транзит і дружбу"
+treaty_name_country_adj_country_adj_treaty_of_transit_commerce_and_friendship: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а угода про транзит, торгівлю та дружбу"
+
+# Mutual Free Trade
+treaty_name_treaty_of_reciprocity_between_country_and_country: "Угода про взаємність між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_treaty_of_reciprocity: "Угода про взаємність"
+
+# Investment Rights
+treaty_name_name_concession: "Концесія міста $SIGNING_LOCATION$" # Consider replacing with [SECOND_COUNTRY.GetNameInSomeWayOrForm] at one point in future
+
+# Offer Protectorate
+treaty_name_perpetual_truce_of_peace_and_friendship: "Вічний договір про миру і дружби"
+
+# Alliances
+treaty_name_country_adj_country_adj_alliance: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]а Союз"
+treaty_name_country_adj_country_adj_joint_defense_agreement: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]о-[SECOND_COUNTRY.GetAdjectiveNoFormatting]ий договір про спільну оборону"
+treaty_name_treaty_of_defensive_alliance: "Угода про оборонний союз"
+treaty_name_dual_alliance: "Подвійний союз"
+treaty_name_dual_entente: "Подвійна Антанта"
+treaty_name_two_power_treaty: "Угода між двома державами"
+treaty_name_pact_of_city: "Пакт міста $SIGNING_LOCATION$"
+
+# Peace Treaties
+treaty_name_treaty_of_peace_friendship_limits_and_settlement_between_country_and_country: "Угода про мир, дружбу, кордони та врегулювання між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_treaty_of_peace_between_country_and_country: "Угода про мир між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_convention_for_the_perfect_restoration_of_friendly_relations_between_country_and_country: "Конвенція про повне відновлення дружніх відносин між [FIRST_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')] і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+
+# Papal Treaties
+treaty_name_concordat_between_the_holy_see_and_country_first: "Конкордат між Святим Престолом і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"
+treaty_name_concordat_between_the_holy_see_and_country_second: "Конкордат між Святим Престолом і [SECOND_COUNTRY.GetAltNameNoFormatting('ua_orudniy_country')]"

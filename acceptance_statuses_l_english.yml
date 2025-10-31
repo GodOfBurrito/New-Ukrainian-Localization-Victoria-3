@@ -1,0 +1,102 @@
+﻿l_english:
+ violent_hostility: "Насильницька ворожість"
+ violent_hostility_desc: "Людей з таким статусом настільки відкрито зневажають, очорнюють і переслідують, що представники громадськості воліють скоріше стерти їх з лиця землі, ніж витрачати енергію і час на їхню інтеграцію в суспільство."
+ violent_hostility_only_icon: "@acceptance_status_1!"
+ 
+ cultural_erasure: "Стирання культури"
+ cultural_erasure_desc: "Люди з таким статусом опиняються під п’ятою домінуючого суспільства, першочерговою метою якого є знищення їх культури, традицій та системи вірувань. Лише після цього домінуюча група починає шукати шляхи асиміляції цих осіб в основне суспільство."
+ cultural_erasure_only_icon: "@acceptance_status_2!"
+ 
+ open_prejudice: "Відкриті упередження"
+ open_prejudice_desc: "Людям з таким статусом дозволяється жити поряд з іншими членами суспільства. Однак цей, на перший погляд, нейтральний стан співіснування досягається ціною того, що їхні власні звичаї та система вірувань постійно перебувають під пильним наглядом і несхваленням з боку їхніх колег з вищого прошарку суспільства."
+ open_prejudice_only_icon: "@acceptance_status_3!"
+ 
+ second_rate_citizen: "Другосортні громадяни"
+ second_rate_citizen_desc: "Люди з таким статусом номінально користуються багатьма суспільними благами. Незважаючи на це, суспільство все ще сприймає і ставиться до них як до підлеглих, і вони часто стикаються з дискримінацією, обмеженням прав і доступу до ресурсів і можливостей."
+ second_rate_citizen_only_icon: "@acceptance_status_4!"
+ 
+ full_acceptance: "Повне прийняття"
+ full_acceptance_desc: "Люди з таким статусом є повноправними членами суспільства, користуючись безмежною соціальною мобільністю та привілейованою стабільністю. Їхні основні цінності, система переконань і соціально-економічна репутація формують ту саму суспільну структуру, до якої прагнуть всі інші."
+ full_acceptance_only_icon: "@acceptance_status_5!"
+
+ ACCEPTANCE_STATUS_POPULATION_HEADER_AND_VALUE: "Населення\n[AcceptanceStatusSegment.GetTotalPopulation|Kv]"
+ ACCEPTANCE_STATUS_DISTRIBUTION_LABEL_COUNTRY: "[Concept('concept_acceptance_status','Статус терпимості')] до [Concept('concept_pop','груп населення')] в [Country.GetAltNameNoFormatting('ua_mistseviy_country')]"
+ SELECTED_ACCEPTANCE_STATUS_THRESHOLDS: "[Concept('concept_acceptance','Терпимість')]: #v [AcceptanceStatusSegment.GetStatus.GetLowerBound]#! - #v [AcceptanceStatusSegment.GetStatus.GetUpperBound]#!"
+ ACCEPTANCE_STATUS_THRESHOLDS_DESC: "[Concept('concept_acceptance','Терпимість')] від [AcceptanceStatus.GetLowerBound|v] до [AcceptanceStatus.GetUpperBound|v]"
+ ACCEPTANCE_STATUS_TT_COUNTRY_HEADER: "В [Country.GetAltName('ua_mistseviy_country')]:"
+ ACCEPTANCE_STATUS_TT_EFFECTS_HEADER: "Ефекти:"
+ ACCEPTANCE_STATUS_NEXT: "На рівень вище: [AcceptanceStatus.GetHigherStatus.GetName] (якщо терпимість — [AcceptanceStatus.GetHigherStatus.GetLowerBound])"
+ ACCEPTANCE_STATUS_PREV: "На рівень нижче: [AcceptanceStatus.GetLowerStatus.GetName] (якщо терпимість — [AcceptanceStatus.GetLowerStatus.GetUpperBound])"
+ ACCEPTANCE_STATUS_WILL_INCREASE: "@acceptance_status_increasing! Згодом статус терпимості підніметься до наступного рівня через її зростання"
+ ACCEPTANCE_STATUS_SEGMENT_POPULATION_DECREASING: "[AcceptanceStatusSegment.GetTotalPopulationIncreasingInAcceptance] з яких із часом досягнуть більш високого статусу терпимості"
+
+ ACCEPTANCE_STATUS_STRATA_RESTRICTION: "Як [Pop.GetSocialClass.GetName], [Concept('concept_acceptance','прийняття')] не може опуститися нижче [Pop.GetSocialClass.GetMinAcceptanceIn(GetPlayer.Self)|v] або вище [Pop.GetSocialClass.GetMaxAcceptanceIn(GetPlayer.Self)|v]"
+
+ SOCIAL_HIERARCHY_POPULATION: "Зачеплене населення\n[SocialHierarchy.GetTotalPopulationIn(GetPlayer.Self)|Kv]"
+ SOCIAL_HIERARCHY_TRIGGER_HEADING: "Дарує особливу [Concept('concept_social_class','соціальну верству')] будь-якій [Concept('concept_pop','групі населення')], яка:"
+ SOCIAL_CLASS_TT_TYPE: "[Concept('concept_social_class','Соціальна верства')]"
+ SOCIAL_CLASS_TT_SOCIAL_HIERARCHY: "Приналежність: [SocialClass.GetSocialHierarchy.GetName]"
+ SOCIAL_CLASS_TT_STRATA: "Підпадає під категорію „[SocialClass.GetStrataConcept|l]‟"
+ SOCIAL_CLASS_TT_POPULATION: "@population! [SocialClass.GetTotalPopulationIn(GetPlayer)|vD] [Concept('concept_pop','гр. населення')] „[SocialClass.GetName]‟ в [GetPlayer.GetAltName('ua_mistseviy_country')]"
+ SOCIAL_CLASS_TT_PROFESSIONS_HEADING: "[Concept( 'concept_profession', 'Професії' )]:"
+ SOCIAL_CLASS_TT_SPECIAL_TRIGGER: "[Concept('concept_pop', 'Групи населення')] також повинні відповідати вимогам:\n[SocialClass.GetPopTriggerDesc]"
+ SOCIAL_HIERARCHY_TT_AFFECTED_POPS: "Якщо діє в [Concept('concept_country','країні')], то застосовується до всіх [Concept('concept_pop','груп населення')], які:\n[SocialHierarchy.GetPopTriggerDesc]"
+ SOCIAL_HIERARCHY_TT_CLASSES: "[Concept('concept_social_class','Соціальні верстви')]:\n[SocialHierarchy.GetAllSocialClassesDesc]"
+ ACCEPTANCE_STATUS_NO_POPULATION_IN_COUNTRY: "Немає [Concept('concept_pop','груп населення')] з [Concept('concept_acceptance_status','статусом')] „[AcceptanceStatus.GetName]‟"
+ ACCEPTANCE_STATUS_REPRESENTATIVE_POP_TOOLTIP: "[Pop.GetReligion.GetCustom('ua_religion_adj')]і [Pop.GetCulture.GetName|l]-[Pop.GetPopType.GetNameNoIcon|l]"
+
+ ACCEPTANCE_STATUS_SEGMENT_SIMPLE_TEXT_TOOLTIP: "#tooltip_header [AcceptanceStatus.GetName]#!\n[AcceptanceStatusSegment.GetPopulationDesc][ConcatIfNeitherEmpty('\n', AddLocalizationIf(GreaterThan_int64( AcceptanceStatusSegment.GetTotalPopulationIncreasingInAcceptance,'(int64)0' ), 'ACCEPTANCE_STATUS_SEGMENT_POPULATION_DECREASING' ))]"
+
+ CULTURE_TT_ACCEPTANCE_MOD: "$ACCEPTANCE_OF_CULTURE_TERM$: [Culture.GetAcceptanceIn(GetPlayer)|=v]\n#indent_newline:3    [Culture.GetAcceptanceDescIn(GetPlayer)]#!"
+ RELIGION_TT_ACCEPTANCE_MOD: "$ACCEPTANCE_OF_RELIGION_TERM$: [Religion.GetAcceptanceIn(GetPlayer)|=v]\n#indent_newline:3    [Religion.GetAcceptanceDescIn(GetPlayer)]#!"
+ 
+ ACCEPTANCE_FROM_PRIMARY_CULTURE: "#v $VALUE|=+0$#! від того що вважається [Concept('concept_primary_cultures','основною культурою')]"
+ 
+ ACCEPTANCE_FROM_SHARED_HERITAGE_TRAIT: "#v $VALUE|=+0$#! від спільної [Concept('concept_heritage_trait','спадкової')] [Concept('concept_discrimination_trait','риси')] ([DISCRIMINATION_TRAIT.GetName]) що належить до [Concept('concept_primary_cultures','основної культури')]"
+ ACCEPTANCE_FROM_SHARED_HERITAGE_TRAIT_GROUP: "#v $VALUE|=+0$#! від спільної [Concept('concept_heritage_trait','спадкової')] [Concept('concept_discrimination_trait_group','риси')] ([DISCRIMINATION_TRAIT_GROUP.GetName]) що належить до [Concept('concept_primary_cultures','основної культури')]"
+ ACCEPTANCE_FROM_NO_SHARED_HERITAGE_TRAIT: "#v $VALUE|=+0$#! від жодної спільної [Concept('concept_heritage_trait','спадкової')] [Concept('concept_discrimination_trait','риси')] що належить до [Concept('concept_primary_cultures','основної культури')]"
+
+ ACCEPTANCE_FROM_SHARED_LANGUAGE_TRAIT: "#v $VALUE|=+0$#! від спільної [Concept('concept_language_trait','мовної')] [Concept('concept_discrimination_trait','риси')] ([DISCRIMINATION_TRAIT.GetName]) що належить до [Concept('concept_primary_cultures','основної культури')]"
+ ACCEPTANCE_FROM_SHARED_LANGUAGE_TRAIT_GROUP: "#v $VALUE|=+0$#! від спільної [Concept('concept_language_trait','мовної')] [Concept('concept_discrimination_trait_group','риси')] ([DISCRIMINATION_TRAIT_GROUP.GetName]) що належить до [Concept('concept_primary_cultures','основної культури')]"
+ ACCEPTANCE_FROM_NO_SHARED_LANGUAGE_TRAIT: "#v $VALUE|=+0$#! від жодної спільної [Concept('concept_language_trait','мовної')] [Concept('concept_discrimination_trait','риси')] що належить до [Concept('concept_primary_cultures','основної культури')]"
+
+ ACCEPTANCE_FROM_SHARED_TRADITION_TRAIT: "#v $VALUE|=+0$#! від спільної [Concept('concept_tradition_trait','традиційної')] [Concept('concept_discrimination_trait','риси')] ([DISCRIMINATION_TRAIT.GetName]) що належить до [Concept('concept_primary_cultures','основної культури')]"
+ ACCEPTANCE_FROM_NO_SHARED_TRADITION_TRAIT: "#v $VALUE|=+0$#! від жодної спільної [Concept('concept_tradition_trait','традиційної')] [Concept('concept_discrimination_trait','риси')] що належить до [Concept('concept_primary_cultures','основної культури')]"
+
+ ACCEPTANCE_FROM_STATE_RELIGION: "#v $VALUE|=+0$#! від [Concept('concept_state_religion','державної релігії')]"
+ 
+ ACCEPTANCE_FROM_SHARED_RELIGIOUS_TRAIT: "#v $VALUE|=+0$#! від спільної [Concept('concept_heritage_trait','спадкової')] [Concept('concept_discrimination_trait','риси')] ([DISCRIMINATION_TRAIT.GetName]) з [Concept('concept_state_religion','державною релігією')]"
+ ACCEPTANCE_FROM_RELIGIOUS_TRAIT_GROUP: "#v $VALUE|=+0$#! від спільної [Concept('concept_heritage_trait','спадкової')] [Concept('concept_discrimination_trait','риси')] ([DISCRIMINATION_TRAIT_GROUP.GetName]) з [Concept('concept_state_religion','державною релігією')]"
+ ACCEPTANCE_FROM_NO_RELIGIOUS_SIMILARITY: "#v $VALUE|=+0$#! як базове [Concept('concept_acceptance','прийняття')] для [Concept('concept_religion','релігії')]"
+ 
+ ACCEPTANCE_FROM_LOCAL_ACCEPTANCE: "#v $VALUE|=+0$#! від [Concept('concept_acceptance','терпимості')] до [Concept('concept_cultural_community','культурної спільноти')]"
+
+ ACCEPTANCE_FROM_LIVING_IN_HOMELAND: "#v $VALUE|=+0$#! від проживання на [Concept('concept_homeland','батьківщині')]"
+ ACCEPTANCE_FROM_NOT_LIVING_IN_HOMELAND: "#v $VALUE|=+0$#! від проживання з межами [Concept('concept_homeland','батьківщини')]"
+ ACCEPTANCE_ONLY: "[Concept('concept_acceptance', 'Терпимість')]:"
+
+ ACCEPTANCE_OF_RELIGION: "$ACCEPTANCE_OF_RELIGION_TERM$:"
+ ACCEPTANCE_OF_CULTURE: "$ACCEPTANCE_OF_CULTURE_TERM$:"
+ ACCEPTANCE_STATUS_SEGMENT_POP_DESC_COUNTRY: "[Concept('concept_pop','Групи населення')], що володіють цим [Concept('concept_acceptance_status','статусом терпимості')]: $POPSIZE|kv$ ($VALUE|%$)"
+ ACCEPTANCE_STATUS_SEGMENT_POP_DESC_CULTURE_IN_COUNTRY: "#tooltippable_name #tooltip:[Culture.GetTooltipTag],DATA_CULTURE_NAME_TOOLTIP,CultureTooltip [Culture.GetCustom('ua_culture_adj')]і#!#! [Concept('concept_pop','групи населення')], що володіють цим [Concept('concept_acceptance_status','статусом терпимості')]: $POPSIZE|kv$ ($VALUE|%$)"
+ ACCEPTANCE_STATUS_SEGMENT_POP_DESC_RELIGION_COUNTRY: "#tooltippable_name #tooltip:[Religion.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [Religion.GetCustom('ua_religion_adj')]і#!#! [Concept('concept_pop','групи населення')], що володіють цим [Concept('concept_acceptance_status','статусом терпимості')]: $POPSIZE|kv$ ($VALUE|%$)"
+
+ ACCEPTANCE_OF_CULTURE_TERM: "[Concept('concept_acceptance', 'Терпимість')] до #tooltippable_name #tooltip:[Culture.GetTooltipTag],EMPTY_STRING,CultureTooltip [Culture.GetCustom('ua_culture_adj')|l]ої#!#! культури" #note that DATA_CULTURAL_COMMUNITY_NAME_TOOLTIP uses a variant of this wording since it does not have access to Culture directly
+ ACCEPTANCE_OF_CULTURE_TOOLTIP: "#header $ACCEPTANCE_OF_CULTURE_TERM$#!\nНаразі: [Culture.GetAcceptanceIn(GetPlayer)|=v]\nУсі [Concept('concept_pop', 'представники')] [Culture.GetCustom('ua_culture_adj')|l]ої культури в [GetPlayer.GetAltName('ua_mistseviy_country')] стикаються з цією терпимістю\n$TOOLTIP_DELIMITER$\n[Culture.GetAcceptanceDescIn(GetPlayer)]"
+
+ ACCEPTANCE_OF_RELIGION_TERM: "[Concept('concept_acceptance', 'Терпимість')] до #tooltippable_name #tooltip:[Religion.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [Religion.GetCustom('ua_religion_adj')|l]ої#!#! [Concept('concept_religion','релігії')]"
+ ACCEPTANCE_OF_RELIGION_TOOLTIP: "#header $ACCEPTANCE_OF_RELIGION_TERM$#!\nНаразі: [Religion.GetAcceptanceIn(GetPlayer)|=v]\nУсі [Concept('concept_pop', 'послідовники')] [Religion.GetCustom('ua_religion_adj')|l]ої релігії в [GetPlayer.GetAltName('ua_mistseviy_country')] стикаються з цією терпимістю[AddLocalizationIf( Not(StringIsEmpty(Religion.GetAcceptanceDescIn(GetPlayer))) , 'ACCEPTANCE_OF_RELIGION_TOOLTIP_BREAKDOWN')]"
+ ACCEPTANCE_OF_RELIGION_TOOLTIP_BREAKDOWN: "\n$TOOLTIP_DELIMITER$\n[Religion.GetAcceptanceDescIn(GetPlayer)]"
+ 
+ POP_ACCEPTANCE_VALUE_WITH_BREAKDOWN: "[Concept('concept_acceptance', 'Терпимість')]: [Pop.GetAcceptanceValue|v]\n#indent_newline:3    [Pop.GetAcceptanceValueDesc]#!"
+
+ 
+ SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP: "#tooltip_header [Concept('concept_acceptance_status','Статуси терпимості')] для верстви „[SocialClass.GetName]‟#!\n$SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_RANGE$\n\n$SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_EFFECTS_HEADER$\n[SocialClass.GetEffectsDescIn(GetPlayer.Self)]"
+ SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_RANGE: "[SelectLocalization( ObjectsEqual(SocialClass.GetMinAllowedStatusIn(GetPlayer.Self), SocialClass.GetMaxAllowedStatusIn(GetPlayer.Self)), 'SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_RANGE_1', 'SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_RANGE_2')]"
+ SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_RANGE_1: "[Concept('concept_pop','Групи населення')] верстви „[SocialClass.GetName]‟ можуть мати тільки [Concept('concept_acceptance_status','статусом терпимості')] „[SocialClass.GetMinAllowedStatusIn(GetPlayer.Self).GetName]‟"
+ SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_RANGE_2: "[Concept('concept_pop','Групи населення')] верстви „[SocialClass.GetName]‟ можуть мати [Concept('concept_acceptance_status','статусом терпимості')] від „[SocialClass.GetMinAllowedStatusIn(GetPlayer.Self).GetName]‟ до „[SocialClass.GetMaxAllowedStatusIn(GetPlayer.Self).GetName]‟"
+ 
+
+ SOCIAL_CLASS_ACCEPTANCE_STATUS_TOOLTIP_EFFECTS_HEADER: "Ефекти при діючих [Concept('concept_law','законах')]:"
+
+ CHARACTER_ACCEPTANCE_TOOLTIP: "#tooltip_header Терпимість до персонажа#!\nНаразі: [AcceptanceStatus.GetName]\n$TOOLTIP_DELIMITER$\n[Concept('concept_acceptance','Терпимість')]: [Character.GetAcceptanceValueIn( GetPlayer )|v]\n#indent_newline:3 $TAB$[Character.GetAcceptanceValueDescIn( GetPlayer )]#!"

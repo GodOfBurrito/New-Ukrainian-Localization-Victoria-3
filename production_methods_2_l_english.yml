@@ -1,0 +1,70 @@
+﻿l_english:
+ #DELETE:
+ #pm_disabled_gin
+ #pm_disabled_elastics
+ #pm_masticators
+ #pm_rubber_bands
+ #pm_luxury_clothes
+ #Agriculture Buildings
+ pm_primary: "Первинний"
+ pmg_secondary_building_rye_farm: "Вторинний"
+ pmg_secondary_building_wheat_farm: "Вторинний"
+ pmg_secondary_building_rice_farm: "Вторинний"
+ pmg_secondary_building_maize_farm: "Вторинний"
+ pmg_secondary_building_millet_farm: "Вторинний"
+ pm_no_secondary: "Обмежитися однією культурою"
+ pm_potatoes: "Картопля"
+ pm_vineyards: "Виноградники"
+ pm_vineyards_building_maize_farm: "Виноградники"
+ pm_apple_orchards: "Яблуневі сади"
+ pm_citrus_orchards: "Сади цитрусів"
+ pm_fig_orchards: "Фігові сади"
+ pm_fig_orchards_building_rice_farm: "Фігові сади"
+ pm_mulberry_groves: "Шовковичні гаї"
+ pm_sugar_beets: "Цукровий буряк"
+ pmg_automation: "Автоматизація"
+ pmg_automation_building_food_industry: "Автоматизація"
+ pmg_automation_building_textile_mills: "Автоматизація"
+ pmg_automation_building_furniture_manufacturies: "Автоматизація"
+ pmg_automation_building_tooling_workshops: "Автоматизація"
+ pmg_automation_building_paper_mills: "Автоматизація"
+ pmg_automation_building_steel_mills: "Автоматизація"
+ pmg_automation_building_motor_industry: "Автоматизація"
+ pm_civilian_priority: "Громадянські пріоритети"
+ pm_military_priority: "Військові пріоритети"
+ pmg_automation_building_automotive_industry: "$pmg_automation$"
+ #Textile Mills
+ pm_craftsman_sewing: "Швеї"
+ pm_sewing_machines: "Швейні машинки"
+ pm_electric_sewing_machines: "Електричні швейні машинки"
+ pm_traditional_looms: "Традиційні ткацькі верстати"
+ pm_mechanized_looms: "Механізовані ткацькі верстати"
+ pm_automatic_power_looms: "Автоматичні ткацькі верстати"
+ #Glassworks
+ pm_leaded_glass: "Свинцеве скло"
+ pm_manual_glassblowing: "Ручне видування скла"
+ #Chemical Plants
+ pm_leblanc_process: "Процес Леблана"
+ pm_no_explosives_production: "Пріоритетність виробництва добрив"
+ pm_ammonia-soda_process: "Аміачно-содовий процес"
+ pm_vacuum_evaporation: "Вакуумне випаровування"
+ pm_brine_electrolysis: "Електроліз розсолу"
+ pmg_fertilizer_production: "Виробництво добрив"
+ pm_no_artificial_fertilizers: "Без штучних добрив"
+ pm_artificial_fertilizers: "Штучні добрива"
+ pm_improved_fertilizer: "Покращені добрива"
+ pm_nitrogen_fixation: "Процес азотфіксації"
+ pm_dyes_production: "Виробництво барвників"
+ pm_no_synthetic_dyes: "Без синтетичних барвників"
+ pmg_synthetic_dyes: "Синтетичні барвники"
+ pm_silk_production: "Виробництво шовку"
+ pm_no_artificial_fibers: "Пріоритетність виробництва барвників"
+ pm_rayon: "Віскозне волокно"
+ #Foundries
+ pm_steamworks: "Паровики"
+ pm_no_artillery_production: "Пріоритетність виробництва стрілецької зброї"
+ pm_artillery_production: "Виробництво артилерії"
+ #Motor Industries
+ pmg_automobile_production: "Виробництво автомобілів"
+ pm_automobile_production: "Виробництво автомобілів"
+ pm_mass_automobile_production: "Масове виробництво"

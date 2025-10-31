@@ -1,0 +1,157 @@
+﻿#╒═══════════════════════════════════════════════════╕
+#│                                                   │
+#│       💋 Mᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ ʙʏ GᴏᴅOғBᴜʀʀɪᴛᴏ 💋         │
+#│                                                   │
+#╘═══════════════════════════════════════════════════╛
+
+l_english:
+
+#══════════════════════════  Прикметники релігій  ══════════════════════════
+
+# ua_religion_adj     | Католицьк(а) релігія | Православн(а) релігія  |
+
+ ua_religion_adj_catholic:0 "Католицьк"
+ ua_religion_adj_protestant:0 "Протестантськ"
+ ua_religion_adj_orthodox:0 "Православн"
+ ua_religion_adj_oriental_orthodox:0 "Східно-православн"
+ ua_religion_adj_sunni:0 "Сунітськ"
+ ua_religion_adj_shiite:0 "Шиїтськ"
+ ua_religion_adj_jewish:0 "Іудаїзьк"
+ ua_religion_adj_mahayana:0 "Махаянсько-буддиськ"
+ ua_religion_adj_gelugpa:0 "Гелугпсько-буддиськ"
+ ua_religion_adj_theravada:0 "Тхеравадсько-буддиськ"
+ ua_religion_adj_hindu:0 "Індуїстськ"
+ ua_religion_adj_shinto:0 "Синтоїстськ"
+ ua_religion_adj_sikh:0 "Сикхськ"
+ ua_religion_adj_animist:0 "Анімістськ"
+ ua_religion_adj_eastern:0 "Східно-вірувальн"
+ ua_religion_adj_buddhist:0 "Буддійськ"
+ ua_religion_adj_christian:0 "Християнськ"
+ ua_religion_adj_muslim:0 "Ісламськ"
+ ua_religion_adj_confucian:0 "Конфуціанськ"
+ ua_religion_adj_ibadi:0 "Ібадизьк"
+
+#══════════════════════════  Відмінки релігій  ══════════════════════════
+
+# ua_rodoviy_religion    | Католицтва  | Православ’я   |  ══ Родовий (Кого? Чого?)
+# ua_davalniy_religion   | Католицтву  | Православ’ю   |  ══ Давальний (Кому? Чому?)
+# ua_znahidniy_religion  | Католицтво  | Православ’я   |  ══ Знахідний (Кого? Що?)
+# ua_orudniy_religion    | Католицтвом | Православ’ям  |  ══ Орудний (Ким? Чим?)
+# ua_mistseviy_religion  | Католицтві  | Православ’ї   |  ══ Місцевий (На кому? На чому?)
+
+ ua_rodoviy_religion_tooltip:0 "#tooltippable_name #tooltip:[RELIGION.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [RELIGION.GetCustom('ua_rodoviy_religion')|l]#!#!"
+ ua_davalniy_religion_tooltip:0 "#tooltippable_name #tooltip:[RELIGION.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [RELIGION.GetCustom('ua_davalniy_religion')|l]#!#!"
+ ua_znahidniy_religion_tooltip:0 "#tooltippable_name #tooltip:[RELIGION.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [RELIGION.GetCustom('ua_znahidniy_religion')|l]#!#!"
+ ua_orudniy_religion_tooltip:0 "#tooltippable_name #tooltip:[RELIGION.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [RELIGION.GetCustom('ua_orudniy_religion')|l]#!#!"
+ ua_mistseviy_religion_tooltip:0 "#tooltippable_name #tooltip:[RELIGION.GetTooltipTag],DATA_RELIGION_NAME_TOOLTIP,ReligionTooltip [RELIGION.GetCustom('ua_mistseviy_religion')|l]#!#!"
+
+ # Родовий - Кого? Чого? #
+ ua_rodoviy_religion_catholic:0 "Католицтва"
+ ua_rodoviy_religion_protestant:0 "Протестанства"
+ ua_rodoviy_religion_orthodox:0 "Православ’я"
+ ua_rodoviy_religion_oriental_orthodox:0 "Східного православ’я"
+ ua_rodoviy_religion_sunni:0 "Сунізму"
+ ua_rodoviy_religion_shiite:0 "Шиїзму"
+ ua_rodoviy_religion_jewish:0 "Іудаїзму"
+ ua_rodoviy_religion_mahayana:0 "Махаянського буддизму"
+ ua_rodoviy_religion_gelugpa:0 "Гелугпського буддизму"
+ ua_rodoviy_religion_theravada:0 "Тхеравадського буддизму"
+ ua_rodoviy_religion_hindu:0 "Індуїзму"
+ ua_rodoviy_religion_shinto:0 "Синтоїзму"
+ ua_rodoviy_religion_sikh:0 "Сикхізму"
+ ua_rodoviy_religion_animist:0 "Анімізму"
+ ua_rodoviy_religion_eastern:0 "Східних вірувань"
+ ua_rodoviy_religion_buddhist:0 "Буддизму"
+ ua_rodoviy_religion_christian:0 "Християнства"
+ ua_rodoviy_religion_muslim:0 "Ісламу"
+ ua_rodoviy_religion_confucian:0 "Конфуціанства"
+ ua_rodoviy_religion_ibadi:0 "Ібадизму"
+ 
+ # Давальний - Кому? Чому? #
+ ua_davalniy_religion_catholic:0 "Католицтву"
+ ua_davalniy_religion_protestant:0 "Протестанству"
+ ua_davalniy_religion_orthodox:0 "Православ’ю"
+ ua_davalniy_religion_oriental_orthodox:0 "Східному православ’ю"
+ ua_davalniy_religion_sunni:0 "Сунізму"
+ ua_davalniy_religion_shiite:0 "Шиїзму"
+ ua_davalniy_religion_jewish:0 "Іудаїзму"
+ ua_davalniy_religion_mahayana:0 "Махаянському буддизму"
+ ua_davalniy_religion_gelugpa:0 "Гелугпському буддизму"
+ ua_davalniy_religion_theravada:0 "Тхеравадському буддизму"
+ ua_davalniy_religion_hindu:0 "Індуїзму"
+ ua_davalniy_religion_shinto:0 "Синтоїзму"
+ ua_davalniy_religion_sikh:0 "Сикхізму"
+ ua_davalniy_religion_animist:0 "Анімізму"
+ ua_davalniy_religion_eastern:0 "Східним віруванням"
+ ua_davalniy_religion_buddhist:0 "Буддизму"
+ ua_davalniy_religion_christian:0 "Християнству"
+ ua_davalniy_religion_muslim:0 "Ісламу"
+ ua_davalniy_religion_confucian:0 "Конфуціанству"
+ ua_davalniy_religion_ibadi:0 "Ібадизму"
+ 
+ # Знахідний - Кого? Що? #
+ ua_znahidniy_religion_catholic:0 "Католицтво"
+ ua_znahidniy_religion_protestant:0 "Протестантизм"
+ ua_znahidniy_religion_orthodox:0 "Православ’я"
+ ua_znahidniy_religion_oriental_orthodox:0 "Східне православ’я"
+ ua_znahidniy_religion_sunni:0 "Сунізм"
+ ua_znahidniy_religion_shiite:0 "Шиїзм"
+ ua_znahidniy_religion_jewish:0 "Іудаїзм"
+ ua_znahidniy_religion_mahayana:0 "Махаянський буддизм"
+ ua_znahidniy_religion_gelugpa:0 "Гелугпський буддизм"
+ ua_znahidniy_religion_theravada:0 "Тхеравадський буддизм"
+ ua_znahidniy_religion_hindu:0 "Індуїзм"
+ ua_znahidniy_religion_shinto:0 "Синтоїзм"
+ ua_znahidniy_religion_sikh:0 "Сикхізм"
+ ua_znahidniy_religion_animist:0 "Анімізм"
+ ua_znahidniy_religion_eastern:0 "Східні вірування"
+ ua_znahidniy_religion_buddhist:0 "Буддизм"
+ ua_znahidniy_religion_christian:0 "Християнство"
+ ua_znahidniy_religion_muslim:0 "Іслам"
+ ua_znahidniy_religion_confucian:0 "Конфуціанство"
+ ua_znahidniy_religion_ibadi:0 "Ібадизм"
+ 
+ # Орудний - Ким? Чим? #
+ ua_orudniy_religion_catholic:0 "Католицтвом"
+ ua_orudniy_religion_protestant:0 "Протестантизмом"
+ ua_orudniy_religion_orthodox:0 "Православ’ям"
+ ua_orudniy_religion_oriental_orthodox:0 "Східним православ’ям"
+ ua_orudniy_religion_sunni:0 "Сунізмом"
+ ua_orudniy_religion_shiite:0 "Шиїзмом"
+ ua_orudniy_religion_jewish:0 "Іудаїзмом"
+ ua_orudniy_religion_mahayana:0 "Махаянським буддизмом"
+ ua_orudniy_religion_gelugpa:0 "Гелугпським буддизмом"
+ ua_orudniy_religion_theravada:0 "Тхеравадським буддизмом"
+ ua_orudniy_religion_hindu:0 "Індуїзмом"
+ ua_orudniy_religion_shinto:0 "Синтоїзмом"
+ ua_orudniy_religion_sikh:0 "Сикхізмом"
+ ua_orudniy_religion_animist:0 "Анімізмом"
+ ua_orudniy_religion_eastern:0 "Східними віруваннями"
+ ua_orudniy_religion_buddhist:0 "Буддизмом"
+ ua_orudniy_religion_christian:0 "Християнством"
+ ua_orudniy_religion_muslim:0 "Ісламом"
+ ua_orudniy_religion_confucian:0 "Конфуціанством"
+ ua_orudniy_religion_ibadi:0 "Ібадизмом"
+
+ # Місцевий - На кому? На чому? #
+ ua_mistseviy_religion_catholic:0 "Католицтві"
+ ua_mistseviy_religion_protestant:0 "Протестантизмі"
+ ua_mistseviy_religion_orthodox:0 "Православ’ї"
+ ua_mistseviy_religion_oriental_orthodox:0 "Східному православ’ї"
+ ua_mistseviy_religion_sunni:0 "Сунізмі"
+ ua_mistseviy_religion_shiite:0 "Шиїзмі"
+ ua_mistseviy_religion_jewish:0 "Іудаїзмі"
+ ua_mistseviy_religion_mahayana:0 "Махаянському буддизмі"
+ ua_mistseviy_religion_gelugpa:0 "Гелугпському буддизмі"
+ ua_mistseviy_religion_theravada:0 "Тхеравадському буддизмі"
+ ua_mistseviy_religion_hindu:0 "Індуїзмі"
+ ua_mistseviy_religion_shinto:0 "Синтоїзмі"
+ ua_mistseviy_religion_sikh:0 "Сикхізмі"
+ ua_mistseviy_religion_animist:0 "Анімізмі"
+ ua_mistseviy_religion_eastern:0 "Східних віруваннях"
+ ua_mistseviy_religion_buddhist:0 "Буддизмі"
+ ua_mistseviy_religion_christian:0 "Християнстві"
+ ua_mistseviy_religion_muslim:0 "Ісламі"
+ ua_mistseviy_religion_confucian:0 "Конфуціанстві"
+ ua_mistseviy_religion_ibadi:0 "Ібадизмі"
+

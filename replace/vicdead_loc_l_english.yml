@@ -1,0 +1,494 @@
+﻿l_english:
+
+ # harvest conditions
+ 
+ zombie_outbreak_small: "Зомбі"
+ zombie_outbreak_small_desc: "У цьому районі були помічені живі мерці, що викликало істерію"
+ 
+ zombie_outbreak_big: "Орди зомбі"
+ zombie_outbreak_big_desc: "Тут було помічено надзвичайно сильне скупчення нежиті"
+ 
+ # decisions
+ 
+ zombie_close_ports_decision: "Запровадити суворий карантин"
+ zombie_close_ports_decision_desc: "Існує ризик, що інфекція може потрапити в нашу країну через іноземні торгові судна або судна з біженцями. Закриття наших портів зменшить цей ризик, але ціною нашої економіки."
+ zombie_close_port_hint_tt: "#BOLD #YELLOW Підказка:#!#!\nЗнесення всіх портових споруд матиме такий самий ефект, як і це рішення, але відбудовувати їх буде дорожче.\nЦя опція зупинить інфекцію, що потрапляє до нас через наші порти.\nЦей варіант не зупинить поширення інфекції через сухопутні кордони."
+ zombie_close_port_modifier_tt: " #RED -100% пропускної спроможності#! будє додано до всіх портових будівель в нашій країні.\n#RED -100% конвоїв#! будє додано в нашій країні."
+ zombie_close_port_timer_explain_tt: "Ви зможете знову відкрити порти через 28 днів."
+ 
+ zombie_open_ports_decision: "Зняти карантин"
+ zombie_open_ports_decision_desc: "Відкриття наших портів збільшить ризик потрапляння інфекції в нашу країну, але наша економіка це оцінить."
+ zombie_open_port_tt: "#BOLD #YELLOW Підказка:#!#! \nЦей параметр прибере ефекти #BOLD національного карантину#! з усіх портів. Рішення „#BOLD Запровадити суворий карантин#!‟ буде одразу ж доступне знову."
+ zombie_port_closed_timer_tt: "Ще не запроваджено карантин за останній час"
+ 
+ zombie_close_ports_decision_subjects: "Запровадити карантин у наших суб’єктах"
+ zombie_close_ports_decision_subjects_desc: "Існує ризик, що інфекція може потрапити до наших суб’єктів через іноземні торгові судна або судна з біженцями. Закриття портів зменшить цей ризик, але ціною нашої спільної економіки."
+ zombie_close_port_modifier_subject_tt: "#RED -100% пропускної спроможності#! будє додано до всіх портових будівель у наших суб’єктах.\n#RED -100% конвоїв#! будє додано у наших суб’єктах."
+ zombie_close_port_timer_explain_tt: "Ви зможете знову відкрити порти через 28 днів."
+ 
+ zombie_open_ports_decision_subjects: "Зняти карантин з наших суб’єктів"
+ zombie_open_ports_decision_subjects_desc: "Відкриття портів наших суб’єктів збільшить ризик потрапляння інфекції в їхні країни, але їхня економіка це оцінить."
+ zombie_open_port_subjects_tt: "#BOLD #YELLOW Підказка:#!#! \nЦей параметр прибере ефекти #BOLD національного карантину#! з усіх портів. Рішення „#BOLD Запровадити карантин у наших суб’єктах#!‟ буде одразу ж доступне знову."
+ zombie_port_closed_timer_tt: "Ще не запроваджено карантин за останній час"
+ 
+ 
+ zombie_start_early: "Почати апокаліпсис"
+ zombie_start_early_desc: "Цей параметр покладе початок зомбі-апокаліпсису раніше.\nЯкщо його не буде обрано, апокаліпсис почнеться випадковим чином сам по собі, використовуючи ігровий механізм випадкових подій, що відбудуться після 1845 року.\nЗауважте, що це рішення зникне після закінчення 1836 року."
+ zombie_start_early_tt: "Буде виявлено нову незрозумілу інфекцію"
+
+ zombie_end_early: "Закінчити апокаліпсис"
+ zombie_end_early_desc: "Цей параметр дозволить покласти край зомбі-апокаліпсису раніше.\nЯкщо його не буде обрано, апокаліпсис відбуватиметься відповідно до варіанту, обраного в записі „#B Конструктор апокаліпсису#!‟."
+ zombie_end_early_tt: "Зараження зомбі в областях буде видалено, а запис „Спалах зомбі‟ зникне для всіх країн"
+
+ # modifiers
+
+ zombie_started_modifier: "Виявлені зомбі"
+ zombie_affected_modifier: "Ця область постраждала від зомбі"
+ zombie_port_modifier: "Порт захоплено зомбі"
+ zombie_ports_closed_modifier: "Національний карантин"
+ zombie_ports_closed_country_modifier: "Карантин у портах"
+ 
+ zombie_evacuation_sender_modifier: "Накази щодо евакуації"
+ zombie_evacuation_receiver_modifier: "Табори для біженців"
+ zombie_bombarded_town_modifier: "Постраждалі від обстрілів міста"
+ zombie_bombardment_he_ongoing_modifier: "Триваючі обстріли: Осколково-фугасні снаряди"
+ zombie_bombardment_gas_ongoing_modifier: "Триваючі обстріли: газові снаряди"
+ zombie_quarantine_modifier: "Міста заблоковані"
+ zombie_quick_institutions_modifier: "Посилення зусиль у надзвичайних ситуаціях"
+ 
+ zombie_govt_abandoned_state: "Порожні державні офіси"
+ zombie_govt_abandoned_govt: "Екстрена урядова евакуація"
+ zombie_govt_abandoned_govt2: "Уряд під загрозою"
+ zombie_govt_overrun: "Зомбі захопили столицю"
+ 
+ zombie_betrayal: "Зраджений колега-політик"
+ 
+ zombie_bombardment_city_fire_modifier: "Міське пекло"
+ zombie_bombardment_slum_fire_modifier: "Зруйновані нетрі"
+ zombie_barricades_modifier: "Барикади на вулицях"
+ zombie_vigilantes_endorsed_modifier: "Різанина натовпу"
+ zombie_vigilantes_not_endorsed_modifier: "Конфлікти з самообороною"
+ zombie_trains_kept_modifier: "Потяги для біженців"
+ zombie_trains_stopped_modifier: "Залізниця паралізована"
+ 
+ zombie_colonisation_modifier: "Розгромлені зомбі"
+ 
+ zombie_ongoing_outbreak_modifier: "Національна надзвичайна ситуація"
+ zombie_military_checkpoints_modifier: "Військові блокпости"
+ national_military_checkpoints_modifier: "Військова реакція на спалах"
+ zombie_health_checkpoints_modifier: "Лікарні швидкої допомоги"
+ national_health_checkpoints_modifier: "Реагування системи охорони здоров’я на спалах" 
+ zombie_military_checkpoints_overrun_modifier: "Захоплення військових блокпостів"
+ zombie_health_checkpoints_overrun_modifier: "Переповнені лікарні швидкої допомоги"
+ zombie_cremations_modifier: "Масова кремація"
+ #zombie_cages_modifier: "Залізні труни"
+ 
+ zombie_rebuild_modifier: "Зусилля з відновлення"
+
+ # journal
+
+ je_contain_outbreak: "Стримати спалах!"
+ je_contain_outbreak_reason: "Серія нападів у місті [SCOPE.sState('zombie_outbreak_state').GetCityHubName] викликає серйозне занепокоєння.\n\nНаші вчені вважають, що якась хвороба змушує людей ставати неймовірно агресивними зомбі. Що б це не було, вони вважають, що воно передається через біологічну рідину... роблячи укус зомбі дуже небезпечним. Вони попереджають, що якщо хвороба не буде локалізована, вона може поширитися по всьому місту і по всій області [SCOPE.sState('zombie_outbreak_state').GetName].\n\n#BOLD #YELLOW Підказка:#!#!\nПідвищення заробітної плати військовослужбовців, а також рівня івестування для поліції та закладів охорони здоров’я забезпечить #green позитивні фактори#! для стримування"
+ 
+ je_contain_outbreak_merchant: "Стримати спалах!"
+ je_contain_outbreak_merchant_reason: "Торговельне судно завезло інфекцію до міста [SCOPE.sState('zombie_outbreak_state').GetPortHubName]. Інфекцію необхідно локалізувати, поки вона не поширилася по всьому регіону, як лісова пожежа.\n\n#BOLD #YELLOW Підказка:#!#!\nПідвищення заробітної плати військовослужбовців, а також рівня івестування для поліції та закладів охорони здоров’я забезпечить #green позитивні фактори#! для стримування"
+ 
+ je_contain_outbreak_fail: "Стримування не вдалося"
+ je_contain_outbreak_timer: "Спалах зомбі безпечно стримувався протягом #variable 15#! тижнів"
+ 
+ zombie_evacuation_button: "Запровадити евакуацію"
+ zombie_evacuation_button_desc: "Ми оголосимо масову евакуацію з епіцентру і, сподіваємось, виведемо наших громадян подалі від небезпеки. Це може вплинути на наш добробут у сусідніх областях...\n\n#BOLD #YELLOW Підказка:#!#!\nЦе буде #GREEN збільшувати#! рівень стримування на #GREEN 1#! пункт щотижня"
+ zombie_quarantine_button: "Запровадити карантин"
+ zombie_quarantine_button_desc: "Наказати ввести в місті [SCOPE.sState('zombie_outbreak_state').GetCityHubName] воєнний стан, поки зомбі не піддадуться природному розпаду... хоча вони можуть забрати з собою наших живих цивільних...\n\n#BOLD #YELLOW Підказка:#!#!\nЦе буде #GREEN збільшувати#! рівень стримування на #GREEN 1#! пункт щотижня"
+ zombie_shell_he_button: "Запровадити артилерійський обстріл"
+ zombie_shell_he_button_desc: "Наші військові почнуть бомбардувати місто [SCOPE.sState('zombie_outbreak_state').GetCityHubName] осколково-фугасними снарядами. Сподіваємося, що удари знешкодять зростаючу зомбі-популяцію всередині...\n\n#BOLD #YELLOW Підказка:#!#!\nЦе буде #GREEN збільшувати#! рівень стримування на #GREEN 2#! пункта щотижня"
+ zombie_shell_gas_button: "Запровадити газову атаку"
+ zombie_shell_gas_button_desc: "Наші вчені помітили, що зомбі все ще використовують свої легені. Ми можемо скористатися цим, наказавши нашим військовим бомбардувати місто [SCOPE.sState('zombie_outbreak_state').GetCityHubName] газовими снарядами, сподіваючись, що зомбі задихнуться...\n\n#BOLD #YELLOW Підказка:#!#!\nЦе буде #GREEN збільшувати#! рівень стримування на #GREEN 3#! пункти щотижня"
+ zombie_law_change_button: "Змінити закони в умовах надзвичайної ситуації"
+ zombie_law_change_button_desc: "Ми можемо зібрати наших урядовців і прийняти закони, які допоможуть нам реагувати на цю кризу..."
+ zombie_quick_institution_button: "Прискорити реагування на надзвичайні ситуації"
+ zombie_quick_institution_button_desc: "Ми можемо збільшити масштаб нашого реагування, тимчасово збільшивши кількість наших аварійних служб" 
+ 
+ zombie_evacuation_tt: "Ще не віддано наказ про евакуацію міста [SCOPE.sState('zombie_outbreak_state').GetCityHubName]"
+ zombie_quarantine_tt: "Ще не віддано наказ про каратин в місті [SCOPE.sState('zombie_outbreak_state').GetCityHubName]"
+ zombie_bombardment_tt: "Місто [SCOPE.sState('zombie_outbreak_state').GetCityHubName] ще не було обстріляно за останній #variable тиждень#!"
+ 
+ zombies_quarantine_tt: "карантин"
+ zombies_evacuation_tt: "наказ про евакуацію"
+ zombies_bombardment_he_tt: "наші нещодавні бомбардування"
+ zombies_bombardment_gas_tt: "наші нещодавні газові атаки"
+ 
+ je_zombies: "Спалах зомбі!"
+ je_zombies_reason: "Стримування зомбі провалено, і хвороба поширюється зі швидкістю лісової пожежі!\n\n#BOLD #YELLOW Підказка:#!#! \nЯкщо постраждала область втратить значну кількість населення, вона ризикує перетворитися на [Concept('concept_unincorporated_state', 'невключену область')] або навіть на [Concept('concept_decentralized_nation', 'децентралізовану державу')]"
+ je_zombies_end_tt: "Спалах почав згасати"
+ je_zombies_end_result_tt: "Ніяких нових зомбі умов у нашій країні не буде"
+
+ zombie_military_checkpoints_button: "Створити військові блокпости"
+ zombie_military_checkpoints_button_desc: "Військові блокпости можуть бути створені для захисту цивільного населення, яке тікає, і для того, щоб уповільнити поширення інфекції. Хоча вони і можуть вплинути на потік товарів у нашій економіці."
+ zombie_military_checkpoints_timer_explain_tt: "Військовослужбовці можуть бути відкликані через 28 днів."
+ zombie_military_checkpoints_modifier_explain_tt: "Усі [Concept('concept_incorporated_state', 'включені області')] отримають військові блокпости, що призведе до наступних ефектів:\n[GetStaticModifier('zombie_military_checkpoints_modifier').GetDesc]"
+ 
+ zombie_military_checkpoints_off_button: "Відкликати військових"
+ zombie_military_checkpoints_off_button_desc: "Військові блокпости будуть покинуті"
+ zombie_military_checkpoints_button_off_timer_tt: "Ще не наказано встановлювати блокпости за останній час"
+ zombie_military_checkpoints_modifier_off_explain_tt: "Усі військові блокпости будуть покинуті, що призведе до усунення наступних ефектів:\n[GetStaticModifier('zombie_military_checkpoints_modifier').GetDesc]"
+ 
+ zombie_health_checkpoints_button: "Створити лікарні швидкої допомоги"
+ zombie_health_checkpoints_button_desc: "Лікарні швидкої допомоги намагатимуться сповільнити поширення інфекції шляхом лікування поранених"
+ zombie_health_checkpoints_timer_explain_tt: "Медичний персонал може бути відкликаний через 28 днів."
+ zombie_health_checkpoints_modifier_explain_tt: "Усі [Concept('concept_incorporated_state', 'включені області')] отримають лікарні швидкої допомоги, що призведе до наступних ефектів:\n[GetStaticModifier('zombie_health_checkpoints_modifier').GetDesc]"
+ 
+ zombie_health_checkpoints_off_button: "Відкликати медичний персонал"
+ zombie_health_checkpoints_off_button_desc: "Всі лікарні швидкої допомоги будуть покинуті"
+ zombie_health_checkpoints_button_off_timer_tt: "Ще не давали розпорядження про створення лікарень швидкої допомоги за останній час"
+ zombie_health_checkpoints_modifier_off_explain_tt: "Усі лікарні швидкої допомоги будуть покинуті, що призведе до усунення наступних ефектів:\n[GetStaticModifier('zombie_health_checkpoints_modifier').GetDesc]"
+ 
+ zombie_cremations_button: "Організувати кремацію тіл"
+ zombie_cremations_button_desc: "Ми можемо зменшити ймовірність того, що мертві воскреснуть, якщо будемо спалювати тіла"
+ zombie_cremations_button_explain_tt: "Масова кремація буде організована у всіх [Concept('concept_incorporated_state', 'включених областях')], що призведе до наступних ефектів:\n[GetStaticModifier('zombie_cremations_modifier').GetDesc]"
+ 
+ zombie_change_to_colonisation_button: "Посилення підтримки відновлення"
+ zombie_change_to_colonisation_button_desc: "Ми можемо перегрупувати наше здорове населення і спробувати переконати їх знову заселити пустки"
+ zombie_colonisation_button_explain_tt: "Щотижня ми будемо мати #BOLD 5% #!до шансу ухвалення закону „[GetLawType('law_frontier_colonization').GetName]‟"
+  
+ #zombie_cages_button:0 "Order cages to be installed in cemeteries"
+ #zombie_cages_button_desc:0 "We can reduce the likelihood that the dead will rise again if we burn their bodies"
+ #zombie_cages__button_explain_tt:0 "[GetStaticModifier('zombie_cremations_modifier').GetName] will be ordered in all [Concept('concept_incorporated_state', '$concept_incorporated_states$')], resulting in:\n[GetStaticModifier('zombie_cremations_modifier').GetDesc]"
+ 
+ 
+ je_zombie_rebuild: "Відновлення"
+ je_zombie_rebuild_reason: "Усе скінчено...\nТі з нашого населення, хто пережив інфекцію, голодні, травмовані і розкидані по всій країні.\n\nПеребудувати наше суспільство буде важко, але це необхідно зробити"
+ 
+ # progress bars 
+  
+ zombie_outbreak_progress_bar_name: "локалізації спалаху"
+ zombie_outbreak_progress_bar_desc1: "Здорові люди"
+ zombie_outbreak_progress_bar_desc2: "Зомбі"
+  
+ zombies_high_military_wages_tt: "#bold висока#! #GOLD військова присутність#!"
+ zombies_low_military_wages_tt: "#bold низька#! #GOLD військова присутність#!"
+ 
+ zombies_high_police_tt: "#bold висока#! #GOLD поліцейська присутність#!"
+ zombies_low_police_tt: "#bold низька#! #GOLD поліцейська присутність#!"
+ 
+ zombies_high_health_tt: "#bold високе#! #GOLD медичне обслуговування#!"
+ zombies_low_health_tt: "#bold низьке#! #GOLD медичне обслуговування#!"
+ 
+ zombies_cross_borders_tt: "неконтрольований потік біженців та #RED #bold інфікованих#!#!, які перетинають цю державу"
+ zombies_je_barricades_tt: "внутрішні барикади в межах постраждалих районів"
+ zombies_je_viligantes_tt: "натовпи месників які вбивають пацієнтів лікарень"
+ zombies_je_trains_tt: "потяги які поширюють інфекцію"
+ 
+ zombies_traditional_bar_tt: "повільні зомбі"
+ zombies_28days_bar_tt: "швидкі зомбі"
+ 
+ # events - outbreak
+ 
+ vicdead_events.001.t: "Ласкаво просимо в #GREEN Victoria Undead#!"
+ vicdead_events.001.d: "Цей мод додає зомбі-апокаліпсис у Victoria 3"
+ vicdead_events.001.f: "Натисніть на верхню кнопку, щоб відкрити #YELLOW #B Конструктор апокаліпсису#!#!. Ви можете вмикати та вимикати зомбі, а також змінювати інші налаштування відповідно до вашого стилю гри.\n\nНатисніть другу кнопку, щоб уникнути апокаліпсису в цій грі"
+ vicdead_events.001.a: "Відкрити Конструктор апокаліпсису"
+ vicdead_events.001.b: "Про апокаліпсис не писатимуть в газетах"
+ vichead.hint.nozombiesstart: "Ця опція вимкне зомбі лише для цієї партії"
+ 
+ vicdead_events.100.t: "З’явилась незрозуміла інфекція..."
+ 
+ vicdead_events.101.t: "Одного разу вкушений..."
+ vicdead_events.101.d: "Ми чули повідомлення, що компанія грабіжників могил була атакована минулої ночі... трупом, який вони грабували!"
+ vicdead_events.101.f: "              Одному з грабіжників могил вдалося втекти, але не раніше, ніж він побачив, як його товариш впав у яму з чудовиськом. Незважаючи на свою професію, чоловік швидко повідомив про інцидент в поліцію.\n              Поліція обшукала кладовище, розташоване біля медичного коледжу при університеті міста [SCOPE.sState('zombie_start_scope').GetCityHubName], але знайшла лише відкриту яму і порожню труну."
+ vicdead_events.101.a: "Це дуже серйозно... обшукайте прилеглу територію!"
+ vicdead_events.101.b: "Пошліть підкріплення!"
+ # vicdead_events.101.b: "Це викликає занепокоєння... якби це було правдою"
+ vicdead_events.101.c: "Такі речі тут не трапляються"
+ vicdead_events.101.e: "Просто погляньте які тут гарні квіти"
+ 
+ vichead.hint.continuesearch: "Наші #BLUE поліцейські#! розширять пошуки в нетрах міста [SCOPE.sState('zombie_start_scope').GetCityHubName]."
+ vichead.hint.endsearch: "Ми накажемо нашим #BLUE поліцейським#! відступити.\nЦе дозволить пропустити початкову історію."
+ vichead.hint.gtfo: "Ця опція почне спалах #GREEN зомбі#! в іншій випадковій країні, замість вашої. Випадковим чином обрано країну „[SCOPE.sCountry('volunteer_country').GetName]‟ як нову ціль."
+ vichead.hint.nozombies: "Ця опція зупинить події #GREEN зомбі#!, щоб ви могли спокійно продовжити гру."
+ 
+ # 1021 to 1052 added in 2025 update
+ 
+ vicdead_events.1021.t: "...удвічі обережніший!"
+ vicdead_events.1021.d: "Наші поліцейські продовжували пошуки, і незабаром до них наблизилася невелика група втікачів з нетрів!"
+ vicdead_events.1021.f: "              „Чудовисько!‟ — вигукують вони;\n              „він з’їв жінку!‟\n\n              Офіцеру вдається зловити одного з них, коли вони пробігають повз. Все ще задихаючись, переляканий затриманий швидко пояснює, що бачив як чоловік напав на його сусідку.\n              „Я почув її крик і пішов подивитися, що сталося. Там був чоловік, якого я ніколи раніше не бачив, він міцно тримав її і кусав за плече. Я не міг його відтягнути‟\n              „Я покликав свого сина, — продовжує він, — „покликав його, щоб він приніс мою сокиру для рубки дерева. Тож я встромив сокиру в плече цього чоловіка... він навіть не здригнувся!‟\n\n\n                    #I Наказати нашим поліцейським...#!"
+ vicdead_events.1021.a: "...йти за зразком"
+ vicdead_events.1021.b: "...заарештувати цього чоловіка за розпалювання суспільної істерії!"
+ 
+ vichead.hint.continuesearch.again: "Наші #BLUE поліцейські#! запевнять чоловіка, що він у безпеці, і попросять його надати більше інформації про монстра."
+ vichead.hint.arresthim: "Якщо залишити цю людину на волі, хто знає, яку паніку він посіє! Наші #BLUE поліцейські#! спробують заарештувати його."
+
+ vicdead_events.1031.t: "Ті, що гарчать вночі"
+ vicdead_events.1031.d: "Наші поліцейські продовжують пошуки — двоє з них звертають за кут у темний провулок, де натрапляють на згорбленого чоловіка, що спотикається..."
+ vicdead_events.1031.f: "              Чоловіка важко розгледіти в світлі ліхтаря, але наші правоохоронці можуть розрізнити блиск крові, яка капає з його відкритого рота... Це, мабуть, монстр!\n              Без вагань монстр починає поспішно шкандибати до них — „Стій на місці!‟ — кричать вони, але це марно.\n\n\n                             #I Поліцейські вирішили...#!"
+ vicdead_events.1031.a: "...дістати свої службові револьвери!"
+ vicdead_events.1031.b: "...зхопити свої кийки!"
+ vicdead_events.1031.c: "...дістатися до виходу!"
+ 
+ vichead.hint.shoot: "Наші #BLUE поліцейські#! спробують застрелити #GREEN зомбі#! з револьверів. Зараз темно, і ці револьвери не дуже надійні... чоловіки можуть мати більше шансів влучити в зомбі, якщо просто кинуть зброю в монстра замість того, щоб стріляти!"
+ vichead.hint.beat: "Наші #BLUE поліцейські#! намагатимуться змусити #GREEN зомбі#! підкоритися... хоча це означає, що для цього їм доведеться зкоротити дистанцію..."
+ vichead.hint.run: "Наші #BLUE поліцейські#! підуть тим шляхом, яким прийшли, і втечуть звідти!"
+ 
+ vicdead_events.1041.t: "Перестрілка в провулку"
+ vicdead_events.1041.d: "Поліцейські дістають зброю і відкривають вогонь по зомбі..."
+ vicdead_events.1041.f: "                                     #ITALIC #GOLD БАХ! БАХ! БАХ!#!#!\n              ...але він не зупиняється і продовжує наближатися до офіцерів! Хлопці відступають назад — але чують гарчання позаду себе.\n              Обернувшись, вони бачать, що ще один закривавлений чоловік, але вже з сокирою, що стирчить з правого плеча, спотикаючись, прямує до них: вони оточені!\n\n\n                             #I Поліцейські вирішили...#!"
+ # vicdead_events.1041.a: "...витягнути кийки!"
+ vicdead_events.1041.b: "...перелізти через стіну в сусідній двір!"
+ # vicdead_events.1041.c: "...витратити останні набої один на одного!"
+ 
+ vichead.hint.beat.again: "Наші #BLUE поліцейські#! намагатимуться побити #GREEN зомбі#! кийками"
+ vichead.hint.climbwall: "Стіна висока, але #BLUE поліцейські#! впевнені, що встигнуть перелізти її вчасно. Вони будуть у безпеці, якщо зроблять це."
+ 
+ vicdead_events.1042.t: "Погром у провулку"
+ vicdead_events.1042.d: "Наші поліцейські кидаються на монстра зі зброєю в руках!"
+ vicdead_events.1042.f: "Вони б’ють по голові, потім по плечах... але марно. Удари відбиваються від чудовиська, наче воно кам’яне.\n              Не розгубившись, монстр продовжує просуватися вперед і хапає чоловіків — але вони вчасно відступають, щоб убезпечити себе.\n\n\n                             #I Поліцейські вирішили...#!"
+ vicdead_events.1042.a: "...спробувати вистрілити в потвору!"
+ vicdead_events.1042.b: "...Тікати, рятуючи своє життя!"
+ 
+ vicdead_events.1043.t: "Швидше, забирайтеся звідси!"
+ vicdead_events.1043.d: "Наші поліцейські розвертаються і тікають..."
+ vicdead_events.1043.f: "Правоохоронці вирішують втекти з місця злочину, але натрапляють на ще одного закривавленого монстра, який підкрався ззаду! Вони оточені!\n\n\n                             #I Поліцейські вирішили...#!"
+ # vicdead_events.1043.a: "...витягнути кийки!"
+ # vicdead_events.1043.b: "...дістати свої службові револьвери!"
+ vicdead_events.1043.c: "...перелізти через стіну в сусідній двір!"
+ 
+ vicdead_events.1051.t: "Перелаз через стіну"
+ vicdead_events.1051.d: "Правоохоронці стрибають на стіну і важко дихають, намагаючись підтягнутися подалі від монстрів..."
+ vicdead_events.1051.f: "Одному з чоловіків легко вдається перекинути ногу і перелізти через стіну. Але іншому не так пощастило, він ледве дістає плечима до верхнього краю. Інший поліцейський намагається підтягнути його, але вже занадто пізно.\n              Монстри хапають чоловіка, що пручається, і тягнуть його на землю; інший правоохоронець ледь не падає, вчепившись в одяг своїх товаришів! Повалений поліцейський падає на спину і звивається... а монстри починають нахилятися до нього...\n\n\n                             #I Поліцейський вирішує...#!"
+ vicdead_events.1051.a: "...зістрибнути вниз і допомогти поваленому товаришу!"
+ vicdead_events.1051.b: "...тікати і кликати на допомогу!"
+ 
+ vichead.hint.jumpdown: "#BLUE Поліцейський#! спробує врятувати свого поваленого товариша"
+ vichead.hint.flee: "#blue Поліцейський#! зістрибне у двір і побіжить назад у відділок... залишивши свого товариша #red на милість зомбі#!"
+ 
+ vicdead_events.1052.t: "Спаситель згори"
+ vicdead_events.1052.d: "Наш поліцейський зістрибує зі стіни..."
+ vicdead_events.1052.f: "              Долаючи шок, він кидається до волаючого поваленого товариша, поки зомбі вгризаються в його шкіру. Рятівник намагається відтягнути їх від кричущого чоловіка, але марно — рішучість зомбі не може бути подолана силою однієї людини.\n              Крики поваленого правоохоронця припиняються, і зомбі обертаються, щоб подивитися на іншого поліцейського...\n\n\n                             #I Поліцейський вирішує...#!"
+ vicdead_events.1052.a: "...забиратися звідти!"
+ vichead.hint.flee2: "#blue Поліцейський#! побіжить назад у відділок."
+ 
+ ########
+ 
+ vicdead_events.106.t: "Повернувшись у відділок"
+ vicdead_events.106.d: "Всі у відділку, здається, на межі..."
+ vicdead_events.106.f: "До нас надійшли новини, що сталося ще кілька нападів... Очевидно, інфекція поширюється по нетрах міста [SCOPE.sState('zombie_start_scope').GetCityHubName] і в передмістях із середнім класом. Зрозуміло, що для того, щоб її зупинити, потрібно докласти чимало зусиль..."
+ vicdead_events.106.a: "Розпочати зусилля зі стримування"
+ 
+ vicdead_events.201.t: "Урядова евакуація"
+ vicdead_events.201.d: "Інфекція стрімко поширюється нашою столицею, містом [SCOPE.sState('zombie_outbreak_state').GetCityHubName]"
+ vicdead_events.201.f: "Зомбі незабаром досягнуть державних установ у місті. Якщо вони заполонять країну, керувати нею стане неможливо."
+ vicdead_events.201.a: "Негайно евакуюйте уряд!"
+ vicdead_events.201.b: "Ми повинні очолити відповідь з епіцентру"
+ 
+ vicdead_events.203.t: "Міське пекло!"
+ vicdead_events.203.d: "Наші артилерійські обстріли спричинили велику міську пожежу в нетрях міста [SCOPE.sState('zombie_bombardment_state_target').GetCityHubName]"
+ vicdead_events.203.f: "Дешеві будівельні матеріали, що використовувалися при будівництві нетрів, не могли зрівнятися з нашими осколково-фугасними снарядами. Одна або кілька пожеж були спричинені вибухами, тому під час цього хаосу вогонь почав неконтрольовано розповсюджуватися. Заражені та вцілілі, тепер стали жертвами цього пекла..."
+ vicdead_events.203.a: "Ми не можемо ризикувати викликавши пожежників!"
+ 
+ vicdead_events.204.t: "Забарикадовані"
+ vicdead_events.204.d: "Цивільне населення міста [SCOPE.sState('zombie_state').GetCityHubName] збудувало великі барикади, які допомагають зупинити поширення інфекції"
+ vicdead_events.204.f: "Громадяни помітили, що інфіковані не здатні орієнтуватися в обстановці, і забарикадували цілі вулицях."
+ vicdead_events.204.a: "Це, добре, напевно."
+ barricades_tt: "Барикади тимчасово допоможуть надаючи невелику кількість балів #green позитивного стримування#!"
+ 
+ vicdead_events.205.t: "Натовп наступає... на лікарню!"
+ vicdead_events.205.d: "Намагаючись зменшити поширення інфекції, озброєний натовп цивільних осіб здійснив напад на головну лікарню міста [SCOPE.sState('zombie_state').GetCityHubName], проштовхуючи медичний персонал і вбиваючи пацієнтів, які там лікувалися."
+ vicdead_events.205.f: "„І пішла юрба по кімнатах, і померли всі, хто лежали на ліжках, починаючи від тих, хто спав у комі, закінчуючи тими, хто одужував від переломів, не маючи жодної інфекції, і не пощадили навіть вагітних жінок. А після погрому, будівля була підпалена, і ніколи ще не було такої різанини на всій землі нашої країни...‟"
+ vicdead_events.205.a: "Накажіть поліції негайно втрутитися!"
+ vicdead_events.205.b: "Це має певну користь..."
+ zombie_vigilante_not_endorsed_tt: "Наші #BLUE поліцейські#! придушать групи самооборони до того, як вони встигнуть напасти на іншу лікарню"
+ zombie_vigilante_endorsed_tt: "Групи самосудів продовжуватимуть сіяти хаос. Погроми лікарень і навіть полювання на хворих у передмістях... це забезпечить невелику кількість балів #green позитивного стримування#!"
+ 
+ vicdead_events.206.t: "Потяги до міста [SCOPE.sState('zombie_state').GetCityHubName]"
+ vicdead_events.206.d: "Залізниця допомагає евакуації міста [SCOPE.sState('zombie_state').GetCityHubName], але чиновники попереджають, що через неї інфекція може швидко поширитися"
+ vicdead_events.206.f: "Пасажирів пакують у вагони і везуть до таборів за містом... але якщо пасажир інфікований і захворіє на борту, хто знає, скільки шкоди він завдасть, коли поїзд зупиниться!"
+ vicdead_events.206.a: "Ми повинні зупинити поїзди, що виїжджають з міста!"
+ vicdead_events.206.b: "Потяги занадто корисні, щоб їх зупиняти!"
+ zombie_trains_stopped_tt: "Всі поїзди з міста [SCOPE.sState('zombie_state').GetCityHubName] будуть призупинені, що сповільнить евакуацію"
+ zombie_trains_kept_tt: "Залізничне сполучення продовжуватиме працювати. Біженці зможуть втекти, але з ризиком поширення інфекції. Це забезпечить невелику кількість балів #red негативного стримування#!"
+ 
+ 
+ # events - ongoing infection 
+ 
+ vicdead_spread_events.101.t: "Небезпечний безбілетник"
+ vicdead_spread_events.101.d: "Один з наших торгових партнерів підхопил смертельну інфекцію. На жаль, купець привіз її до міста [SCOPE.sState('zombies_arrival_scope').GetPortHubName]..."
+ vicdead_spread_events.101.f: "Бідолашний купець, у якого спочатку не було жодних симптомів, невдовзі після прибуття в нашу країну став шалено агресивним, напавши на кількох працівників порту. Люди натовпами покидають цю територію, намагаючись врятуватися."
+ vicdead_spread_events.101.a: "Ми повинні діяти швидко, щоб стримати його!"
+ 
+ vicdead_spread_events.103.t: "Небезпечний відвідувач"
+ vicdead_spread_events.103.d: "В одного з наших сусідів з’явилася смертельна інфекція. На жаль, біженці, що тікають, занесли її в прикордонне місто [SCOPE.sState('zombies_arrival_scope').GetName]..."
+ vicdead_spread_events.103.f: "У бідолашного біженця, який спочатку був безсимптомним, піднялася температура, а потім він став шалено жорстоким і нападав на всіх, хто намагався його стримати. Тих, на кого він нападав, спіткала доля, подібна до долі цього нульового пацієнта."
+ vicdead_spread_events.103.a: "Ми повинні діяти швидко, щоб стримати його!"
+
+ vicdead_spread_events.401.t: "Кінець вже близько"
+ vicdead_spread_events.401.d: "Без належного забезпечення для підтримки великої популяції зомбі, багато з них вимирають..."
+ vicdead_spread_events.401.f: "Роками інфекція спустошувала нашу колись велику країну, але, здається, кінець вже близько.\n\n#YELLOW #B Підказка:#!#!\nГра більше не буде породжувати нові зомбі-інфекції в нашій країні. Всі зомбі, що залишилися, вимруть. Зверніть увагу, що це може зайняти кілька місяців. Наведіть курсор на іконку умови з зобмі, щоб дізнатися, коли закінчиться зомбі-інфекція."
+ vicdead_spread_events.401.a: "Нарешті... невеликий перепочинок"
+ the_end_again: "Зомбі-апокаліпсис незабаром закінчиться"
+ 
+ vicdead_spread_events.201.t: "Блокпости захоплено!"
+ vicdead_spread_events.201.d: "Інфіковані заполонили наші військові блокпости в місті [SCOPE.sState('zombie_overrun_military_state').GetCityHubName]!"
+ vicdead_spread_events.201.f: "Наші солдати билися до останнього, щоб захистити позиції, але це було марно: сотні якщо не тисячі інфікованих заполонили їх. Це було безнадійно, солдати швидко піддавалися інфекції."
+ vicdead_spread_events.201.a: "Дідько!"
+ vicdead_spread_events.201.a_tt: "Відтепер наші військові блокпости можуть бути захоплені інфікованими. Вони не зможуть бути відновлені у постраждалих областях."
+ 
+ vicdead_spread_events.203.t: "Лікарня переповнена!"
+ vicdead_spread_events.203.d: "Головна лікарня швидкої допомоги в місті [SCOPE.sState('zombie_overrun_health_state').GetCityHubName] переповнена інфікованими!"
+ vicdead_spread_events.203.f: "Наші медсестри забарикадувалися всередині будівлі, щоб не допустити проникнення інфікованих. Однак барикади в одному з проходів не витримали, і потік чудовиськ кинувся всередину — пацієнти і персонал опинилися в пастці... і почалася кривава різанина."
+ vicdead_spread_events.203.a: "Бідолашні!"
+ vicdead_spread_events.203.a_tt: "Відтепер наші медичні пункти можуть бути захоплені інфікованими. Вони не зможуть бути відновлені в постраждалих областях."
+ 
+ vicdead_spread_events.205.t: "Оточені!"
+ vicdead_spread_events.205.d: "Орда зомбі оточила урядові будівлі в місті [SCOPE.sState('zombie_capital').GetCityHubName], заблокувавши в них урядовців!"
+ vicdead_spread_events.205.f: "Ситуація жахлива: [SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] і [SCOPE.sCharacter('unluggy_uce_friend').GetFullName] затиснуті в пастці, через сотні інфікованих що вештаються довкола будівлі.\n[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] вирішує...\n\n\n                              #I Оберіть варіант нижче:#!"
+ vicdead_spread_events.205.a: "...зробити останній ривок!"
+ vicdead_spread_events.205.b: "... спробувати втекти!"
+ vicdead_spread_events.205.c: "...[SCOPE.sCharacter('unluggy_uce_friend').GetFullName] буде використаний як приманка!"
+ 
+ vichead.hint.betrayfriend: "[SCOPE.sCharacter('unluggy_uce_friend').GetFullName] буде виштовхнутий через вхідні двері, щоб відволікти увагу, після чого [SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] спробує втекти через чорний хід." 
+ vichead.hint.laststand: "Персонажі допомагатимуть охоронцям відстрілювати зомбі, що наближаються, в надії, що їх вдасться відлякати."
+ vichead.hint.fleebuildings: "Персонажі покидають будівлю і тікають до сусіднього міста."
+ 
+ vichead.hint.getaway: "[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] успішно тікає"
+ vichead.hint.getaway.friend: "[SCOPE.sCharacter('unluggy_uce_friend').GetFullName] вмирає"
+ vichead.hint.getaway.caught: "[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] під час втечі потрапляє до зомбі"
+ vichead.hint.shootout: "[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] вмирає, захищаючи будівлі"
+ vichead.hint.shootout.won: "[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] та охоронці успішно відбиваються від зомбі-нападників. Будівлі були врятовані"
+ vichead.hint.buildingdestroyed: "Головні будівлі будуть захоплені"
+ 
+ 
+ vichead.hint.bothdie: "[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] і [SCOPE.sCharacter('unluggy_uce_friend').GetFullName] вбиті"
+ vichead.hint.rulediesfriendlives: "[SCOPE.sCharacter('unluggy_uce_friend').GetFirstName] виживає, але [SCOPE.sCharacter('unluggy_uce_ruler').GetFirstName] вмирає"
+ vichead.hint.bothsurvive: "[SCOPE.sCharacter('unluggy_uce_ruler').GetFullName] і [SCOPE.sCharacter('unluggy_uce_friend').GetFullName] виживають"
+ 
+ # notifications
+ 
+ zombie_lore_group: "Сповіщення про зомбі-історії"
+ zombie_spread_group: "Сповіщення про поширення зомбі"
+ zombie_state_group: "Zombie state effects notifications"
+ 
+ notification_zombie_follows_name: "Пошуки тривають..."
+ notification_zombie_follows_desc: "Чоловік пояснює, де він востаннє бачив монстра. Наші поліцейські поспішають у напрямку його тремтячого пальця"
+ notification_zombie_follows_tooltip: "#header $notification_zombie_follows_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_follows_desc$"
+ 
+ notification_zombie_arrest_name: "Це ж абсурд!"
+ notification_zombie_arrest_desc: "Чоловік намагається втекти, але поліцейські пояснюють йому його права. Він не може протистояти нашим співробітникам, і вони забирають його назад у відділок для затримання"
+ notification_zombie_arrest_tooltip: "#header $notification_zombie_arrest_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_arrest_desc$"
+ 
+# notification_harvest_condition_started_in_country_zombie_name:0 "[SCOPE.sHCA('area').GetType.GetName] have been spotted in [SCOPE.sS('state').GetCountry.GetFlagTextIcon] [SCOPE.sS('state').GetName]"
+# notification_harvest_condition_started_in_country_zombie_desc:0 "Reports that [SCOPE.sHCA('area').GetType.GetName] have been seen in [SCOPE.sS('state').GetName] have reached the capital."
+# notification_harvest_condition_started_in_country_zombie_tooltip:0 "#header $notification_harvest_condition_started_in_country_desc_name$#!\n$notification_harvest_condition_started_in_country_desc_desc$"
+ 
+ notification_zombie_containment_failed_name: "Утримання не вдалося!"
+ notification_zombie_containment_failed_desc: "Незважаючи на всі наші зусилля, нам не вдалося стримати спалах інфекції в області [SCOPE.sState('zombie_outbreak_state').GetName]. Тепер інфекція поширюється в небезпечних масштабах."
+ notification_zombie_containment_failed_tooltip: "#header $notification_zombie_containment_failed_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_containment_failed_desc$"
+ 
+ notification_zombie_outbreak_name: "Повідомлення про захворювання..."
+ notification_zombie_outbreak_desc: "Ми отримали повідомлення про те, що невідома нова хвороба швидко поширюється в області [SCOPE.sState('zombie_outbreak_state').GetName]. Початкові зусилля зі стримування зазнали невдачі, і тисячі людей загинули або зникли безвісти.\n Цілком ймовірно, що інфекція буде поширюватися далі..."
+ notification_zombie_outbreak_tooltip: "#header $notification_zombie_outbreak_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_outbreak_desc$"
+ 
+ notification_zombie_infection_started_in_other_country_name: "Дивні заворушення за кордоном"
+ notification_zombie_infection_started_in_other_country_desc: "З’явилася інформація, що невідома нова хвороба швидко поширюється в області [SCOPE.sState('zombie_start_scope').GetName]"
+ notification_zombie_infection_started_in_other_country_tooltip: "#header $notification_zombie_infection_started_in_other_country_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_infection_started_in_other_country_desc$"
+  
+ # notification_zombie_outbreak_merchant_name:0 "The infection has spread to [SCOPE.sCountry('new_zombie_country').GetName]"
+ # notification_zombie_outbreak_merchant_desc:0 "We have received reports which say that a strange new diesease is rapidly spreading through [SCOPE.sCountry('new_zombie_country').GetName], infecting thousands of people."
+ # notification_zombie_outbreak_merchant_tooltip:0 "#header $notification_zombie_outbreak_merchant_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_outbreak_merchant_desc$"
+ 
+ notification_zombie_outbreak_merchant_2_name: "Інфекція поширюється по всьому порту міста [SCOPE.sState('zombies_arrival_scope_2').GetPortHubName]"
+ notification_zombie_outbreak_merchant_2_desc: "Хтось на борту нещодавно прибулого корабля, несвідомо привіз інфекцію до міста [SCOPE.sState('zombies_arrival_scope_2').GetPortHubName], що в області [SCOPE.sState('zombies_arrival_scope_2').GetName]. І без того стурбовані мешканці були швидко захоплені, а ті, хто не зміг втекти, швидко загинули від рук монстрів."
+ notification_zombie_outbreak_merchant_2_tooltip: "#header $notification_zombie_outbreak_merchant_2_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_outbreak_merchant_2_desc$"
+ 
+ notification_zombie_containment_failed_merchant_name: "Ізоляція не спрацювала!"
+ notification_zombie_containment_failed_merchant_desc: "Незважаючи на всі наші зусилля, ми не змогли стримати спалах інфекції в області [SCOPE.sState('zombie_outbreak_state').GetName]. Наразі інфекція поширюється в небезпечних масштабах."
+ notification_zombie_containment_failed_merchant_tooltip: "#header $notification_zombie_containment_failed_merchant_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_containment_failed_merchant_desc$"
+ 
+ notification_zombie_arrived_name:0 "Інфекція поширилася на область [SCOPE.sState('new_zombie_state_scope').GetName]!"
+ notification_zombie_arrived_desc:0 "Інфекція поширилася на нову область, спричиняючи безлад і хаос"
+ notification_zombie_arrived_tooltip:0 "#header $notification_zombie_arrived_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_arrived_desc$"
+ 
+ #notification_zombie_arrived_name:0 "The infection has spread"
+ #notification_zombie_arrived_desc:0 "[SCOPE.sHCA('area').GetType.GetName] have been spotted in [SCOPE.sS('state').GetCountry.GetFlagTextIcon] [SCOPE.sS('state').GetName]"
+ #notification_zombie_arrived_tooltip:0 "#header $notification_zombie_arrived_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_arrived_desc$"
+ 
+ 
+ notification_zombie_overun_capital_name: "Наші урядові споруди були захоплені!"
+ notification_zombie_overun_capital_desc: "Зграї зомбі заполонили урядові споруди в місті [SCOPE.sState('zombie_capital').GetCityHubName], вбивши при цьому кількох політиків"
+ notification_zombie_overun_capital_tooltip: "#header $notification_zombie_overun_capital_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_overun_capital_desc$"
+ 
+ notification_zombie_state_lost_name: "Ми втрачаємо контроль над областю [SCOPE.sState('zombies_unincorperated_state_scope').GetName]"
+ notification_zombie_state_lost_desc: "Зв'язок з областю [SCOPE.sState('zombies_unincorperated_state_scope').GetName] втрачається серед хаосу, спричиненого поширенням інфекції\n\n[SCOPE.sState('zombies_unincorperated_state_scope').GetName] тепер [Concept('concept_unincorporated_state','неінтегрована область')]"
+ notification_zombie_state_lost_tooltip: "#header $notification_zombie_state_lost_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_state_lost_desc$"
+ 
+ notification_zombie_country_lost_name: "Область [SCOPE.sState('zombies_completely_lost_state_scope').GetName] була повністю захоплена"
+ notification_zombie_country_lost_desc: "Інфекція настільки спустошила область [SCOPE.sState('zombies_completely_lost_state_scope').GetName] , що ми втратили будь-який контроль над територією: якщо хтось залишився живим... нехай [SCOPE.GetRootScope.GetCountry.GetCustom('GetDivinity')] допоможе їм.\n\n[SCOPE.sState('zombies_completely_lost_state_scope').GetName] тепер [Concept('concept_decentralized_nation','децентралізована держава')] де правлять угрупування тих, хто вижив. Її потрібно буде знову [Concept('concept_colony','колонізувати')], перш ніж ми будемо мати знов будь-який контроль над нею."
+ notification_zombie_country_lost_tooltip: "#header $notification_zombie_country_lost_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_country_lost_desc$"
+ 
+ notification_zombie_military_checkpoint_lost_name: "Військові блокпости були захоплені"
+ notification_zombie_military_checkpoint_lost_desc: "Незважаючи на всі зусилля наших солдатів, військові блокпости в області [SCOPE.sState('zombie_overrun_military_state').GetName] були захоплені інфікованими."
+ notification_zombie_military_checkpoint_lost_tooltip: "#header $notification_zombie_military_checkpoint_lost_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_military_checkpoint_lost_desc$"
+ 
+ notification_zombie_health_checkpoint_lost_name: "Лікарні швидкої допомоги переповнені"
+ notification_zombie_health_checkpoint_lost_desc: "Незважаючи на всі зусилля наших медиків, лікарні в області [SCOPE.sState('zombie_overrun_health_state').GetName] залишаються переповнені."
+ notification_zombie_health_checkpoint_lost_tooltip: "#header $notification_zombie_health_checkpoint_lost_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_health_checkpoint_lost_desc$"
+ 
+ notification_zombie_subject_lost_name: "Держава [SCOPE.sCountry('subject_scope').GetName] оголошує незалежність"
+ notification_zombie_subject_lost_desc: "Держава [SCOPE.sCountry('subject_scope').GetName] втратили надію на те, що наша країна здатна керувати ними в розпал епідемії, і їм довелося забрати у нас функцію управління."
+ notification_zombie_subject_lost_tooltip: "#header $notification_zombie_subject_lost_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_subject_lost_desc$"
+ 
+ # laws
+ 
+ law_survivor_govern: "Немає формального управління"
+ law_survivor_govern_desc: "Невеликі групи людей, які пережили зомбі-інфекцію. За відсутності формального управління, центральну владу майже неможливо здійснювати."
+ 
+ law_survivor_power: "Немає формального управління"
+ law_survivor_power_desc: "Невеликі групи людей, які пережили зомбі-інфекцію. За відсутності формального управління, центральну владу майже неможливо здійснювати."
+ 
+ 
+ # misc
+ 
+ # ZMB:0 "Groups of survivors"
+ # ZMB_ADJ:0 "Local survivors"
+ gov_zombie_survivors: "Групи вцілілих"
+ gov_zombie_survivors_desc: "Групи вцілілих блукають ландшафтом по цій області"
+ 
+ gov_zombie_militia: "Ополчення вцілілих"
+ gov_zombie_militia_desc: "Групи жорстоких уцілілих грають одна з одною у війну"
+ 
+ gov_zombie_commune: "Комуни вцілілих"
+ gov_zombie_commune_desc: "Групи вцілілих що об’єдналися, аби перечекати апокаліпсис"
+ 
+ RULER_TITLE_SURVIVOR: "Видатний місцевий лідер"
+ 
+ zombie_name: "$ADJECTIVE$і вцілілі"
+ zombie_name_adj: "Уцілілий"
+ 
+ zombie_name_2: "$ADJECTIVE$і ополченці"
+ zombie_name_2_adj: "Уцілілий"
+
+ # easter eggs
+ 
+ ## black sheep - NZ zombie movie
+ 
+ zombie_sheep_outbreak: "Zombie Sheep"
+ zombie_sheep_outbreak_desc: "Angry flocks of flesh-eating sheep have been spotted here"
+ 
+ vicdead_ee_events.001.t: "Досягнення науки!"
+ vicdead_ee_events.001.d: "В ході новаторського експерименту в місті [SCOPE.sState('zombie_start_scope').GetCityHubName], науковці з сільськогосподарського коледжу успішно збільшили тривалість життя овець! Як повідомляється, вони зробили це, заразивши тварин новою хворобою, яка запобігає незворотній смерті."
+ vicdead_ee_events.001.f: "Місцеві фермери в захваті, адже це означає, що тварин можна буде утримувати безстроково. Це, безумовно, заощадить їм гроші в довгостроковій перспективі!\n\nОтару випустили на вигін, щоб поспостерігати за їхньою поведінкою."
+ vicdead_ee_events.001.a: "Будемо спостерігати за цим з великим інтересом!"
+ vicdead_ee_events.001.b: "Хтось інший має отримати від цього користь!"
+ vicdead_ee_events.001.c: "Нічого цікавого взагалі не повинно відбутися..."
+ vichead.hint.watchsheep: "Вчені продовжуватимуть спостерігати за поведінкою овець на дослідницьких пасовищах коледжу"
+ 
+ vicdead_ee_events.002.t: "Не кусай руку фермера, яка тебе годує!"
+ vicdead_ee_events.002.d: "Отара заражених овець втекла на сусідні поля і нападає на місцевих фермерів!"
+ vicdead_ee_events.002.f: "Отара ставала дедалі впертішою, і врешті-решт почала відмовлятися виконувати накази пастуших псів. Тієї ж ночі вони розгромила місцеву ферму, вбивши кількох фермерів, які там спали! Тепер цей табун втік на сусідні поля, нападаючи на інших овець...\n\nАле сталося щось дійсно дивне... тіла загиблих фермерів зникли з міської трупарні!"
+ vicdead_ee_events.002.a: "Цьому безглуздю треба покласти край!"
+ 
+ zombie_sheep_benefit_modifier: "Повернення овець з того світу"
+ 
+ notification_zombie_sheep_message_name: "Ферми були зруйновані!"
+ notification_zombie_sheep_message_desc: "Незважаючи на всі зусилля фермерів, багато отар овець в області [SCOPE.sState('new_zombie_sheep_scope').GetName] були інфіковані"
+ notification_zombie_sheep_message_tooltip: "#header $notification_zombie_sheep_message_name$#!\n$TOOLTIP_DELIMITER$\n$notification_zombie_sheep_message_desc$"
+ 

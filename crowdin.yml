@@ -1,0 +1,3 @@
+files:
+  - source: ua_custom_loc/ua_translations.yml
+    translation: ua_custom_loc/ua_translations2.yml

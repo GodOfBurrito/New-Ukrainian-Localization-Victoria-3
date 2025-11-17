@@ -1855,9 +1855,9 @@ request_power_bloc_embassy_proposal_notification_desc: "[INITIATOR_COUNTRY.GetPo
  military_access: "Військовий доступ"
  military_access_desc: ""
  military_access_effects_desc: "• Укладає військову угоду між двома [Concept('concept_country', 'країнами')], за якою одна країна має право проводити свої [Concept('concept_army', 'війська')] через територію іншої країни."
- military_access_article_short_desc: "[TARGET_COUNTRY.GetNameNoFormatting] мож[SOURCE_COUNTRY.GetCustom('ua_verb_country_end_ie_iut')] провести війська через [SOURCE_COUNTRY.GetAltNameNoFormatting('ua_rodoviy_country')]"
- TREATY_DRAFT_ARTICLE_FLAG_IS_MILITARY_ACCESS_EFFECT: "• [TARGET_COUNTRY.GetName] мож[SOURCE_COUNTRY.GetCustom('ua_verb_country_end_ie_iut')] провести [Concept('concept_army', 'війська')] через [SOURCE_COUNTRY.GetAltName('ua_rodoviy_country')]"
- TREATY_ARTICLE_FLAG_IS_MILITARY_ACCESS_EFFECT: "• [TARGET_COUNTRY.GetName] мож[SOURCE_COUNTRY.GetCustom('ua_verb_country_end_ie_iut')] провести [Concept('concept_army', 'війська')] через [SOURCE_COUNTRY.GetAltName('ua_rodoviy_country')]"
+ military_access_article_short_desc: "[TARGET_COUNTRY.GetNameNoFormatting] мож[SOURCE_COUNTRY.GetCustom('ua_verb_country_end_e_ut')] провести війська через [SOURCE_COUNTRY.GetAltNameNoFormatting('ua_znahidniy_country')]"
+ TREATY_DRAFT_ARTICLE_FLAG_IS_MILITARY_ACCESS_EFFECT: "• [TARGET_COUNTRY.GetName] мож[SOURCE_COUNTRY.GetCustom('ua_verb_country_end_e_ut')] провести [Concept('concept_army', 'війська')] через [SOURCE_COUNTRY.GetAltName('ua_znahidniy_country')]"
+ TREATY_ARTICLE_FLAG_IS_MILITARY_ACCESS_EFFECT: "• [TARGET_COUNTRY.GetName] мож[SOURCE_COUNTRY.GetCustom('ua_verb_country_end_e_ut')] провести [Concept('concept_army', 'війська')] через [SOURCE_COUNTRY.GetAltName('ua_znahidniy_country')]"
 
  offer_embassy: "Надання посольства"
  offer_embassy_desc:  ""
@@ -1942,7 +1942,7 @@ request_power_bloc_embassy_proposal_notification_desc: "[INITIATOR_COUNTRY.GetPo
  foreign_investment_rights: "Інвестиційні права"
  foreign_investment_rights_desc: ""
  foreign_investment_rights_effects_desc: "• Встановлює односторонні [Concept('concept_foreign_investment_rights','права на інвестиції')] для [Concept('concept_country', 'країни')], дозволяючи їй будувати [Concept('concept_building', 'споруди')] в іншій країні."
- foreign_investment_rights_article_short_desc: "Дозволяє [TARGET_COUNTRY.GetCustom('ua_davalniy_country')] будувати в [SOURCE_COUNTRY.GetCustom('ua_mistseviy_country')]"
+ foreign_investment_rights_article_short_desc: "Дозволяє [TARGET_COUNTRY.GetAltNameNoFormatting('ua_davalniy_country')] будувати в [SOURCE_COUNTRY.GetAltNameNoFormatting('ua_mistseviy_country')]"
  TREATY_DRAFT_ARTICLE_FLAG_IS_INVESTMENT_RIGHTS_EFFECT: "• Дозволяє [TARGET_COUNTRY.GetAltName('ua_davalniy_country')] будувати в [SOURCE_COUNTRY.GetAltName('ua_mistseviy_country')]"
  TREATY_ARTICLE_FLAG_IS_INVESTMENT_RIGHTS_EFFECT: "• Дозволяє [TARGET_COUNTRY.GetAltName('ua_davalniy_country')] будувати в [SOURCE_COUNTRY.GetAltName('ua_mistseviy_country')]"
 

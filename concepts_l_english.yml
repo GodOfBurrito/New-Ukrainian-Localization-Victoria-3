@@ -656,9 +656,9 @@
  concept_local_goods: "Місцеві товари"
  concept_local_good_desc: "$concept_local_goods$ are certain [Concept('concept_good','$concept_goods$')] that are not available in the wider [concept_market] outside the [concept_state] where they are produced. Their price is fully determined by local [concept_good_production] and [concept_good_consumption], with [concept_market_price] not factored in at all."
  
- concept_subsistence_building:0 "Subsistence Building"
- concept_subsistence_buildings:1 "Subsistence Building"
- concept_subsistence_building_farming:0 "Subsistence Farming"
+ concept_subsistence_building: "Споруда натурального господарство"
+ concept_subsistence_buildings: "Споруди натурального господарство"
+ concept_subsistence_building_farming: "Натуральне господарство"
  concept_subsistence_building_desc:2 "A set of [Concept('concept_building', '$concept_buildings$')] that perform low-intensity, decentralized production of food and basic resource [Concept('concept_good','$concept_goods$')] suitable for mere survival. Their production is split between a small quantity of [Concept('concept_good','$concept_goods$')] to be sold on the [concept_market] and [concept_subsistence_output] used to sustain the meager [concept_sol] of the [SelectLocalization(GetPlayer.IsValid,'concept_subsistence_building_desc_added','Peasants')] who work there. They are considerably less effective than most $concept_buildings$, but will operate on any unclaimed [concept_arable_land] and does not require manual [concept_construction]."
  concept_subsistence_building_desc_added:0 "[GetPopType('peasants').GetName]"
 
@@ -962,8 +962,8 @@
  concept_market_capital_desc:2 "The [concept_state] that serves as the nexus of a [concept_market], to which all other $concept_states$ in the $concept_market$ must connect lest they become [Concept('concept_isolated_state','$concept_isolated_state_short$')]. [concept_trade] with the [concept_world_market] is often, but not always, managed from the $concept_market_capital$. The $concept_market_capital$ is often the same $concept_state$ as the [Concept('concept_market_owner','$concept_market_owner_possessive$')] [concept_capital_state], but it is possible to keep these separate.[AddLocalizationIf(GetPlayer.IsValid,'concept_market_capital_desc_added')] "
  concept_market_capital_desc_added:0 "\nThe following effects apply:\n[GetStaticModifier('market_capital_state').GetDesc]"
 
- concept_ownership_share: "Pop Ownership Share"
- concept_ownership_shares: "Pop Ownership Shares"
+ concept_ownership_share: "Частка власності населення"
+ concept_ownership_shares: "Частки власності населення"
  concept_ownership_share_desc: "Determines how the [Concept('concept_building_balance','$concept_building_balance_profit$')] of [Concept('concept_building_level','$concept_building_levels$')] that are [concept_privately_owned] by its [concept_workforce] is distributed.\n\nThe [concept_dividends] are given to each [Concept('concept_pop','$concept_pops$')] as [concept_pop_income], depending on the size of their share compared to the rest of the $concept_workforce$.\n\nThe $concept_pop$ is also considered to own that proportion of the [concept_building]'s current [concept_cash_reserves].\n\nThis is the main source of income for $ARISTOCRATS_GC_LINK$ and $CAPITALISTS_GC_LINK$, as they are considered part of the $concept_workforce$ of $MANOR_HOUSES_GC_LINK$ and $FINANCIAL_DISTRICTS_GC_LINK$, respectively."
  
  concept_market_share: "Частка ринку"
@@ -1958,7 +1958,7 @@
  concept_hq_long:0 "Headquarter"
  concept_hq_desc:5 "An $concept_hq$ ($concept_hq_long$) is the territory owned by a [concept_country] in a particular [concept_strategic_region]. All [Concept('concept_military_formation','$concept_military_formations$')] have a home $concept_hq$ and can be stationed in $concept_hqs$."
 
- concept_tax_waste:0 "Tax Waste"
+ concept_tax_waste: "Податкові втрати"
  concept_tax_waste_desc:1 "The amount of [concept_taxes] collected that are wasted, due to inefficiencies or corruption, prior to entering the government coffers."
 
  concept_tax_capacity: "Потенціал оподаткування"

@@ -216,7 +216,7 @@
  state_gold_depleted_palliative: "Золоті родовища виснажено"
  
  goldrush.3.t: "Наплив іноземців викликає обурення"
- goldrush.3.d: "[SCOPE.gsInterestGroup('petty_ig').GetName] висловилися проти переселенців, які переїжджають до #tooltippable_name #tooltip:[SCOPE.sState('pb_gold_state').GetTooltipTag],EMPTY_STRING,StateTooltip [SCOPE.sState('pb_gold_state').GetCustom('ua_znahidniy_bulding')|l]#!#!, вони благають уряд підтримати „місцевих‟ шахтарів, обмеживши переселення іноземців у країну."
+ goldrush.3.d: "[SCOPE.gsInterestGroup('petty_ig').GetName] висловилися проти переселенців, які переїжджають до #tooltippable_name #tooltip:[SCOPE.sState('pb_gold_state').GetTooltipTag],EMPTY_STRING,StateTooltip [SCOPE.sState('pb_gold_state').GetCustom('ua_znahidniy_building')|l]#!#!, вони благають уряд підтримати „місцевих‟ шахтарів, обмеживши переселення іноземців у країну."
  goldrush.3.f: "„Ви справді думаєте, що вони переїжджають тільки тому, що хочуть працювати? Озирніться навколо! Що ви тут бачите? Ось воно! Золото! У їх очах горить полум’я жадібності, кажу ж вам, вони заберуть в нас все й не залишать ні копійки. Що поганого в тому, що ми намагаємося захистити майбутнє нашого народу?‟"
  goldrush.3.a: "[SCOPE.sState('pb_gold_state').GetCustom('ua_rodoviy_country')] потрібна кожна вільна рука, яку ми можемо залучити."
  goldrush.3.b: "Обмежити переселення до [SCOPE.sState('pb_gold_state').GetCustom('ua_rodoviy_country')]."

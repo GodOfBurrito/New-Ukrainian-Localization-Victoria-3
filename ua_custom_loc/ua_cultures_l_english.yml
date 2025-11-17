@@ -332,6 +332,8 @@ l_english:
  ua_culture_adj_circassian:0 "Черкеськ"
  ua_culture_adj_francoprovencal:0 "Франкопровансальськ"
  ua_culture_adj_promethean:0 "Прометейськ"
+ ua_culture_adj_DEFAULT:0 "„[ROOT.GetCulture.GetName]‟"
+ 
+ ### The Split Trident ###
  ua_culture_adj_ruthenian:0 "Русинськ"
  ua_culture_adj_crimean_tatar:0 "Кримсько-татарськ"
- ua_culture_adj_DEFAULT:0 "„[ROOT.GetCulture.GetName]‟"

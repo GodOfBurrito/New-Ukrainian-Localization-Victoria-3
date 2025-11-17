@@ -78,6 +78,12 @@ l_english:
  ua_rodoviy_ig_bhadralok: "@petty_bourgeoisie! бгадралок"
  ua_rodoviy_ig_kisanharu: "@rural_folk! кісанхару"
  
+ ### The Split Trident ###
+ ua_rodoviy_ig_szlachta: "@landowners! шляхти"
+ ua_rodoviy_ig_panstvo: "@landowners! панства"
+ ua_rodoviy_ig_ruthenian_triad: "@intelligentsia! руської трійці"
+ ua_rodoviy_ig_cossacks: "@armed_forces! козаків"
+ 
  # Давальний - Кому? Чому? #
  ua_davalniy_ig_rural_folk: "@rural_folk! селянам"
  ua_davalniy_ig_devout: "@devout! віруючим"
@@ -141,6 +147,12 @@ l_english:
  ua_davalniy_ig_government_of_india: "@industrialists! уряду індії"
  ua_davalniy_ig_bhadralok: "@petty_bourgeoisie! бгадралок"
  ua_davalniy_ig_kisanharu: "@rural_folk! кісанхару"
+ 
+ ### The Split Trident ###
+ ua_davalniy_ig_szlachta: "@landowners! шляхті"
+ ua_davalniy_ig_panstvo: "@landowners! панству"
+ ua_davalniy_ig_ruthenian_triad: "@intelligentsia! руській трійці"
+ ua_davalniy_ig_cossacks: "@armed_forces! козакам"
  
  # Знахідний - Кого? Що? #
  ua_znahidniy_ig_rural_folk: "@rural_folk! селян"
@@ -206,6 +218,12 @@ l_english:
  ua_znahidniy_ig_bhadralok: "@petty_bourgeoisie! бгадралок"
  ua_znahidniy_ig_kisanharu: "@rural_folk! кісанхару"
  
+ ### The Split Trident ###
+ ua_znahidniy_ig_szlachta: "@landowners! шляхту"
+ ua_znahidniy_ig_panstvo: "@landowners! панство"
+ ua_znahidniy_ig_ruthenian_triad: "@intelligentsia! руську трійцю"
+ ua_znahidniy_ig_cossacks: "@armed_forces! козаків"
+ 
  # Орудний - Ким? Чим? #
  ua_orudniy_ig_rural_folk: "@rural_folk! селянами"
  ua_orudniy_ig_devout: "@devout! віруючими"
@@ -269,6 +287,12 @@ l_english:
  ua_orudniy_ig_government_of_india: "@industrialists! урядом індії"
  ua_orudniy_ig_bhadralok: "@petty_bourgeoisie! бгадралок"
  ua_orudniy_ig_kisanharu: "@rural_folk! кісанхару"
+ 
+ ### The Split Trident ###
+ ua_orudniy_ig_szlachta: "@landowners! шляхтою"
+ ua_orudniy_ig_panstvo: "@landowners! панством"
+ ua_orudniy_ig_ruthenian_triad: "@intelligentsia! руською трійцєю"
+ ua_orudniy_ig_cossacks: "@armed_forces! козаками"
  
  # Місцевий - На кому? На чому? #
  ua_mistseviy_ig_rural_folk: "@rural_folk! селянах"
@@ -334,6 +358,11 @@ l_english:
  ua_mistseviy_ig_bhadralok: "@petty_bourgeoisie! бгадралок"
  ua_mistseviy_ig_kisanharu: "@rural_folk! кісанхару"
  
+ ### The Split Trident ###
+ ua_mistseviy_ig_szlachta: "@landowners! шляхті"
+ ua_mistseviy_ig_panstvo: "@landowners! панстві"
+ ua_mistseviy_ig_ruthenian_triad: "@intelligentsia! руській трійці"
+ ua_mistseviy_ig_cossacks: "@armed_forces! козаках"
  
  
 #══════════════════════════  Формування підказок різних зацікавлених груп (від Землевласників до Північних плантаторів )  ══════════════════════════
@@ -353,7 +382,9 @@ l_english:
  ig_variant_petty_bourgeoisie_rodoviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetCustom('ua_rodoviy_ig')|l]#!#!"
  ig_variant_rural_folk_rodoviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetCustom('ua_rodoviy_ig')|l]#!#!"
  ig_variant_trade_unions_rodoviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetCustom('ua_rodoviy_ig')|l]#!#!"
-
+ 
+ ig_compiler_rodoviy: "#tooltippable_name #tooltip:[InterestGroup.GetTooltipTag],EMPTY_STRING,IGTooltip [InterestGroup.GetCustom('ua_rodoviy_ig')]#!#!"
+ 
  # Давальний - Кому? Чому? #
  ig_variant_armed_forces_davalniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetCustom('ua_davalniy_ig')|l]#!#!"
  ig_variant_devout_davalniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_devout',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_devout',GetPlayer).GetCustom('ua_davalniy_ig')|l]#!#!"
@@ -363,7 +394,9 @@ l_english:
  ig_variant_petty_bourgeoisie_davalniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetCustom('ua_davalniy_ig')|l]#!#!"
  ig_variant_rural_folk_davalniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetCustom('ua_davalniy_ig')|l]#!#!"
  ig_variant_trade_unions_davalniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetCustom('ua_davalniy_ig')|l]#!#!"
-
+ 
+ ig_compiler_davalniy: "#tooltippable_name #tooltip:[InterestGroup.GetTooltipTag],EMPTY_STRING,IGTooltip [InterestGroup.GetCustom('ua_davalniy_ig')]#!#!"
+ 
  # Знахідний - Кого? Що? #
  ig_variant_armed_forces_znahidniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetCustom('ua_znahidniy_ig')|l]#!#!"
  ig_variant_devout_znahidniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_devout',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_devout',GetPlayer).GetCustom('ua_znahidniy_ig')|l]#!#!"
@@ -373,7 +406,9 @@ l_english:
  ig_variant_petty_bourgeoisie_znahidniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetCustom('ua_znahidniy_ig')|l]#!#!"
  ig_variant_rural_folk_znahidniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetCustom('ua_znahidniy_ig')|l]#!#!"
  ig_variant_trade_unions_znahidniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetCustom('ua_znahidniy_ig')|l]#!#!"
-
+ 
+ ig_compiler_znahidniy: "#tooltippable_name #tooltip:[InterestGroup.GetTooltipTag],EMPTY_STRING,IGTooltip [InterestGroup.GetCustom('ua_znahidniy_ig')]#!#!"
+ 
  # Орудний - Ким? Чим? #
  ig_variant_armed_forces_orudniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetCustom('ua_orudniy_ig')|l]#!#!"
  ig_variant_devout_orudniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_devout',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_devout',GetPlayer).GetCustom('ua_orudniy_ig')|l]#!#!"
@@ -383,7 +418,9 @@ l_english:
  ig_variant_petty_bourgeoisie_orudniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetCustom('ua_orudniy_ig')|l]#!#!"
  ig_variant_rural_folk_orudniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetCustom('ua_orudniy_ig')|l]#!#!"
  ig_variant_trade_unions_orudniy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetCustom('ua_orudniy_ig')|l]#!#!"
-
+ 
+ ig_compiler_orudniy: "#tooltippable_name #tooltip:[InterestGroup.GetTooltipTag],EMPTY_STRING,IGTooltip [InterestGroup.GetCustom('ua_orudniy_ig')]#!#!"
+ 
  # Місцевий - На кому? На чому? #
  ig_variant_armed_forces_mistseviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetCustom('ua_mistseviy_ig')|l]#!#!"
  ig_variant_devout_mistseviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_devout',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_devout',GetPlayer).GetCustom('ua_mistseviy_ig')|l]#!#!"
@@ -393,3 +430,6 @@ l_english:
  ig_variant_petty_bourgeoisie_mistseviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetCustom('ua_mistseviy_ig')|l]#!#!"
  ig_variant_rural_folk_mistseviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetCustom('ua_mistseviy_ig')|l]#!#!"
  ig_variant_trade_unions_mistseviy: "#tooltippable_name #tooltip:[GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetTooltipTag],EMPTY_STRING,IGTooltip [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetCustom('ua_mistseviy_ig')|l]#!#!"
+ 
+ ig_compiler_mistseviy: "#tooltippable_name #tooltip:[InterestGroup.GetTooltipTag],EMPTY_STRING,IGTooltip [InterestGroup.GetCustom('ua_mistseviy_ig')]#!#!"
+ 

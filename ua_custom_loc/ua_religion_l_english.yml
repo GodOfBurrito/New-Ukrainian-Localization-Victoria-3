@@ -30,6 +30,10 @@ l_english:
  ua_religion_adj_muslim:0 "Ісламськ"
  ua_religion_adj_confucian:0 "Конфуціанськ"
  ua_religion_adj_ibadi:0 "Ібадизьк"
+ 
+ ### The Split Trident ###
+ ua_religion_adj_uniate:0 "Уніатськ"
+ ua_religion_adj_old_belivers:0 "Язичницьк"
 
 #══════════════════════════  Відмінки релігій  ══════════════════════════
 
@@ -67,6 +71,10 @@ l_english:
  ua_rodoviy_religion_confucian:0 "Конфуціанства"
  ua_rodoviy_religion_ibadi:0 "Ібадизму"
  
+ ### The Split Trident ###
+ ua_rodoviy_religion_uniate:0 "Уніату"
+ ua_rodoviy_religion_old_belivers:0 "Язичництва"
+ 
  # Давальний - Кому? Чому? #
  ua_davalniy_religion_catholic:0 "Католицтву"
  ua_davalniy_religion_protestant:0 "Протестанству"
@@ -88,6 +96,10 @@ l_english:
  ua_davalniy_religion_muslim:0 "Ісламу"
  ua_davalniy_religion_confucian:0 "Конфуціанству"
  ua_davalniy_religion_ibadi:0 "Ібадизму"
+ 
+ ### The Split Trident ###
+ ua_davalniy_religion_uniate:0 "Уніату"
+ ua_davalniy_religion_old_belivers:0 "Язичництву"
  
  # Знахідний - Кого? Що? #
  ua_znahidniy_religion_catholic:0 "Католицтво"
@@ -111,6 +123,10 @@ l_english:
  ua_znahidniy_religion_confucian:0 "Конфуціанство"
  ua_znahidniy_religion_ibadi:0 "Ібадизм"
  
+ ### The Split Trident ###
+ ua_znahidniy_religion_uniate:0 "Уніат"
+ ua_znahidniy_religion_old_belivers:0 "Язичництво"
+ 
  # Орудний - Ким? Чим? #
  ua_orudniy_religion_catholic:0 "Католицтвом"
  ua_orudniy_religion_protestant:0 "Протестантизмом"
@@ -133,6 +149,10 @@ l_english:
  ua_orudniy_religion_confucian:0 "Конфуціанством"
  ua_orudniy_religion_ibadi:0 "Ібадизмом"
 
+ ### The Split Trident ###
+ ua_orudniy_religion_uniate:0 "Уніатом"
+ ua_orudniy_religion_old_belivers:0 "Язичництвом"
+ 
  # Місцевий - На кому? На чому? #
  ua_mistseviy_religion_catholic:0 "Католицтві"
  ua_mistseviy_religion_protestant:0 "Протестантизмі"
@@ -154,4 +174,8 @@ l_english:
  ua_mistseviy_religion_muslim:0 "Ісламі"
  ua_mistseviy_religion_confucian:0 "Конфуціанстві"
  ua_mistseviy_religion_ibadi:0 "Ібадизмі"
-
+ 
+ ### The Split Trident ###
+ ua_mistseviy_religion_uniate:0 "Уніаті"
+ ua_mistseviy_religion_old_belivers:0 "Язичництві"
+ 

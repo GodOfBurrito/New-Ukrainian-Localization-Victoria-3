@@ -691,6 +691,17 @@ l_english:
  ua_state_adj_STATE_ZHEJIANG:0 "Чжецзянськ"
  ua_state_adj_STATE_ZURICH:0 "Цюрихськ"
  ua_state_adj_STATE_AGRA:0 "Аґраськ"
+ 
+ ### The Split Trident ###
+ ua_state_adj_STATE_PODOLIA:0 "Поділськ"
+ ua_state_adj_STATE_PRYCHORNOMORYA:0 "Причорноморськ"
+ ua_state_adj_STATE_BUDJAK:0 "Буджаськ"
+ ua_state_adj_STATE_ZAPORIZHZHIA:0 "Запоріжськ"
+ ua_state_adj_STATE_DONSCHYNA:0 "Ростовськ"
+ ua_state_adj_STATE_SLOBODA:0 "Слободськ"
+ ua_state_adj_STATE_KYIV:0 "Київськ"
+ ua_state_adj_STATE_SIVERIA:0 "Сіверськ"
+ ua_state_adj_STATE_TAURIDA:0 "Таврійськ"
 
 #══════════════════════════  Відмінки областей  ══════════════════════════
 
@@ -1381,9 +1392,20 @@ l_english:
  ua_rodoviy_state_STATE_ZAMBEZIA:0 "Замбезії"
  ua_rodoviy_state_STATE_ZHEJIANG:0 "Чжецзяна"
  ua_rodoviy_state_STATE_ZURICH:0 "Цюриха"
- ua_rodoviy_STATE_AGRA:0 "Аґра"
+ ua_rodoviy_state_STATE_AGRA:0 "Аґра"
  ua_rodoviy_state_DEFAULT:0 "області „[STATE.GetName]‟"
  
+ ### The Split Trident ###
+ ua_rodoviy_state_STATE_PODOLIA:0 "Поділля"
+ ua_rodoviy_state_STATE_PRYCHORNOMORYA:0 "Причорномор’я"
+ ua_rodoviy_state_STATE_BUDJAK:0 "Буджаку"
+ ua_rodoviy_state_STATE_ZAPORIZHZHIA:0 "Запоріжжя"
+ ua_rodoviy_state_STATE_DONSCHYNA:0 "Ростову"
+ ua_rodoviy_state_STATE_SLOBODA:0 "Слободи"
+ ua_rodoviy_state_STATE_KYIV:0 "Київу"
+ ua_rodoviy_state_STATE_SIVERIA:0 "Сіверії"
+ ua_rodoviy_state_STATE_TAURIDA:0 "Таврії"
+
  # Давальний - Кому? Чому? #
  ua_davalniy_state_STATE_MINSK:0 "Мінську"
  ua_davalniy_state_STATE_ALASKA:0 "Алясці"
@@ -2065,9 +2087,20 @@ l_english:
  ua_davalniy_state_STATE_ZAMBEZIA:0 "Замбезії"
  ua_davalniy_state_STATE_ZHEJIANG:0 "Чжецзяну"
  ua_davalniy_state_STATE_ZURICH:0 "Цюриху"
- ua_davalniy_STATE_AGRA:0 "Аґра"
- ua_davalniy_DEFAULT:0 "області „[STATE.GetName]‟"
+ ua_davalniy_state_STATE_AGRA:0 "Аґра"
+ ua_davalniy_state_DEFAULT:0 "області „[STATE.GetName]‟"
  
+ ### The Split Trident ###
+ ua_davalniy_state_STATE_PODOLIA:0 "Поділлю"
+ ua_davalniy_state_STATE_PRYCHORNOMORYA:0 "Причорномор’ю"
+ ua_davalniy_state_STATE_BUDJAK:0 "Буджаку"
+ ua_davalniy_state_STATE_ZAPORIZHZHIA:0 "Запоріжжю"
+ ua_davalniy_state_STATE_DONSCHYNA:0 "Ростову"
+ ua_davalniy_state_STATE_SLOBODA:0 "Слободі"
+ ua_davalniy_state_STATE_KYIV:0 "Київу"
+ ua_davalniy_state_STATE_SIVERIA:0 "Сіверії"
+ ua_davalniy_state_STATE_TAURIDA:0 "Таврії"
+
  # Знахідний - Кого? Що? #
  ua_znahidniy_state_STATE_MINSK:0 "Мінськ"
  ua_znahidniy_state_STATE_ALASKA:0 "Аляску"
@@ -2749,9 +2782,20 @@ l_english:
  ua_znahidniy_state_STATE_ZAMBEZIA:0 "Замбезію"
  ua_znahidniy_state_STATE_ZHEJIANG:0 "Чжецзян"
  ua_znahidniy_state_STATE_ZURICH:0 "Цюрих"
- ua_znahidniy_STATE_AGRA:0 "Аґра"
+ ua_znahidniy_state_STATE_AGRA:0 "Аґра"
  ua_znahidniy_state_DEFAULT:0 "область „[STATE.GetName]‟"
  
+ ### The Split Trident ###
+ ua_znahidniy_state_STATE_PODOLIA:0 "Поділля"
+ ua_znahidniy_state_STATE_PRYCHORNOMORYA:0 "Причорномор’я"
+ ua_znahidniy_state_STATE_BUDJAK:0 "Буджак"
+ ua_znahidniy_state_STATE_ZAPORIZHZHIA:0 "Запоріжжя"
+ ua_znahidniy_state_STATE_DONSCHYNA:0 "Ростов"
+ ua_znahidniy_state_STATE_SLOBODA:0 "Слободу"
+ ua_znahidniy_state_STATE_KYIV:0 "Київ"
+ ua_znahidniy_state_STATE_SIVERIA:0 "Сіверію"
+ ua_znahidniy_state_STATE_TAURIDA:0 "Таврію"
+
  # Орудний - Ким? Чим? #
  ua_orudniy_state_STATE_MINSK:0 "Мінськом"
  ua_orudniy_state_STATE_ALASKA:0 "Аляскою"
@@ -3376,7 +3420,6 @@ l_english:
  ua_orudniy_state_STATE_JETISY:0 "Ілі"
  ua_orudniy_state_STATE_RUHR:0 "Руром"
  ua_orudniy_state_STATE_MAINE_ANJOU:0 "Мен-Анжу"
- ua_orudniy_state_DEFAULT:0 "областю „[STATE.GetName]‟"
  ua_orudniy_state_STATE_AKTOBE:0 "Ак-Тюбе"
  ua_orudniy_state_STATE_ALTAI:0 "Алтаєм"
  ua_orudniy_state_STATE_AMUR:0 "Амуром"
@@ -3434,8 +3477,20 @@ l_english:
  ua_orudniy_state_STATE_ZAMBEZIA:0 "Замбезією"
  ua_orudniy_state_STATE_ZHEJIANG:0 "Чжецзяном"
  ua_orudniy_state_STATE_ZURICH:0 "Цюрихом"
- ua_orudniy_STATE_AGRA:0 "Аґра"
+ ua_orudniy_state_STATE_AGRA:0 "Аґра"
+ ua_orudniy_state_DEFAULT:0 "областю „[STATE.GetName]‟"
  
+ ### The Split Trident ###
+ ua_orudniy_state_STATE_PODOLIA:0 "Поділлям"
+ ua_orudniy_state_STATE_PRYCHORNOMORYA:0 "Причорномор’ям"
+ ua_orudniy_state_STATE_BUDJAK:0 "Буджаком"
+ ua_orudniy_state_STATE_ZAPORIZHZHIA:0 "Запоріжжям"
+ ua_orudniy_state_STATE_DONSCHYNA:0 "Ростовом"
+ ua_orudniy_state_STATE_SLOBODA:0 "Слободою"
+ ua_orudniy_state_STATE_KYIV:0 "Київом"
+ ua_orudniy_state_STATE_SIVERIA:0 "Сіверією"
+ ua_orudniy_state_STATE_TAURIDA:0 "Таврією"
+
  # Місцевий - На кому? На чому? #
  ua_mistseviy_state_STATE_MINSK:0 "Мінську"
  ua_mistseviy_state_STATE_ALASKA:0 "Алясці"
@@ -4117,5 +4172,16 @@ l_english:
  ua_mistseviy_state_STATE_ZAMBEZIA:0 "Замбезії"
  ua_mistseviy_state_STATE_ZHEJIANG:0 "Чжецзяні"
  ua_mistseviy_state_STATE_ZURICH:0 "Цюриху"
- ua_mistseviy_STATE_AGRA:0 "Аґра"
+ ua_mistseviy_state_STATE_AGRA:0 "Аґра"
  ua_mistseviy_state_DEFAULT:0 "області „[STATE.GetName]‟"
+ 
+ ### The Split Trident ###
+ ua_mistseviy_state_STATE_PODOLIA:0 "Поділлі"
+ ua_mistseviy_state_STATE_PRYCHORNOMORYA:0 "Причорномор’ї"
+ ua_mistseviy_state_STATE_BUDJAK:0 "Буджаку"
+ ua_mistseviy_state_STATE_ZAPORIZHZHIA:0 "Запоріжжі"
+ ua_mistseviy_state_STATE_DONSCHYNA:0 "Ростові"
+ ua_mistseviy_state_STATE_SLOBODA:0 "Слободі"
+ ua_mistseviy_state_STATE_KYIV:0 "Київі"
+ ua_mistseviy_state_STATE_SIVERIA:0 "Сіверії"
+ ua_mistseviy_state_STATE_TAURIDA:0 "Таврії"

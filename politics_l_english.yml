@@ -1,8 +1,8 @@
 ﻿l_english:
 
  IG_TRAIT_NOT_MARGINAL_CHECK: "[InterestGroup.GetName] #b не#! [Concept('concept_marginalized', 'відчужені')]"
- IG_TRAIT_APPROVAL_THRESHOLD_MIN: "Рівень [Concept('concept_approval', 'схвалення')] $custom_RU_IG_RP_low$ як мінімум $THRESHOLD|+$ (зараз: #v #tooltippable #tooltip:[InterestGroup.GetTooltipTag],IG_APPROVAL_BREAKDOWN [InterestGroup.GetApprovalValue|+]#!#!#!)"
- IG_TRAIT_APPROVAL_THRESHOLD_MAX: "Рівень [Concept('concept_approval', 'схвалення')] $custom_RU_IG_RP_low$ $THRESHOLD|+$ або нижче (зараз: #v #tooltippable #tooltip:[InterestGroup.GetTooltipTag],IG_APPROVAL_BREAKDOWN [InterestGroup.GetApprovalValue|+]#!#!#!)"
+ IG_TRAIT_APPROVAL_THRESHOLD_MIN: "Рівень [Concept('concept_approval', 'схвалення')] $ig_compiler_rodoviy$ як мінімум $THRESHOLD|+$ (зараз: #v #tooltippable #tooltip:[InterestGroup.GetTooltipTag],IG_APPROVAL_BREAKDOWN [InterestGroup.GetApprovalValue|+]#!#!#!)"
+ IG_TRAIT_APPROVAL_THRESHOLD_MAX: "Рівень [Concept('concept_approval', 'схвалення')] $ig_compiler_rodoviy$ $THRESHOLD|+$ або нижче (зараз: #v #tooltippable #tooltip:[InterestGroup.GetTooltipTag],IG_APPROVAL_BREAKDOWN [InterestGroup.GetApprovalValue|+]#!#!#!)"
 
  ACTIVE_IG_GROUP_TRAITS: "#title Активні особливості груп#!"
  ELECTION: "Вибори"

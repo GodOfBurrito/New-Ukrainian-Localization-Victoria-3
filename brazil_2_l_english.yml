@@ -119,7 +119,7 @@ matter_of_slavery_progress_bar: "The Matter of Slavery"
 matter_of_slavery_progress_bar_desc: "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/360)"
 
 slavery_progress_from_landowners_in_gov_tt: "[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] in [concept_in_government]"
-slavery_progress_from_landowners_powerful_tt: "[concept_powerful] [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
+slavery_progress_from_landowners_powerful_tt: "[concept_powerful] [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
 slavery_progress_from_regency_tt: "the #bold Regency#! period"
 slavery_progress_from_slaver_ruler_tt: "[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] or [GetIdeology('ideology_slaver').GetName] [concept_ruler]"
 slavery_progress_from_slavers_tt: "majority of [Concept('concept_commander','$concept_commanders$')] are [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant], or have the [GetIdeology('ideology_slaver').GetName] [concept_ideology]"
